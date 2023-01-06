@@ -1,0 +1,20 @@
+---
+title: UFPA-CAMTUC-FEE
+author: Prof. Dr. Raphael Teixeira
+output: html_document
+---
+
+## Disciplinas:
+
+ - Materiais Elétricos:
+ - Sistemas de Controle II: 
+ - Cálculo Numérico:
+
+## Projetos:
+
+ - [Laboratório Virtual](https://raphateixeira.github.io/LabVirtual/):  
+
+## Orientandos:
+
+
+
