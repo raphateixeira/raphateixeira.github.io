@@ -8,7 +8,7 @@ output:
 ## Disciplinas:
 
  - Materiais Elétricos:
- - [Sistemas de Controle II](https://raphateixeira.github.io/SistemasControleII/): 
+ - [Sistemas de Controle II](https://raphateixeira.github.io/SistemasControleII/README.md): 
  - Cálculo Numérico:
 
 ## Projetos:
