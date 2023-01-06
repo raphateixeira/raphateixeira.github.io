@@ -1,7 +1,8 @@
 ---
 title: UFPA-CAMTUC-FEE
 author: Prof. Dr. Raphael Teixeira
-output: html_document
+output: 
+    html_document
 ---
 
 ## Disciplinas:
@@ -13,6 +14,7 @@ output: html_document
 ## Projetos:
 
  - [Laboratório Virtual](https://raphateixeira.github.io/LabVirtual/):  
+ - Identificação SINDy
 
 ## Orientandos:
 
