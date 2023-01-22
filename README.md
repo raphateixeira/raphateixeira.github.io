@@ -1,116 +1,44 @@
-# The Minimal theme
+# deeptime
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0) [![Build Status](https://dev.azure.com/clonker/deeptime/_apis/build/status/deeptime-ml.deeptime?branchName=main)](https://dev.azure.com/clonker/deeptime/_build/latest?definitionId=1&branchName=main) [![codecov](https://codecov.io/gh/deeptime-ml/deeptime/branch/main/graph/badge.svg?token=MgQZqDM4sK)](https://codecov.io/gh/deeptime-ml/deeptime) [![DOI](https://img.shields.io/badge/DOI-10.1088%2F2632--2153%2Fac3de0-blue)](https://doi.org/10.1088/2632-2153/ac3de0)
 
-*Minimal is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/minimal), or even [use it today](#usage).*
+Deeptime is a general purpose Python library offering various tools to estimate dynamical models 
+based on time-series data including conventional linear learning methods, such as Markov State 
+Models (MSMs), Hidden Markov Models (HMMs) and Koopman models, as well as kernel and 
+deep learning approaches such as VAMPnets and deep MSMs. The library is largely compatible 
+with scikit-learn, having a range of Estimator classes for these different models, but in 
+contrast to scikit-learn also provides Model classes, e.g., in the case of an MSM, 
+which provide a multitude of analysis methods to compute interesting thermodynamic, kinetic 
+and dynamical quantities, such as free energies, relaxation times and transition paths.
 
-![Thumbnail of Minimal](thumbnail.png)
+Installation via `conda` or `pip`. Both provide compiled binaries for Linux, Windows, and MacOS (x86_64 and arm64).
 
-## Usage
+|  [![conda-forge](https://img.shields.io/conda/v/conda-forge/deeptime?color=brightgreen&label=conda-forge)](https://github.com/conda-forge/deeptime-feedstock) 	|   [![PyPI](https://badge.fury.io/py/deeptime.svg)](https://pypi.org/project/deeptime)	|
+|:-:	|:-:	|
+|  `conda install -c conda-forge deeptime` |  `pip install deeptime`  	|
 
-To use the Minimal theme:
+Documentation: [deeptime-ml.github.io](https://deeptime-ml.github.io/).
 
-1. Add the following to your site's `_config.yml`:
+## Main components of deeptime
 
-    ```yml
-    remote_theme: pages-themes/minimal@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+|  <!-- -->  |  <!-- -->  |  <!-- -->  |
+|  :---:	|  :---:  |  :---:  |
+|  Dimension reduction  |  Deep dimension reduction  |  SINDy  |
+|  [![Dimension reduction](https://user-images.githubusercontent.com/1685266/208686380-087687e0-4dfa-4d27-a2a0-957c33566276.png)](https://deeptime-ml.github.io/latest/index_dimreduction.html) |  [![Deep dimension reduction](https://user-images.githubusercontent.com/1685266/208686212-f84f0a5b-a014-49d1-a469-dfa8a661d555.png)](https://deeptime-ml.github.io/latest/index_deepdimreduction.html)  |  [![SINDy](https://user-images.githubusercontent.com/1685266/208684380-d0234430-50fb-4a62-8d97-73ce1ebf2832.png)](https://deeptime-ml.github.io/latest/notebooks/sindy.html)  |
+|  Markov state models  |  Hidden Markov models  |  Datasets  |
+|  [![MSMs](https://user-images.githubusercontent.com/1685266/208686588-2e8b960b-06b0-4633-93a6-5df1e5b63209.png)](https://deeptime-ml.github.io/latest/index_msm.html) |  [![HMMs](https://user-images.githubusercontent.com/1685266/208683917-ef7acb41-062c-4503-b48d-dc7718779d9a.png)](https://deeptime-ml.github.io/latest/notebooks/hmm.html)  |  [![Datasets](https://user-images.githubusercontent.com/1685266/208684805-45c82242-6a8c-43f1-88b8-add1af4e7438.png)](https://deeptime-ml.github.io/latest/index_datasets.html)  |
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+## Building the latest trunk version of the package:
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+Using pip with a local clone and pulling dependencies:
+```
+git clone https://github.com/deeptime-ml/deeptime.git
 
-## Customizing
-
-### Configuration variables
-
-Minimal will respect the following variables, if set in your site's `_config.yml`:
-
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
+cd deeptime
+pip install .
 ```
 
-Additionally, you may choose to set the following optional variables:
-
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+Or using pip directly on the remote:
 ```
-
-### Stylesheet
-
-If you'd like to add your own custom styles:
-
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
-
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/minimal/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
-
-### Customizing Google Analytics code
-
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/minimal/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Minimal theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Minimal? We'd love your help. Minimal is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/minimal`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+pip install git+https://github.com/deeptime-ml/deeptime.git@main
+```
