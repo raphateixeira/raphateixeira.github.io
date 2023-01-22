@@ -298,23 +298,17 @@ overflow-y: auto;
 border: 1px solid #ddd;
 border-radius: 4px;
 }
-.tabset-dropdown > .nav-tabs > li.active:before {
-content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+content: "\e259";
 font-family: 'Glyphicons Halflings';
 display: inline-block;
 padding: 10px;
 border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-content: "";
-border: none;
-}
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-content: "";
+content: "\e258";
 font-family: 'Glyphicons Halflings';
-display: inline-block;
-padding: 10px;
-border-right: 1px solid #ddd;
+border: none;
 }
 .tabset-dropdown > .nav-tabs > li.active {
 display: block;
@@ -365,7 +359,8 @@ display: none;
 <h2>Disciplinas:</h2>
 <ul>
 <li>Materiais Elétricos:</li>
-<li>Sistemas de Controle II:</li>
+<li><a href="https://raphateixeira.github.io/SistemasControleII/README.md">Sistemas
+de Controle II</a>:</li>
 <li>Cálculo Numérico:</li>
 </ul>
 </div>
