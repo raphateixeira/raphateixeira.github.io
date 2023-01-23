@@ -3,13 +3,11 @@
 
 - [Materiais Elétricos](https://raphateixeira.github.io/MateriaisEletricos/)
 
-- Sistemas de Controle II
-
-- Cálculo Numérico
+- [Cálculo Numérico](https://raphateixeira.github.io/MetodosNumericos/)
 
 ## Projetos
 
-- LabVirtual
+- [LabVirtual](https://raphateixeira.github.io/LabVirtual/)
 
 - Identificacao SINDy
 
