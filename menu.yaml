@@ -1,6 +1,6 @@
-- label: Example Menu
+- label: Conteúdo
   items:
-    - name: Menu item
+    - name: Disciplinas
       link: /link/
       items:
         - name: Sub menu item 
