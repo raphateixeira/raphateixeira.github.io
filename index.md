@@ -6,7 +6,12 @@ description: "Página do Prof. Raphael Teixeira - (UFPA-CAMTUC)."
 permalink: /
 ---
 
----
+# Ensino e Pesquisa em Engenharia
+{: .fs-9 }
+
+Página pessoal do Prof. Raphael Teixeira com foco em conteúdo para ensino e pesquisa em engenharia.
+{: .fs-6 .fw-300 }
+
 ## Disciplinas
 
 - [Materiais Elétricos](https://raphateixeira.github.io/MateriaisEletricos/)
