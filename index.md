@@ -6,7 +6,7 @@ description: "Página do Prof. Raphael Teixeira - (UFPA-CAMTUC)."
 permalink: /
 ---
 
-
+---
 ## Disciplinas
 
 - [Materiais Elétricos](https://raphateixeira.github.io/MateriaisEletricos/)
