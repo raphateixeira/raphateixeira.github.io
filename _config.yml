@@ -4,7 +4,7 @@ description: [UFPA-CAMTUC-FEE]
 remote_theme: just-the-docs/just-the-docs
 color_scheme: "light"
 logo: "/img/logoUFPA.png"
-#search_enabled: false
+search_enabled: false
 plugins:
   - jekyll-default-layout
 
