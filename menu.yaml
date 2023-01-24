@@ -2,11 +2,11 @@
   items:
     - name: Disciplinas
       link: /link/
-    - name: Materiais Elétricos
-      link: /link/
-    - name: Cálculo Numérico
-      link: /link/
-    - name: Aprendizagem de Máquina
-      items:
+ #   - name: Materiais Elétricos
+ #     link: /link/
+ #   - name: Cálculo Numérico
+ #     link: /link/
+ #   - name: Aprendizagem de Máquina
+ #     items:
         - name: Sub menu item 
           link: /sub-menu-item/

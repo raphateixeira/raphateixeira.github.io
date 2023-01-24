@@ -1,12 +1,10 @@
-
 ---
 layout: default
-title: Home
+title: Raphael Teixeira
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Página do Prof. Raphael Teixeira - (UFPA-CAMTUC)."
 permalink: /
 ---
-
 
 
 ## Disciplinas
