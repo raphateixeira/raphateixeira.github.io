@@ -1,10 +1,11 @@
 title: [Raphael Teixeira]
-subtitle: [UFPA-CAMTUC]
 description: [UFPA-CAMTUC-FEE]
+url: https://raphateixeira.github.io/
 remote_theme: just-the-docs/just-the-docs
 color_scheme: "light"
 logo: "/img/logoUFPA.png"
 search_enabled: false
+
 plugins:
   - jekyll-default-layout
 
