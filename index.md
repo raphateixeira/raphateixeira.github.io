@@ -35,5 +35,7 @@ Página pessoal do Prof. Raphael Teixeira com foco em conteúdo para ensino e pe
 
 - Identificacao SINDy de bancada motor gerador
 
+## Eventos
 
+[SNPTE](https://xxviisnptee.com.br/) - Seminário Nacional de Produção e Transmissão de Energia Elétrica
 
