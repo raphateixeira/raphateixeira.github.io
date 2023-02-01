@@ -37,5 +37,11 @@ Página pessoal do Prof. Raphael Teixeira com foco em conteúdo para ensino e pe
 
 ## Eventos
 
-[SNPTE](https://xxviisnptee.com.br/) - Seminário Nacional de Produção e Transmissão de Energia Elétrica
+- [SNPTE](https://xxviisnptee.com.br/) - Seminário Nacional de Produção e Transmissão de Energia Elétrica
+
+- [SBAI]- Simpósio Brasileiro de Automação Inteligente
+
+- [SBSE] - Simpósio Brasileiro de Sistemas Elétricos
+
+- [CSBC](https://csbc.sbc.org.br/2023/) - Congresso da Sociedade Brasileira da Computação
 
