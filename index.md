@@ -14,17 +14,11 @@ Página pessoal do Prof. Raphael Teixeira com foco em conteúdo para ensino e pe
 
 ## Disciplinas
 
-- [Materiais Elétricos](https://raphateixeira.github.io/MateriaisEletricos/)
+- [Tópicos Especiais em Controle](https://raphateixeira.github.io/MateriaisEletricos/)
 
-- [Cálculo Numérico](https://raphateixeira.github.io/MetodosNumericos/)
+- [Eletrônica de Potência](https://raphateixeira.github.io/MateriaisEletricos/)
 
-## Projetos
 
-- [LabVirtual](https://raphateixeira.github.io/LabVirtual/)
-
-- Identificacao SINDy
-
-  
 ## Trabalhos
 
 - Modelagem LSTM da BAT
