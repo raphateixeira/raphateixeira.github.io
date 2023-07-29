@@ -6,18 +6,13 @@ description: 'asd'
 
 ---
 
-# Ensino e Pesquisa em Engenharia
-
-Página pessoal do 
-
-## Disciplinas
+### Ensino
 
 - Tópicos Especiais em Controle
 
 - Eletrônica de Potência
 
-
-## Trabalhos
+### Pesquisa
 
 - Modelagem LSTM da BAT
 
