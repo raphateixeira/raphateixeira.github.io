@@ -3,7 +3,7 @@ layout: default
 title: Raphael Teixeira
 nav_order: 1
 description: 'asd'
-permalink: /
+
 ---
 
 # Ensino e Pesquisa em Engenharia
@@ -12,9 +12,9 @@ Página pessoal do
 
 ## Disciplinas
 
-- [Tópicos Especiais em Controle](https://raphateixeira.github.io/MateriaisEletricos/)
+- Tópicos Especiais em Controle
 
-- [Eletrônica de Potência](https://raphateixeira.github.io/MateriaisEletricos/)
+- Eletrônica de Potência
 
 
 ## Trabalhos
