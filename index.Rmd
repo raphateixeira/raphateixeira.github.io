@@ -26,7 +26,7 @@ description: 'asd'
 
 - [SNPTE](https://xxviisnptee.com.br/) - Seminário Nacional de Produção e Transmissão de Energia Elétrica
 
-- [SBAI]- Simpósio Brasileiro de Automação Inteligente
+- [SBAI](https://sbai2023.com.br/)- Simpósio Brasileiro de Automação Inteligente
 
 - [SBSE] - Simpósio Brasileiro de Sistemas Elétricos
 
