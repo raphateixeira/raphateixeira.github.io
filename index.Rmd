@@ -1,9 +1,6 @@
 ---
 layout: default
-title: Raphael Teixeira
-nav_order: 1
-description: 'asd'
-
+title: LINCE
 ---
 
 ### Ensino
