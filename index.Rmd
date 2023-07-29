@@ -2,14 +2,13 @@
 layout: default
 title: Raphael Teixeira
 nav_order: 1
-description: "Página do Prof. Raphael Teixeira - (UFPA-CAMTUC)."
+description: 'asd'
 permalink: /
 ---
 
 # Ensino e Pesquisa em Engenharia
 
-Página pessoal do Prof. Raphael Teixeira com foco em conteúdo para ensino e pesquisa em engenharia.
-{: .fs-6 .fw-300 }
+Página pessoal do 
 
 ## Disciplinas
 
