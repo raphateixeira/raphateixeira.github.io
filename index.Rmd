@@ -22,6 +22,17 @@ description: 'asd'
 
 - Identificacao SINDy de bancada motor gerador
 
+- Análise DGA classificação de faltas em transformadores;
+
+- Padrões de precipitação por Autoencoder Convolucional;
+
+- Sintonia de controladores por algoritmos genéticos;
+
+- Identificação de sistemas por programação genética;
+
+- Regressão simbólica;
+- 
+
 ## Eventos
 
 - [SNPTE](https://xxviisnptee.com.br/) - Seminário Nacional de Produção e Transmissão de Energia Elétrica
