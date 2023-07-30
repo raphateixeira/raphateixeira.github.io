@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: LINCE
-description: Site do Laboratório de Inteligência Controle e Eletrônica
+title: Just the Docs
+description: A Jekyll theme for documentation
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://raphateixeira.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-repository: "https://github.com/raphateixeira/raphateixeira.github.io" # for github-metadata
+url: "https://just-the-docs.com" # the base hostname & protocol for your site, e.g. http://example.com
+repository: just-the-docs/just-the-docs # for github-metadata
 
 permalink: pretty
 
@@ -54,7 +54,7 @@ exclude:
 
 # Enable or disable the site search
 # Supports true (default) or false
-search_enabled: false
+search_enabled: true
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
@@ -99,10 +99,10 @@ mermaid:
 # Enable or disable heading anchors
 heading_anchors: true
 
-# Link auxiliar no lado superior direito
+# Aux links for the upper right navigation
 aux_links:
-  "UFPA":
-    - "https://www.ufpa.br/"
+  "Just the Docs on GitHub":
+    - "//github.com/just-the-docs/just-the-docs"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -120,10 +120,10 @@ nav_external_links:
 # appears at the bottom of every page's main content
 
 # Back to top link
-back_to_top: false
+back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "UFPA-CAMTUC-FEE: LINCE"
+footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -158,6 +158,12 @@ callouts:
   warning:
     title: Warning
     color: red
+
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+# Note: the main Just the Docs site does *not* use Google Analytics.
+# ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
+# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
   - jekyll-seo-tag
