@@ -16,8 +16,8 @@
 title: UFPA - LINCE
 description: Laboratório LINCE - UFPA - Tucuruí
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://just-the-docs.com" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
+url: "https://raphateixeira.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+repository: github.com/raphateixeira/raphateixeira.github.io/ # for github-metadata
 
 permalink: pretty
 
@@ -50,11 +50,11 @@ exclude:
    - fixtures/
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/brasao-UFPA-branco.png"
+logo: "/assets/images/logoufpa.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
-search_enabled: true
+search_enabled: false
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
