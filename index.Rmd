@@ -28,7 +28,6 @@ title: LINCE
 - Identificação de sistemas por programação genética;
 
 - Regressão simbólica;
-- 
 
 ## Eventos
 
