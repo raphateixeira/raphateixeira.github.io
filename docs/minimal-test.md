@@ -2,6 +2,7 @@
 layout: minimal
 title: Minimal layout test
 nav_exclude: true
+nav_exclude: true
 ---
 
 [Return to main website]({{site.baseurl}}/).
