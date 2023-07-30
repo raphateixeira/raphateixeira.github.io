@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pesquisa
-nav_order: 20
+nav_order: 1.3
 ---
 
 # Pesquisa
