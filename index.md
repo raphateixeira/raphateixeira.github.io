@@ -24,6 +24,7 @@ O laboratório se empenha em modernizar abordagens de ensino para a FEE. No segu
 - Eletrônica de potência;
 - Laboratório de sistemas de controle;
 - Tópicos especiais em sistemas de controle;
+- Cálculo Numérico;
 
 
 ## Pesquisa
