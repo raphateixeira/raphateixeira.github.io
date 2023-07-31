@@ -4,6 +4,12 @@ title: TCC
 nav_order: 4
 ---
 
+# Propostas
+{: .no_toc }
+
+- Ajuste de controlador RST por algoritmos genéticos;
+- Inversão dinâmica por RNAs;
+
 # Orientações
 {: .no_toc }
 
