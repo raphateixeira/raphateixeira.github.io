@@ -7,6 +7,18 @@ nav_order: 1.2
 # Orientações
 {: .no_toc }
 
+- Diego: Sintonia de controladores PID com algoritmos genéticos;
+- Alexandre: Modelagem e controle de pêndulo sobre rodas;
+- Oséas: Aeropêndulo, projeto, implementação e controle;
+- Karine: Instrumentação de silo;
+- Kevin: CNN - Vazão afluente;
+- Dario: Conversor DC-DC - alimentação de satélite;
+- Denilson: Identificação SINDy-Autoencoder;
+- Mateus: Sistema térmico - Pocket-Lab;
+- Lucas: Modelagem e controle conversor DC-DC;
+- Thalison: Modelagem pêndulo invertido;
+- Marcos Feitosa: Controle de sistema industrial de mineradora;
+
 # Defendidos
 {: .no_toc }
 
