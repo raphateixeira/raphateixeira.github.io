@@ -10,7 +10,7 @@ nav_order: 1.2
 # Defendidos
 {: .no_toc }
 
-- [Ayla Lis](https://bdm.ufpa.br:8443/simple-search?query=Ayla) - Previsão de vazão afluente da UHE-Tucuruí por redes neurais recorrentes LSTM;
+- [Ayla Lis](https://bdm.ufpa.br:8443/jspui/handle/prefix/4578) - Previsão de vazão afluente da UHE-Tucuruí por redes neurais recorrentes LSTM;
 
 - [Telson Galdino](https://bdm.ufpa.br:8443/browse?type=author&value=TEIXEIRA%2C+Telson+Galdino+Pinheiro) - Modelagem e controle de robô pêndulo invertido sobre rodas;
  
