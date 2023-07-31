@@ -2,7 +2,7 @@
 layout: default
 title: TE-Controle
 parent: Ensino
-nav_order: 4    
+nav_order: 2    
 ---
 
 # Tópicos especiais em sistemas de controle
