@@ -8,7 +8,9 @@ nav_order: 3
 # Eletrônica de Potência
 {: .no_toc }
 
-- [Plano de ensino]()
+- [Plano de ensino](https://raphateixeira.github.io/EletronicaPotencia/AL0-PlanoEnsino.html#1)
+
+- [Processamento de energia](https://raphateixeira.github.io/EletronicaPotencia/AL1-ProcessamentoEnergia.html#1)
 
 Ementa
 
