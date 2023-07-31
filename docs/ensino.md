@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ensino
-nav_order: 1.2
+nav_order: 2
 ---
 
 # Disciplinas

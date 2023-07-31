@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pesquisa
-nav_order: 1.3
+nav_order: 3
 ---
 
 # Pesquisa
@@ -17,3 +17,5 @@ O laboratório está desenvolvendo os seguintes projetos de pesquisa:
 - Padrões de precipitação por autoencoder;
 - Regressão simbólica por programação genética;
 - Ajuste de controladores por Algoritmos genéticos
+
+[Simulação de EDO](\presents\IntegracaoNumerica\SimulaEDO.html)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TCC
-nav_order: 1.2
+nav_order: 4
 ---
 
 # Orientações
