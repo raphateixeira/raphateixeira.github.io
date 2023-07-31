@@ -8,8 +8,10 @@ nav_order: 4
 # Tópicos especiais em sistemas de controle
 {: .no_toc }
 
-Eixos:
+- [Plano de ensino](https://raphateixeira.github.io/TEControle/AL0-PlanoEnsino.html)
 
+Eixos:
+- 
 - Identificação de sistemas;
 - Aprendizagem de máquina;
 - Aprendizagem profunda;
