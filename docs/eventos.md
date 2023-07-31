@@ -4,7 +4,9 @@ title: Eventos e revistas
 nav_order: 6
 ---
 
-# Em construção.
+# Eventos
 {: .no_toc }
 
-Em construção.
+[SBAI - 2023](https://sbai2023.com.br/) - Simpósio Brasileiro de Automação Inteligente;
+
+[COBENGE - 2023]() - Congresso Brasileiro de Ensino de Engenharia;
