@@ -13,5 +13,5 @@ permalink: /docs/ensino
 - Sistemas de controle I
 - Sistemas de controle II
 - Laboratório de sistemas de controle
-- [Tópicos especiais em sistemas de controle](\tecontrole.md)
+- [Tópicos especiais em sistemas de controle](docs\ensino\tecontrole.md)
 - Eletrônica de potência
