@@ -1,7 +1,8 @@
 ---
-title: "Ferramentas e Pacotes Computacionais"
-subtitle: "Laboratório Virtual"
+title: "Simulação de sistema dinâmico"
+subtitle: "TE-Controle"
 institute: "UFPA - CAMTUC - FEE"
+author: "Prof. Dr. Raphael Teixeira"
 
 output:
   xaringan::moon_reader:

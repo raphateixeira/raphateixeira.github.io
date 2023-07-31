@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Ensino
-parent: ensino
-nav_order: 4
+title: TE-Controle
+parent: Ensino
+nav_order: 4    
 ---
 
 # Tópicos especiais em sistemas de controle
