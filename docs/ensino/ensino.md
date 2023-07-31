@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/ensino
 ---
 
-# Disciplinas
+# Disciplinas - Graduação
 {: .no_toc }
 
 - Análise de sistemas lineares
@@ -15,3 +15,8 @@ permalink: /docs/ensino
 - Laboratório de sistemas de controle
 - [Tópicos especiais em sistemas de controle](https://raphateixeira.github.io/docs/ensino/tecontrole.html)
 - Eletrônica de potência
+
+# Disciplinas - Pós-Graduação
+
+- Fundamentos de aprendizagem de máquina;
+- Aprendizagem de máquina;
