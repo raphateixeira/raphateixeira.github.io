@@ -18,4 +18,3 @@ O laboratório está desenvolvendo os seguintes projetos de pesquisa:
 - Regressão simbólica por programação genética;
 - Ajuste de controladores por Algoritmos genéticos
 
-[Simulação de EDO](\presents\IntegracaoNumerica\SimulaEDO.html)
