@@ -7,7 +7,7 @@ nav_order: 7
 # Apresentações
 {: .no_toc }
 
-[Simulação de sistema dinâmico](SimulDinamica\SimulaEDO.html)
+[Simulação de sistema dinâmico](presents\SimulDinamica\SimulaEDO.html)
 
-[Regressão](Regressao\Regressao.html)
+[Regressão](presents\Regressao\Regressao.html)
 
