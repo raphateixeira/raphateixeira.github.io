@@ -9,9 +9,9 @@ LINCE é um grupo de pesquisa credenciado no [CNPq](http://dgp.cnpq.br/dgp/espel
 # Professores
 {: .no_toc }
 
-- Prof. Dr. Cleison Daniel Silva
+- Prof. Dr. Cleison Daniel Silva - [Lattes](http://lattes.cnpq.br/1445401605385329);
 
-- Prof. Dr. Raphael Barros Teixeira
+- Prof. Dr. Raphael Barros Teixeira - [Lattes](http://lattes.cnpq.br/4902824086591521);
 
 # Orientandos de IC
 
