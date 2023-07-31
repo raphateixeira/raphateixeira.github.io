@@ -26,7 +26,7 @@ Aulas:
   
 - Identificação de sistemas;
   
-- [SINDy](https://raphateixeira.github.io/TEControle/AL2-SINDy.html#1)
+- [SINDy](https://raphateixeira.github.io/TEControle/AL5-SINDy.html#1)
   
-- [Autoencoder](https://raphateixeira.github.io/TEControle/AL2-AutoEncoder.html#1)
+- [Autoencoder](https://raphateixeira.github.io/TEControle/AL8-AutoEncoder.html#5)
 
