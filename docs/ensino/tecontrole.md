@@ -22,11 +22,11 @@ Aulas:
 
 - [Padrões em dados - SVD](https://raphateixeira.github.io/TEControle/AL1-PadroesDadosSVD.html#1);
   
-- [Padrões em sistemas dinâmicos](https://raphateixeira.github.io/TEControle/AL2-SimulaSistema.html#1) - modelos de estado;
+- [Padrões em sistemas dinâmicos](https://raphateixeira.github.io/TEControle/AL2-SimulaSIstema.html#1) - modelos de estado;
   
 - Identificação de sistemas;
   
 - [SINDy](https://raphateixeira.github.io/TEControle/AL5-SINDy.html#1)
   
-- [Autoencoder](https://raphateixeira.github.io/TEControle/AL8-AutoEncoder.html#5)
+- [Autoencoder](https://raphateixeira.github.io/TEControle/AL8-AutoEncoder.html#1)
 
