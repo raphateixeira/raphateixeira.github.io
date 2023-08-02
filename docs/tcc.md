@@ -9,6 +9,9 @@ nav_order: 4
 
 - Ajuste de controlador RST por algoritmos genéticos;
 - Inversão dinâmica por RNAs;
+- Controle de sistemas dinâmicos por RNA recorrentes;
+- Identificação de sistemas dinâmicos por RNA recorrentes;
+- Controle de sistemas dinâmicos com aprendizagem por reforço;
 
 # Orientações
 {: .no_toc }

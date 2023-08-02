@@ -24,3 +24,9 @@ nav_order: 6
 - B2 - [Revista de Ensino de Engenharia](http://revista.educacao.ws/revista/index.php/abenge)
   
 - B3 - [Revista IEEE - América Latina](https://r9.ieee.org/pt/publicacoes/e-transactions/)
+
+- B3 - [ENGEVISTA](https://periodicos.uff.br/engevista/index)
+
+- A1 - [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)
+
+- B2 - [Revista Brasileira de Recursos Hídricos](https://www.abrhidro.org.br/SGCv3/publicacao.php)
