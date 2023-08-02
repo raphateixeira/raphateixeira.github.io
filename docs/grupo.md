@@ -15,6 +15,44 @@ LINCE é um grupo de pesquisa credenciado no [CNPq](http://dgp.cnpq.br/dgp/espel
 
 # Orientandos de IC
 
+- Raissa Teixeira;
+
+- Leilane dos Anjos;
+
 # Orientandos de TCC
 
+- Alexandre Montpelier;
+
+- Diego de Jesus;
+
+- Denilson Silva;
+
+- Karine;
+
+- Oséias;
+
+- Mateus;
+
+- Marcos Feitosa;
+
+- Dario;
+
+- Kevin;
+
+- Lucas;
+
+- Thalison;
+
 # Orientandos de Mestrado
+
+- Otacílio
+  
+- Ítalo
+
+- Raphael Saraiva
+
+- Wanderley Silva
+
+- Ranieri Teixeira
+
+

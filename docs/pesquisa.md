@@ -17,5 +17,3 @@ Temas em desenvolvimento como projetos de pesquisa:
 - Padrões de precipitação por autoencoder;
 - Regressão simbólica por programação genética;
 - Ajuste de controladores por Algoritmos genéticos;
-- Computação bio-inspirada;
-
