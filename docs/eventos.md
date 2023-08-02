@@ -22,4 +22,5 @@ nav_order: 6
 - B4 - [Revista de Engenharia e Tecnologia](https://revistas.uepg.br/index.php/ret)
 
 - B2 - [Revista de Ensino de Engenharia](http://revista.educacao.ws/revista/index.php/abenge)
+  
 - B3 - [Revista IEEE - América Latina](https://r9.ieee.org/pt/publicacoes/e-transactions/)
