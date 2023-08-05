@@ -30,3 +30,6 @@ Aulas:
   
 - [Autoencoder](https://raphateixeira.github.io/TEControle/AL8-AutoEncoder.html#1)
 
+- [MPC](https://raphateixeira.github.io/TEControle/AL8-AutoEncoder.html#1)
+
+
