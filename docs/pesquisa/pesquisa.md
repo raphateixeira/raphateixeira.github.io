@@ -17,3 +17,5 @@ Temas de interesse:
 - Padrões de precipitação por autoencoder;
 - Regressão simbólica por programação genética;
 - Ajuste de controladores por Algoritmos genéticos;
+
+- [Modelos de difusão](Modelos difusa.md)
