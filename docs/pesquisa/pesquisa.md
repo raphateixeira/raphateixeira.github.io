@@ -18,4 +18,8 @@ Temas de interesse:
 - Regressão simbólica por programação genética;
 - Ajuste de controladores por Algoritmos genéticos;
 
-- [Modelos de difusão](Modelos difusa.md)
+- [Modelos de difusão](ModelosDifusao.md)
+
+- [Identificação de sistemas por LSTM](IdentLSTM.md)
+
+- [Controladores de Sistemas por LSTM](ContLSTM.md)
