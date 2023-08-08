@@ -16,6 +16,6 @@ Programa de Pós-Graduação em Computação Aplicada
 
 - Wanderley Silva - Modelagem e previsão de níveis de jusante da UHE-Tucuruí;
 
-- Ranieri Teixeira
+- Ranieri Teixeira 
 
 - Vander Silva - Reconhecimento de padrões de chuva na amazônia;
