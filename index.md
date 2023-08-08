@@ -11,3 +11,6 @@ permalink: /
 
 O LINCE é o laboratório da área de sistemas dinâmicos e inteligência computacional da FEE. Esta página está sendo desenvolvida para promover e divulgar as atividades do laboratório.
 
+
+- [Laboratório Virtual](https://raphateixeira.github.io/LabVirtual/) de sistemas de controle da FEE;
+
