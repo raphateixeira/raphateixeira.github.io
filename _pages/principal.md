@@ -3,8 +3,8 @@ permalink: /
 title: "Atividades acadêmicas"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /principal/
+  - /principal.html
 ---
 
 Um template de site pessoal sendo desenhado.
