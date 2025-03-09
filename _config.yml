@@ -140,6 +140,7 @@ analytics:
 # Reading Files
 include:
   - .htaccess
+  - _paginas
   - _pages
   - files
 exclude:
