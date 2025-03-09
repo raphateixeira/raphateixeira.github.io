@@ -27,13 +27,13 @@ repository               : "raphateixeira/raphateixeira.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "Prof. Dr. Raphael Teixeira"
   pronouns         : # example: "she/her"  
   bio              : "Professor de engenharia elétrica e computação."
   location         : "Tucuruí, Pará, Brazil"
   affiliation      : "Universidade Federal do Pará"
-  employer         : "Red Brick University"
+  employer         : "UFPA - CAMTUC"
   uri              : # URL
   email            : "raphaelbt@ufpa.br" 
 
