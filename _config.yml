@@ -27,8 +27,8 @@ repository               : "raphateixeira/raphateixeira.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.png"
-  name             : "Prof. Dr. Raphael Teixeira"
+  avatar           : "favicon-32x32.png"
+  name             : "Raphael Teixeira"
   pronouns         : # example: "she/her"  
   bio              : "Professor de engenharia elétrica e computação."
   location         : "Tucuruí, Pará, Brazil"
