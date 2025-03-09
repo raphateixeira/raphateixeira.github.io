@@ -9,11 +9,8 @@ main:
   - title: "Ensino"
     url: /Ensino/
 
-  - title: "Teaching"
-    url: /teaching/  
-
   - title: "Pesquisa"
-    url: /publications/
+    url: /Pesquisa/
 
   
 
