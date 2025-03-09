@@ -38,29 +38,15 @@ author:
   email            : "raphaelbt@ufpa.br" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  orcid            : "https://orcid.org/0000-0003-2993-802X"
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
   github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  goodreads        : # Username
-  google_plus      : # Username
-  linkedin         : # Username
-  medium           : # URL
   youtube          : # Username
 
 # Publication Category - The following the list of publication categories and their headings
@@ -112,18 +98,11 @@ atom_feed:
 
 # SEO Related
 google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+
 
 
 # Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
+
 og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -201,16 +180,10 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
+  Ensino:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  Pesquisa:
     output: true
     permalink: /:collection/:path/
 
@@ -238,7 +211,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: Ensino
     values:
       layout: single
       author_profile: true
@@ -247,29 +220,13 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: Pesquisa
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+
 
 
 # Sass/SCSS
