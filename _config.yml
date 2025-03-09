@@ -29,13 +29,13 @@ author:
   # Biographic information
   avatar           : "favicon-32x32.png"
   name             : "Raphael Teixeira"
-  pronouns         : # example: "she/her"  
   bio              : "Professor de engenharia elétrica e computação."
   location         : "Tucuruí, Pará, Brazil"
   affiliation      : "Universidade Federal do Pará"
   employer         : "UFPA - CAMTUC"
   uri              : # URL
-  email            : "raphaelbt@ufpa.br" 
+  email            : "raphaelbt@ufpa.br"
+
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
