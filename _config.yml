@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "pt-BR"
 site_theme               : "dark"
-title                    : "Prof. Dr. Raphael Teixeira"
+title                    : "UFPA - Raphael Teixeira"
 title_separator          : "-"
-name                     : &name "Raphael Teixeira"
-description              : &description "Professor de Engenharia"
+name                     : &name ""
+description              : &description " "
 url                      : https://raphateixeira.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "raphateixeira/raphateixeira.github.io"
