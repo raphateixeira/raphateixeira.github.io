@@ -12,7 +12,7 @@ site_theme               : "dark"
 title                    : "Prof. Dr. Raphael Teixeira"
 title_separator          : "-"
 name                     : &name "Raphael Teixeira"
-description              : &description "personal description"
+description              : &description "Professor de Engenharia"
 url                      : https://raphateixeira.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "raphateixeira/raphateixeira.github.io"
@@ -23,31 +23,26 @@ repository               : "raphateixeira/raphateixeira.github.io"
 author:
   # Biographic information
   avatar           : "bio-photo-2.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Raphael Teixeira"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Professor de Engenharia"
+  location         : "Tucuruí, Pará, Brasil"
+  employer         : "Universidade Federal do Pará"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "raphaelbt@ufpa.br" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com.br/?hl=pt"
+  impactstory      : "https://profiles.impactstory.org/"
+  orcid            : "http://orcid.org/"
   researchgate     : # URL
   scopus           : # URL
+  ieee             : "https://www.ieee.org/"
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
   github           : "academicpages"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   medium           : # URL
