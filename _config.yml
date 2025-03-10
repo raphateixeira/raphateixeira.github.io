@@ -41,8 +41,12 @@ author:
   ieee             : "https://www.ieee.org/"
 
   # Repositories and software development
-  github           : "academicpages"
+  github           : "raphateixeira"
   kaggle           : # Username  
+  sigaa            : # URL
+  lattes           : "http://lattes.cnpq.br/"
+
+
 
   # Social media
   medium           : # URL
