@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
 
 # Basic Site Settings
 locale                   : "pt-BR"
@@ -12,7 +5,7 @@ site_theme               : "default"
 title                    : "UFPA - CAMTUC - FEE"
 title_separator          : "-"
 name                     : &name "Raphael Teixeira"
-description              : &description "personal description"
+description              : &description " "
 url                      : https://raphateixeira.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "raphateixeira/raphateixeira.github.io"
@@ -24,7 +17,7 @@ author:
   # Biographic information
   avatar           : "raphael_img.png"
   name             : "Raphael Teixeira"
-  pronouns         : "Prof. Dr."  
+  pronouns         : # "Prof. Dr."  
   bio              : ""
   location         : "Tucuruí - PA, Brasil"
   employer         : "UFPA"
