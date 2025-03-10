@@ -12,3 +12,5 @@ Disciplinas:
 - Eletrônica de potência;
 
 - Álgebra linear;
+
+- Tópicos especiais em sistemas de controle:
