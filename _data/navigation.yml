@@ -5,9 +5,23 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "Publications"
+    url: /publications/
 
-  - title: "Ensino"
-    url: /Ensino/
+  - title: "Talks"
+    url: /talks/    
 
-  - title: "Pesquisa"
-    url: /Pesquisa/
+  - title: "Teaching"
+    url: /teaching/    
+    
+  - title: "Portfolio"
+    url: /portfolio/
+        
+  - title: "Blog Posts"
+    url: /year-archive/
+    
+  - title: "CV"
+    url: /cv/
+    
+  - title: "Guide"
+    url: /markdown/
