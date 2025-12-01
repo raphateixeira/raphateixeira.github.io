@@ -2,7 +2,7 @@
 title: "Ensino"
 ---
 
-# Tópicos Especiais em Controle e Aprendizagem de Máquina
+### Tópicos Especiais em Controle e Aprendizagem de Máquina
 
-- 
+- Classificação
 
