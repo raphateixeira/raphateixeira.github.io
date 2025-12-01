@@ -1,23 +1,10 @@
 ---
-title: "Prof. Dr. Raphael Teixeira"
-subtitle: "Professor Associado, Faculdade de [Nome da Sua Faculdade] | Universidade Federal do Pará (UFPA)"
-image: UFPA.png # Certifique-se de que este arquivo está na pasta raiz
+title: "Data Driven: Ensino e Pesquisa"
+subtitle: "UFPA - CAMTUC - FEE"
+image: UFPA.png
 ---
 
-<div class="quarto-about-jolla"> 
-  <div class="about-entity">
-    <img src="UFPA.png" class="about-image rounded" style="width: 15em;">
-    <div class="about-links">
-        <a href="mailto:raphaelbt@ufpa.br" class="btn btn-dark"><i class="bi bi-envelope"></i> E-mail</a>
-        <a href="https://github.com/raphateixeira" class="btn btn-dark"><i class="bi bi-github"></i> GitHub</a>
-        <a href="https://lattes.cnpq.br/seu_lattes_id" class="btn btn-dark"><i class="bi bi-book-reader"></i> Lattes</a>
-    </div>
-  </div>
-</div>
-
-## 👋 Boas-Vindas!
-
-Bem-vindo à minha página pessoal. Sou **Professor Doutor** na **Universidade Federal do Pará (UFPA)**, onde meu foco está na **[Sua Área Principal]** e na **Ciência de Dados Reprodutível**.
+Esta é a minha página pessoal onde compartilho informações sobre meu trabalho de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí.
 
 ---
 
@@ -25,7 +12,7 @@ Bem-vindo à minha página pessoal. Sou **Professor Doutor** na **Universidade F
 
 Use o menu à **esquerda** para navegar ou clique nos links abaixo:
 
-### 🎓 Ensino & Didática
+### 🎓 Ensino <i class="bi bi-pencil-fill"></i>
 
 [Explorar Conteúdo de Ensino](Ensino/index.qmd)
 
@@ -37,6 +24,6 @@ Use o menu à **esquerda** para navegar ou clique nos links abaixo:
 
 [Acessar Publicações](Publicacoes/index.qmd)
 
-### 📰 Notas & Reflexões
+### 📰 Notas
 
 [Ler Últimas Notas](Notas/index.qmd)

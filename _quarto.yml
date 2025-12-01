@@ -3,7 +3,7 @@ project:
   type: website
 
 website:
-  title: "Prof. Dr. Raphael Teixeira"
+  title: "UFPA - Raphael Teixeira"
   description: "Página pessoal para ensino e pesquisa."
   site-url: https://raphateixeira.github.io # Corrigido: protocolo completo
 
@@ -39,4 +39,7 @@ format:
     theme:
       light: [cosmo, custom.scss]
     toc: true
+    toc-title: "Tópicos da Página"
     code-block-border-left: "#E4002B"
+    lang: pt 
+    

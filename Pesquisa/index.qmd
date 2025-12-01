@@ -1,0 +1,40 @@
+---
+title: "Pesquisa & Projetos Atuais"
+---
+
+# Linhas de Pesquisa
+
+[cite_start]Minha atuação como Professor e Pesquisador no **Programa de Pós-Graduação em Computação Aplicada (PPCA)** do Núcleo de Desenvolvimento Amazônico em Engenharia da UFPA [cite: 5] [cite_start]concentra-se na interseção de **engenharia elétrica e de computação**, com forte ênfase em **controle e inteligência computacional**[cite: 6].
+
+[cite_start]Atualmente, sou o **Coordenador do PPCA**[cite: 9].
+
+## 🎯 Foco em Sistemas Dinâmicos e Abordagens Guiadas por Dados
+
+[cite_start]Minha pesquisa se desenvolve em torno dos seguintes eixos[cite: 7, 8]:
+
+* [cite_start]**Identificação e Controle de Sistemas Dinâmicos:** Atuação em identificação, análise e controle, com foco em estratégias guiadas por dados[cite: 7].
+* [cite_start]**Aprendizagem Profunda (Deep Learning):** Aplicação de algoritmos de *deep learning* para a modelagem de sistemas dinâmicos e para a visão computacional[cite: 8].
+* [cite_start]**Modelagem de Sistemas Não-Lineares:** Experiência em Eletrônica Industrial, Sistemas e Controles Eletrônicos, e Modelagem e identificação de sistemas dinâmicos[cite: 139].
+
+---
+
+## 📚 Projeto de Pesquisa em Destaque
+
+### Identificação e controle de sistemas dinâmicos: abordagens inteligentes guiadas por dados
+
+[cite_start]**Situação:** Em andamento (2023 - Atual) [cite: 109, 120]
+[cite_start]**Coordenador:** Prof. Dr. Raphael Barros Teixeira [cite: 121]
+
+#### Descrição
+[cite_start]Este projeto investiga estratégias para a identificação e o controle de sistemas dinâmicos sob a perspectiva de **abordagens guiadas por dados e baseadas em inteligência computacional**[cite: 110, 111].
+
+[cite_start]O foco principal é o estudo da técnica de **identificação não linear por regressão esparsa (SINDy)**, visando sua aplicação na determinação de modelos não-lineares compactos a partir de dados medidos[cite: 112]. [cite_start]O projeto também explora a utilização da **SINDY-Autoencoder** (baseada em aprendizagem profunda) para determinar modelos dinâmicos a partir de variáveis no espaço latente, o que é útil em cenários onde a medida direta dos estados é inviável[cite: 113, 114, 115].
+
+#### Metodologias Investigadas
+[cite_start]Técnicas de projeto baseadas em dados e inteligência computacional, como controle preditivo, **aprendizagem por reforço**, algoritmo genético e programação genética, são objeto de investigação para sintonia de controladores[cite: 117, 118]. [cite_start]Os métodos serão validados em sistemas de bancada de engenharia[cite: 119].
+
+---
+
+## 📢 Projetos de Ensino Ativo
+
+* [cite_start]**Desenvolvimento de protótipos didáticos para aprendizagem ativa de sistemas de controle** [cite: 124][cite_start]: Projeto financiado pelo edital LabInfra 2024 da UFPA para requalificação do Laboratório de Sistemas de Controle no Campus de Tucuruí[cite: 125, 328]. [cite_start]O foco é mudar a metodologia de ensino para o engajamento criativo dos alunos em **aprendizagem ativa focada em problemas reais**[cite: 126, 330].
