@@ -1,52 +1,58 @@
 # .github/workflows/publish.yml
 
+name: Quarto Publish (Final) # Mudamos o nome para forçar o GitHub a reconhecer a nova estrutura
+
 on:
-  # Aciona o workflow quando há um push (envio de código) para o branch 'main'
   push:
-    branches: [main]
-  
-  # Permite a execução manual do workflow pela interface do GitHub (Botão 'Run workflow')
+    branches: ["main"]
   workflow_dispatch:
 
-name: Quarto Publish
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-publish:
-    # O workflow será executado em um servidor virtual Ubuntu
+  build:
     runs-on: ubuntu-latest
-    
-    # Permissões necessárias para que o workflow possa escrever e publicar no Pages
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-
     steps:
-      - name: 📥 Check out repository
+      - name: 📥 Checkout do Repositório
         uses: actions/checkout@v4
 
-      - name: ⚙️ Set up Quarto
-        # Instala o Quarto CLI no ambiente de execução do GitHub Actions
+      - name: ⚙️ Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: 🐍 Set up Python and install dependencies
-        # Instala a versão 3.10 do Python e o cache de pacotes
+      - name: 🐍 Setup Python e Instalação de Dependências
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           cache: 'pip' 
           
-      # Exemplo de instalação de pacotes comuns de Data Science
-      - name: Install dependencies
-        run: |
-          pip install pandas numpy jupyterlab jupyter_client 
-          # Use um arquivo requirements.txt se sua lista for longa!
+      - name: Instalar Dependências (Python)
+        run: pip install -r requirements.txt
 
-      # 💻 Renderiza e Publica
-      - name: Render and Publish
-        # Este passo executa 'quarto render' e envia o resultado para o GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: 💻 Renderizar o Quarto
+        run: quarto render # Simplesmente renderiza, não publica
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: ⬆️ Upload do Artefato
+        uses: actions/upload-pages-artifact@v3
         with:
-          target: github-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: ./_site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: 🚀 Deploy no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
