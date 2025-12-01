@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prof. Dr. Raphael Teixeira",
+    "section": "",
+    "text": "Bem-vindo à minha página pessoal. Sou Professor Doutor na [Sua Faculdade/Instituto] da Universidade Federal do Pará (UFPA), onde dedico meu tempo ao ensino, pesquisa e disseminação do conhecimento.\nMinha atuação principal se concentra na [Sua Área de Atuação Principal, ex: Estatística Aplicada à Amazônia] e na promoção da Pesquisa Reprodutível utilizando ferramentas como Python, R e o próprio Quarto.\nPara contato, por favor, envie um e-mail para raphaelbt@ufpa.br."
+  },
+  {
+    "objectID": "index.html#boas-vindas",
+    "href": "index.html#boas-vindas",
+    "title": "Prof. Dr. Raphael Teixeira",
+    "section": "",
+    "text": "Bem-vindo à minha página pessoal. Sou Professor Doutor na [Sua Faculdade/Instituto] da Universidade Federal do Pará (UFPA), onde dedico meu tempo ao ensino, pesquisa e disseminação do conhecimento.\nMinha atuação principal se concentra na [Sua Área de Atuação Principal, ex: Estatística Aplicada à Amazônia] e na promoção da Pesquisa Reprodutível utilizando ferramentas como Python, R e o próprio Quarto.\nPara contato, por favor, envie um e-mail para raphaelbt@ufpa.br."
+  },
+  {
+    "objectID": "index.html#foco-de-atuação",
+    "href": "index.html#foco-de-atuação",
+    "title": "Prof. Dr. Raphael Teixeira",
+    "section": "🎯 Foco de Atuação",
+    "text": "🎯 Foco de Atuação\nClique nas abas acima ou nos links abaixo para explorar as áreas principais do meu trabalho:\n\n🎓 Ensino & Didática\nAcesso a materiais didáticos, slides de aulas, tutoriais interativos e laboratórios de código abertos para minhas disciplinas na graduação e pós-graduação da UFPA.\nAcessar Materiais de Ensino\n\n\n🔬 Pesquisa & Projetos\nDetalhes sobre minhas linhas de pesquisa ativas, projetos financiados (ex: CNPq, FAPESPA) e a lista de alunos de mestrado e doutorado que oriento.\nVer Projetos de Pesquisa\n\n\n📜 Publicações\nLista completa e organizada de artigos científicos, capítulos de livros e working papers, gerenciada automaticamente via BibTeX.\nExplorar Publicações\n\n\n📰 Notas & Blog\nReflexões, resenhas de literatura, pequenos tutoriais e notícias sobre eventos recentes da UFPA e do meu grupo de pesquisa.\nLer Últimas Notas"
+  },
+  {
+    "objectID": "index.html#últimas-notícias-exemplo-de-destaque",
+    "href": "index.html#últimas-notícias-exemplo-de-destaque",
+    "title": "Prof. Dr. Raphael Teixeira",
+    "section": "📢 Últimas Notícias (Exemplo de Destaque)",
+    "text": "📢 Últimas Notícias (Exemplo de Destaque)\n\nNovo Artigo Publicado no Journal of Applied Statistics (Novembro, 2025)\nNosso estudo sobre modelagem preditiva aplicada a séries temporais da bacia amazônica foi aceito para publicação. O código completo e os dados estão disponíveis na seção Pesquisa."
+  }
+]

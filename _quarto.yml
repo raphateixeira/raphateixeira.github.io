@@ -1,0 +1,42 @@
+# _quarto.yml
+project:
+  type: website
+
+website:
+  title: "Prof. Dr. Raphael Teixeira"
+  description: "Página pessoal para ensino e pesquisa."
+  site-url: https://raphateixeira.github.io # Corrigido: protocolo completo
+
+  # Barra de Navegação Principal (Navbar)
+  navbar:
+    background: "#002C6F" # Azul UFPA
+    foreground: "#FFFFFF"
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Ensino"
+        href: Ensino/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+      - text: "Pesquisa"
+        href: Pesquisa/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+      - text: "Publicações"
+        href: Publicacoes/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+      - text: "Notas"
+        href: Notas/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+    right:
+      - icon: github
+        href: https://github.com/raphateixeira
+      - icon: envelope
+        href: mailto:raphaelbt@ufpa.br
+        
+  page-footer: 
+    background: "#231F20" # Preto UFPA
+    foreground: "#FFFFFF"
+    left: "© 2025 Prof. Dr. Raphael Teixeira"
+    right: "Desenvolvido com Quarto"
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    toc: true
+    code-block-border-left: "#E4002B"

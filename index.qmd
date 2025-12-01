@@ -1,0 +1,65 @@
+---
+title: "Prof. Dr. Raphael Teixeira"
+subtitle: "Professor Associado, [Sua Faculdade/Instituto] | Universidade Federal do Pará (UFPA)"
+image: UFPA.png # Use o logo ou uma foto profissional
+about:
+  template: jolla 
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:raphaelbt@ufpa.br # E-MAIL ATUALIZADO AQUI
+    - icon: github
+      text: GitHub
+      href: https://github.com/seugithub
+    - icon: book-reader
+      text: Currículo Lattes
+      href: https://lattes.cnpq.br/seu_lattes_id 
+---
+
+## 👋 Boas-Vindas!
+
+Bem-vindo à minha página pessoal. Sou **Professor Doutor** na [Sua Faculdade/Instituto] da **Universidade Federal do Pará (UFPA)**, onde dedico meu tempo ao **ensino**, **pesquisa** e **disseminação do conhecimento**.
+
+Minha atuação principal se concentra na **[Sua Área de Atuação Principal, ex: Estatística Aplicada à Amazônia]** e na promoção da **Pesquisa Reprodutível** utilizando ferramentas como Python, R e o próprio Quarto.
+
+Para contato, por favor, envie um e-mail para **raphaelbt@ufpa.br**.
+
+---
+
+## 🎯 Foco de Atuação
+
+Clique nas abas acima ou nos links abaixo para explorar as áreas principais do meu trabalho:
+
+### 🎓 Ensino & Didática
+
+Acesso a materiais didáticos, slides de aulas, tutoriais interativos e laboratórios de código abertos para minhas disciplinas na graduação e pós-graduação da UFPA.
+
+[Acessar Materiais de Ensino](ensino/index.qmd)
+
+### 🔬 Pesquisa & Projetos
+
+Detalhes sobre minhas linhas de pesquisa ativas, projetos financiados (ex: CNPq, FAPESPA) e a lista de alunos de mestrado e doutorado que oriento.
+
+[Ver Projetos de Pesquisa](pesquisa/index.qmd)
+
+### 📜 Publicações
+
+Lista completa e organizada de artigos científicos, capítulos de livros e *working papers*, gerenciada automaticamente via BibTeX.
+
+[Explorar Publicações](publicacoes/index.qmd)
+
+### 📰 Notas & Blog
+
+Reflexões, resenhas de literatura, pequenos tutoriais e notícias sobre eventos recentes da UFPA e do meu grupo de pesquisa.
+
+[Ler Últimas Notas](notas/index.qmd)
+
+---
+
+## 📢 Últimas Notícias (Exemplo de Destaque)
+
+#### **Novo Artigo Publicado no *Journal of Applied Statistics*** (Novembro, 2025)
+
+Nosso estudo sobre modelagem preditiva aplicada a séries temporais da bacia amazônica foi aceito para publicação. O código completo e os dados estão disponíveis na seção **Pesquisa**.
