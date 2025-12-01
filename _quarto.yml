@@ -22,6 +22,8 @@ website:
         href: Publicacoes/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
       - text: "Notas"
         href: Notas/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+      - text: "Estudos"
+        href: Estudos/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
     right:
       - icon: github
         href: https://github.com/raphateixeira
