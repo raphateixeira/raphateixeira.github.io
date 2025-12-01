@@ -20,7 +20,7 @@ about:
 
 ## 👋 Boas-Vindas!
 
-Bem-vindo à minha página pessoal. Sou **Professor Doutor** na [Sua Faculdade/Instituto] da **Universidade Federal do Pará (UFPA)**, onde dedico meu tempo ao **ensino**, **pesquisa** e **disseminação do conhecimento**.
+Página pessoal do Prof. Dr. Raphael Teixeira: UFPA - CAMTUC - FEE.
 
 Minha atuação principal se concentra na **[Sua Área de Atuação Principal, ex: Estatística Aplicada à Amazônia]** e na promoção da **Pesquisa Reprodutível** utilizando ferramentas como Python, R e o próprio Quarto.
 
