@@ -1,6 +1,6 @@
 # .github/workflows/publish.yml
 
-name: Quarto Publish (Final) # Mudamos o nome para forçar o GitHub a reconhecer a nova estrutura
+name: Quarto2Git2Site
 
 on:
   push:
