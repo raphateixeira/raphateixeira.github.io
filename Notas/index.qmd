@@ -1,0 +1,28 @@
+---
+title: "Notas"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, date, title, description, categories]
+page-layout: full
+---
+
+# 🔔 Destaque: Últimas Novidades
+
+> ### 🎉 Projeto Aprovado! Inovação em Controle e IA na Amazônia
+>
+> **Temos uma grande notícia!** O novo projeto de pesquisa em **Controle e Aprendizagem de Máquina** acaba de receber financiamento.
+>
+> **[Leia a Notícia Completa!](noticia-projeto-aprovado.qmd)**
+>
+> <a href="noticia-projeto-aprovado.qmd" class="btn btn-primary btn-lg"><i class="bi bi-arrow-right-circle-fill"></i> Ver Detalhes</a>
+
+---
+
+# 📰 Arquivo de Notícias
+
+Esta seção contém o arquivo completo de notícias, notas e reflexões sobre temas de pesquisa e ensino.
