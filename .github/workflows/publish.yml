@@ -1,0 +1,32 @@
+jobs:
+  build-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install Python and Quarto Dependencies
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip' 
+      
+      # Opcional: Se você usa R, adicione este bloco
+      # - name: Install R
+      #   uses: r-lib/actions/setup-r@v2
+
+      # Instalar pacotes Python necessários (ex: pandas, numpy, etc.)
+      - name: Install dependencies
+        run: pip install pandas numpy jupyterlab
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: github-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
