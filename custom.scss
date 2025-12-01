@@ -1,0 +1,32 @@
+/*-- scss:rules --*/
+
+// Paleta de Cores UFPA
+$blue-ufpa: #002C6F;
+$red-ufpa: #E4002B;
+$yellow-ufpa: #FFD700;
+$black-ufpa: #231F20;
+$white: #FFFFFF;
+
+// Configuração do Tema Bootstrap
+$primary: $blue-ufpa;     
+$secondary: $red-ufpa;    
+$navbar-dark-bg: $blue-ufpa; 
+$navbar-dark-color: $white; 
+$body-bg: $white; 
+
+// Cores Específicas para Componentes do Quarto
+$body-color: $black-ufpa; 
+$link-color: $blue-ufpa;  
+$code-bg: lighten($black-ufpa, 70%); 
+$code-color: $black-ufpa; 
+
+// Customizações Adicionais
+h1, h2, h3, h4, h5, h6 {
+  color: $blue-ufpa !important; 
+}
+
+.sidebar-item.active > a {
+  background-color: lighten($blue-ufpa, 50%);
+  color: $blue-ufpa !important; 
+  font-weight: bold;
+}
