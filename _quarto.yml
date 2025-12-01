@@ -5,7 +5,7 @@ project:
 website:
   title: "UFPA - Raphael Teixeira"
   description: "Página pessoal para ensino e pesquisa."
-  site-url: https://raphateixeira.github.io # Corrigido: protocolo completo
+  site-url: https://raphateixeira.github.io
 
   # Barra de Navegação Principal (Navbar)
   navbar:
@@ -15,21 +15,47 @@ website:
       - text: "Início"
         href: index.qmd
       - text: "Ensino"
-        href: Ensino/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+        href: Ensino/index.qmd
       - text: "Pesquisa"
-        href: Pesquisa/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+        href: Pesquisa/index.qmd
       - text: "Publicações"
-        href: Publicacoes/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+        href: Publicacoes/index.qmd
       - text: "Notas"
-        href: Notas/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+        href: Notas/index.qmd
       - text: "Estudos"
-        href: Estudos/index.qmd # CORRIGIDO: Maiúscula no nome da pasta
+        href: Estudos/index.qmd
     right:
       - icon: github
         href: https://github.com/raphateixeira
       - icon: envelope
         href: mailto:raphaelbt@ufpa.br
         
+  # BARRA LATERAL AUXILIAR (Sidebar) - CORRIGIDA
+  sidebar:
+    style: "docked" # Mantém a barra visível na esquerda
+    search: false # Desativa a pesquisa lateral
+    
+    contents:
+      - title: "Perfil"
+        section: Perfil
+        level: 1
+        contents:
+          - text: "<i class='bi bi-person-fill'></i> Lattes"
+            href: "http://lattes.cnpq.br/4902824086591521" 
+          - text: "<i class='bi bi-orcid'></i> Orcid"
+            href: "https://orcid.org/0000-0003-2993-802X"
+          - text: "<i class='bi bi-building'></i> PPCA - UFPA (Coordenador)"
+            href: "https://www.ppca.propesp.ufpa.br/index.php/br/"
+            
+      - title: "Recursos"
+        section: Recursos
+        level: 1
+        contents:
+          - text: "<i class='bi bi-file-earmark-code'></i> Ambiente Python/R"
+            href: "Ensino/index.qmd"
+          - text: "<i class='bi bi-bookmark'></i> Agências de Fomento (CAPES, CNPq)"
+            href: "https://www.gov.br/capes/pt-br"
+            
   page-footer: 
     background: "#231F20" # Preto UFPA
     foreground: "#FFFFFF"
@@ -43,5 +69,4 @@ format:
     toc: true
     toc-title: "Tópicos da Página"
     code-block-border-left: "#E4002B"
-    lang: pt 
-    
+    lang: pt
