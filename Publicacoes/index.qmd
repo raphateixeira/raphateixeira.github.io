@@ -6,7 +6,9 @@ title: "Artigos e Trabalhos Publicados"
 
 - Ayla Lis, 2022: [Previsão de vazão afluente da UHE-Tucuruí por redes neurais recorrentes LSTM](https://bdm.ufpa.br/items/bb3e5ca8-fd2d-46e1-a3da-a24d976f27ee)
 
-- Raissa Teixeira, 2025 [Identificação e Controle - Filtro Sallen Key](https://github.com/raphateixeira/TCC-Raissa)
+- Raissa Teixeira, 2025: [Identificação e Controle - Filtro Sallen Key](https://github.com/raphateixeira/TCC-Raissa)
 
-- Oseias Farias, 2023 [Aeropêndulo](https://github.com/raphateixeira/TCC-Oseias)
+- Oseias Farias, 2023: [Aeropêndulo](https://github.com/raphateixeira/TCC-Oseias)
 
+
+### Dissertações de Mestrado
