@@ -1,8 +1,8 @@
 ---
-title: "Pesquisa & Projetos Atuais"
+title: "Pesquisa"
 ---
 
-# Temas de Pesquisa
+### Temas de Pesquisa
 
 - Controle preditivo - conversor de energia trifásico;
 - Controle preditivo - sistema térmico;

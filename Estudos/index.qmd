@@ -1,15 +1,8 @@
 ---
 title: "Estudos"
-listing:
-  contents: "*.qmd"
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: true
-  filter-ui: true
-  fields: [image, date, title, description, categories]
-page-layout: full
 ---
 
 
-### 
+### Conteúdo de Estudos
+
+Livros, sites e canais do YouTube recomendados para aprofundamento em temas relacionados a engenharia, ciência de dados e aprendizado de máquina.

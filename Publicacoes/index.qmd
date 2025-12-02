@@ -8,3 +8,5 @@ title: "Artigos e Trabalhos Publicados"
 
 - Raissa Teixeira, 2025 [Identificação e Controle - Filtro Sallen Key](https://github.com/raphateixeira/TCC-Raissa)
 
+- Oseias Farias, 2023 [Aeropêndulo](https://github.com/raphateixeira/TCC-Oseias)
+

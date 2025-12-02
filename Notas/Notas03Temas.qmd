@@ -10,3 +10,8 @@ categories: [Pesquisa]
 - Aprendizado por reforço;
 - Koopman e Dinâmica;
 - DMD - Dinamic Mode Decomposition;
+- Redes Neurais Recorrentes (RNN, LSTM, GRU);
+- Redes Neurais Informadas pela Física (PINN);
+- Controle preditivo;
+- Sistemas dinâmicos;
+- Redes GAN;

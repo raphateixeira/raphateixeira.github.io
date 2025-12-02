@@ -11,3 +11,5 @@ categories: [Notícias, Pesquisa, Financiamento]
 [Controle II](https://github.com/rsbayma/Controle-II): Repositório com códigos e materiais relacionados à disciplina de Controle II - Prof. Rafael Bayma.
 
 [SINDy-RL](https://github.com/raphateixeira/sindy-rl): Combina SINDy com aprendizado por reforço para controle de sistemas dinâmicos.
+
+[RL-Projects](https://github.com/swagatk/RL-Projects-SK): Repositório com diversos projetos de aprendizado por reforço implementados em Python.
