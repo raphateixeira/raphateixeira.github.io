@@ -10,8 +10,7 @@ listing:
   filter-ui: true # Permite ao usuário filtrar por autor ou ano
 ---
 
-### Artigos e Trabalhos Publicados
-
-### Dissertações de Mestrado
-
 ### Trabalhos de Conclusão de Curso
+
+- Ayla Lis, 2022: [Previsão de vazão afluente da UHE-Tucuruí por redes neurais recorrentes LSTM](https://bdm.ufpa.br/items/bb3e5ca8-fd2d-46e1-a3da-a24d976f27ee)
+

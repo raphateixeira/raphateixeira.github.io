@@ -1,0 +1,13 @@
+---
+title: "Reposotórios GitHub  com temas de interesse"
+date: "02/12/2025" # Data da notícia
+categories: [Notícias, Pesquisa, Financiamento]
+---
+
+### Repositórios:
+
+[GAN-MNIST](https://github.com/kroosen/GAN-in-keras-on-mnist): Utiliza redes GAN para gerar imagens de dígitos manuscritos.
+
+[Controle II](https://github.com/rsbayma/Controle-II): Repositório com códigos e materiais relacionados à disciplina de Controle II - Prof. Rafael Bayma.
+
+[SINDy-RL](https://github.com/raphateixeira/sindy-rl): Combina SINDy com aprendizado por reforço para controle de sistemas dinâmicos.
