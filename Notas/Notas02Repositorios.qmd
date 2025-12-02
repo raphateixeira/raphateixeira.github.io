@@ -1,6 +1,6 @@
 ---
-title: "Reposotórios GitHub  com temas de interesse"
-date: "02/12/2025" # Data da notícia
+title: "Reposotórios GitHub"
+date: "02/12/2025"
 categories: [Notícias, Pesquisa, Financiamento]
 ---
 
