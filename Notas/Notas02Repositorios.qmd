@@ -23,3 +23,23 @@ categories: [Notícias, Pesquisa, Financiamento]
 [Carbon Clips](https://github.com/chavarera/py-carbon-clips): Ferramenta para criar clipes de carbono em Python, útil para visualização de dados e simulações.
 
 [DSO](https://github.com/dso-org/deep-symbolic-optimization): Framework para otimização simbólica profunda, combinando aprendizado de máquina com métodos simbólicos.
+
+[PySR](https://github.com/MilesCranmer/PySR): Biblioteca para descoberta de equações simbólicas usando algoritmos genéticos e aprendizado de máquina.
+
+[SD-VAE](https://github.com/stathius/sd-vae): 
+
+[MPC-Pendulum-Python](https://github.com/simorxb/MPC-Pendulum-Python): Implementação de controle preditivo para o problema do pêndulo invertido em Python.
+
+[Reinforcement-Learning-in-Process-Control](https://github.com/emedd33/Reinforcement-Learning-in-Process-Control): Aplicações de aprendizado por reforço em controle de processos industriais.
+
+[Series Temporais](https://github.com/IvanildoBatista/Series-Temporais): Repositório com materiais e códigos para análise e modelagem de séries temporais.
+
+[SinDyAutoEncoders](https://github.com/kpchamp/SindyAutoencoders): Combina SINDy com autoencoders para modelagem de sistemas dinâmicos complexos.
+
+[MeNum](https://github.com/karo-txs/MeNum): Biblioteca para métodos numéricos em Python, focada em aplicações de engenharia e ciência de dados.
+
+[Kronic](https://github.com/eurika-kaiser/KRONIC)
+
+[PINN2ODe](https://github.com/PML-UCF/pinn_ode_tutorial): Tutorial sobre o uso de Redes Neurais Informadas pela Física (PINNs) para resolver equações diferenciais ordinárias (ODEs).
+
+[SindyMPC](https://github.com/eurika-kaiser/SINDY-MPC): Combina SINDy com controle preditivo para sistemas dinâmicos.

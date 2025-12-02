@@ -7,3 +7,5 @@ title: "Sites"
 - [Dicas de markdown para Quarto](https://quarto.org/docs/guide/): Guia oficial do Quarto destacando as diferenças e extensões do Markdown padrão.
 
 - [PoSit](https://posit.co/): Plataforma que oferece ferramentas para ciência de dados, incluindo RStudio e suporte para Quarto.
+
+- [IntroDeepLearningMIT](https://introtodeeplearning.com/): Curso introdutório ao aprendizado profundo oferecido pelo MIT, com foco em aplicações práticas.
