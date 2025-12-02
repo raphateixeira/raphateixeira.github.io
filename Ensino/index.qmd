@@ -2,11 +2,10 @@
 title: "Ensino"
 ---
 
-### Disciplinas e materiais de ensino
-
-Aqui estão listadas as disciplinas que ministro e os materiais relacionados para o curso de graduação em Engenharia Elétrica e para o de Mestrado em Computação Aplicada do PPCA.
+Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado em Computação.
 
 - Tópicos Especiais em Controle
 - Cálculo Numérico
 - Sistemas de Controle II: Espaço de Estados
 - Sistemas de Controle II: Controle Digital
+- Aprendizagem de Máquina
