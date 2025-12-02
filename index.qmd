@@ -1,11 +1,7 @@
 ---
-title: "Data Driven: Ensino e Pesquisa"
+title: "Ensino e Pesquisa em Engenharia"
 subtitle: "UFPA - CAMTUC - FEE"
 image: UFPA.png
 ---
 
-Esta é a minha página pessoal onde compartilho informações sobre meu trabalho de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí. Data_driven, reflete as abordagens baseadas em dados que utilizo em meus projetos, pesquisas e atividades acadêmicas. 
-
-
-
-
+Página pessoal para compartilhamento de informações de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí.
