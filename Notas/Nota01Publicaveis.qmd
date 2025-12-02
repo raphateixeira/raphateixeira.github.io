@@ -1,7 +1,6 @@
 ---
 title: "Congressos, Revistas e Editais de Interesse"
-date: "02/12/2025" # Data da notícia
-categories: [Notícias, Pesquisa, Financiamento]
+date: "02/12/2025"
 ---
 
 ### Congressos
