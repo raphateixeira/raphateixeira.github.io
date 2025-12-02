@@ -15,3 +15,11 @@ categories: [Notícias, Pesquisa, Financiamento]
 [RL-Projects](https://github.com/swagatk/RL-Projects-SK): Repositório com diversos projetos de aprendizado por reforço implementados em Python.
 
 [Marcelino UNB](https://github.com/marcelinoandrade/UNB): Repositório com materiais e códigos relacionados a projetos do Prof. Marcelino Andrade da Universidade de Brasília.
+
+[Transformer MPC](https://github.com/BYU-PRISM/Transformer_MPC): Implementação de controle preditivo baseado em transformadores para sistemas dinâmicos.
+
+[Clear RL](https://github.com/vwxyzjn/cleanrl): Repositório com implementações simples e eficientes de algoritmos de aprendizado por reforço em PyTorch.
+
+[Carbon Clips](https://github.com/chavarera/py-carbon-clips): Ferramenta para criar clipes de carbono em Python, útil para visualização de dados e simulações.
+
+[DSO](https://github.com/dso-org/deep-symbolic-optimization): Framework para otimização simbólica profunda, combinando aprendizado de máquina com métodos simbólicos.

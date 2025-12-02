@@ -1,5 +1,5 @@
 ---
-title: "Livros"
+title: "Sites"
 ---
 
 - [Pratical Machine Learning](https://c.d2l.ai/stanford-cs329p/index.html): Livro focado em aprendizado de máquina prático com implementações em Python.
