@@ -1,13 +1,5 @@
 ---
 title: "Artigos e Trabalhos Publicados"
-listing:
-  # CUIDADO: O caminho deve ser ajustado se o seu 'referencias.bib' não estiver na raiz
-  contents: "../referencias.bib" 
-  type: default
-  sort: "date desc"
-  fields: [title, author, date, url, description] 
-  sort-ui: true # Permite ao usuário ordenar a lista
-  filter-ui: true # Permite ao usuário filtrar por autor ou ano
 ---
 
 ### Trabalhos de Conclusão de Curso
