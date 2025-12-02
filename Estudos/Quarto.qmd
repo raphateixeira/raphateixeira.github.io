@@ -1,0 +1,9 @@
+---
+title: "Quarto"
+---
+
+O que vou aprendendo com Quarto e Markdown para desenvolvimento deste site e de outros documentos de ensino e pesquisa.
+
+**Quarto** é uma ferramenta de código aberto para criação de documentos dinâmicos, sites, blogs e apresentações. Ele suporta múltiplos formatos de saída, incluindo HTML, PDF e Word, e é amplamente utilizado na comunidade de engenharia, ciência de dados e estatística devido à sua integração com R, Python e Julia.
+
+Emojis: 😎📚💻📝🚀 [https://gist.github.com/rxaviers/7360908](https://gist.github.com/rxaviers/7360908)
