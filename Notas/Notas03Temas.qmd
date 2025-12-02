@@ -1,5 +1,5 @@
 ---
-title: "Reposotórios GitHub  com temas de interesse"
+title: "Temas de interesse"
 date: "12/02/2025"
 categories: [Pesquisa]
 ---
