@@ -1,0 +1,30 @@
+---
+title: "Congressos, Revistas e Editais de Interesse"
+date: "02/12/2025" # Data da notícia
+categories: [Notícias, Pesquisa, Financiamento]
+---
+
+### Congressos
+
+[CBA - Congresso Brasileiro de Automática](https://www.sba.org.br/cba/): Evento que aborda temas relacionados à automação, controle e sistemas dinâmicos.
+
+[SBAI - Simpósio Brasileiro de Automação Inteligente](https://www.sba.org.br/sbai/): Evento focado em automação inteligente, incluindo tópicos como robótica, sistemas inteligentes e aprendizado de máquina.
+
+[CBEP - Congresso Brasileiro de Eletrônica de Potência](https://www.cbeponline.org/): Congresso que reúne pesquisadores e profissionais da área de eletrônica de potência.
+
+[SBIA - Sociedade Brasileira de Inteligência Artificial](https://sbia.org.br/): Congresso anual que reúne pesquisadores e profissionais da área de inteligência artificial no Brasil.
+
+
+### Revistas
+
+[IEEE - Latin America Transactions](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858): Revista que publica artigos científicos na área de engenharia elétrica, eletrônica e computação, com foco na América Latina.
+
+[Learning & Nonlinear models](https://sbia.org.br/publicacoes/): Revista da Sociedade Brasileira de Inteligência Artificial (SBIA) que publica artigos científicos na área de inteligência artificial, aprendizado de máquina e modelos não lineares.
+
+[Journal of Control, Automation and Electrical Systems](https://www.springer.com/journal/40313): Revista que abrange pesquisas em controle, automação e sistemas elétricos.
+
+
+### Editais
+
+- PIAPA: Participação em eventos - PROPESP/UFPA;
+- PIBIC/PIVIC - CNPq: Bolsa de Iniciação Científica - CNPq/UFPA;

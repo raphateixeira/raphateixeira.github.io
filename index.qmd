@@ -4,26 +4,8 @@ subtitle: "UFPA - CAMTUC - FEE"
 image: UFPA.png
 ---
 
-Esta é a minha página pessoal onde compartilho informações sobre meu trabalho de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí.
+Esta é a minha página pessoal onde compartilho informações sobre meu trabalho de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí. Data_driven, reflete as abordagens baseadas em dados que utilizo em meus projetos, pesquisas e atividades acadêmicas. 
 
----
 
-## 🎯 Navegação Rápida
 
-Use o menu à **esquerda** para navegar ou clique nos links abaixo:
 
-### 🎓 Ensino <i class="bi bi-pencil-fill"></i>
-
-[Explorar Conteúdo de Ensino](Ensino/index.qmd)
-
-### 🔬 Pesquisa & Projetos
-
-[Ver Projetos Ativos](Pesquisa/index.qmd)
-
-### 📜 Publicações
-
-[Acessar Publicações](Publicacoes/index.qmd)
-
-### 📰 Notas
-
-[Ler Últimas Notas](Notas/index.qmd)

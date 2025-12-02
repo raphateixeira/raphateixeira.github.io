@@ -44,22 +44,15 @@ website:
             href: "http://lattes.cnpq.br/4902824086591521" 
           - text: "<i class='bi bi-orcid'></i> Orcid"
             href: "https://orcid.org/0000-0003-2993-802X"
-          - text: "<i class='bi bi-building'></i> PPCA - UFPA (Coordenador)"
+          - text: "<i class='bi bi-building'></i> PPCA - UFPA"
             href: "https://www.ppca.propesp.ufpa.br/index.php/br/"
             
-      - title: "Recursos"
-        section: Recursos
-        level: 1
-        contents:
-          - text: "<i class='bi bi-file-earmark-code'></i> Ambiente Python/R"
-            href: "Ensino/index.qmd"
-          - text: "<i class='bi bi-bookmark'></i> Agências de Fomento (CAPES, CNPq)"
-            href: "https://www.gov.br/capes/pt-br"
+
             
   page-footer: 
     background: "#231F20" # Preto UFPA
     foreground: "#FFFFFF"
-    left: "© 2025 Prof. Dr. Raphael Teixeira"
+    left: "©2025 Prof. Dr. Raphael Teixeira"
     right: "Desenvolvido com Quarto"
 
 format:

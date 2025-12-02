@@ -1,0 +1,12 @@
+---
+title: "Reposotórios GitHub  com temas de interesse"
+date: "12/02/2025"
+categories: [Pesquisa]
+---
+
+
+### Temas de interesse:
+- Regressão simbólica;
+- Aprendizado por reforço;
+- Koopman e Dinâmica;
+- DMD - Dinamic Mode Decomposition;
