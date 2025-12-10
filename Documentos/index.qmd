@@ -9,4 +9,4 @@ Documentos e normas da UFPA, CAMTUC e FEE:
 - [Resolução 4918/2027](https://www.propesp.ufpa.br/arquivos/documentos/NOVA_RESOLUCAO_PROJETOS_N4918_25Abril2017.pdf) - Regulamenta os Projetos de Pesquisa na UFPA.
 
 #### Projeto Pedagógico de Curso (PPC):
-- [Engenharia Elétrica - CAMTUC](https://fee.camtuc.ufpa.br/images/Regimentos/ProjetoPedag%C3%B3gicoFEE2012_final_2012.pdf)
+- [Engenharia Elétrica](https://fee.camtuc.ufpa.br/images/Regimentos/ProjetoPedag%C3%B3gicoFEE2012_final_2012.pdf) - Projeto Pedagógico do Curso de Engenharia Elétrica da CAMTUC.
