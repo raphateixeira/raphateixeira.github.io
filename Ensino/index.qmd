@@ -4,8 +4,6 @@ title: "Ensino"
 
 Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado em Computação.
 
+
 - Tópicos Especiais em Controle
 - Cálculo Numérico
-- Sistemas de Controle II: Espaço de Estados
-- Sistemas de Controle II: Controle Digital
-- Aprendizagem de Máquina
