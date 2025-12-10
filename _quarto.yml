@@ -24,6 +24,8 @@ website:
         href: Notas/index.qmd
       - text: "Estudos"
         href: Estudos/index.qmd
+      - text: "Documentos"
+        href: Documentos/index.qmd
     right:
       - icon: github
         href: https://github.com/raphateixeira
