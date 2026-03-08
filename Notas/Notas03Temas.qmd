@@ -8,11 +8,13 @@ categories: [Pesquisa]
 ### Temas de interesse:
 - Regressão simbólica;
 - Aprendizado por reforço;
+- Dynamic Programming;
 - Koopman e Dinâmica;
 - DMD - Dinamic Mode Decomposition;
 - Redes Neurais Recorrentes (RNN, LSTM, GRU);
 - Redes Neurais Informadas pela Física (PINN);
 - Controle preditivo;
 - Sistemas dinâmicos;
+- Manifold Learning; [[1]](https://arxiv.org/pdf/2011.01307#page=7.03)
 - Redes GAN;
     - [Gan Data](https://github.com/raphateixeira/GAN-for-Data-Augmentation)
