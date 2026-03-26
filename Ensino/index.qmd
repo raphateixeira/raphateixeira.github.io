@@ -4,8 +4,9 @@ title: "Ensino"
 
 Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado em Computação.
 
+- [1](https://raphateixeira.github.io/AlgebraLinear/) - Álgebra Linear
+- [2](https://raphateixeira.github.io/AprendizagemMaquina) - Aprendizagem de máquina
 - Sistemas de Controle II:
     - [Espaço de estados](https://raphateixeira.github.io/ControleEstados/);
     - Controle Digital;
-- Tópicos Especiais em Controle
 - Cálculo Numérico
