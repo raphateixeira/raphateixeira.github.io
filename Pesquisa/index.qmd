@@ -3,7 +3,7 @@ title: "Pesquisa"
 ---
 
 ### Temas de Pesquisa
-
+- Conversores DC-DC tipo Buck e Boost;
 - Controle preditivo - conversor de energia trifásico;
 - Controle preditivo - sistema térmico;
 - Visão computacional: Diagnóstico de malária por imagens;
