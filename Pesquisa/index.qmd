@@ -10,3 +10,4 @@ title: "Pesquisa"
 - Identificação LSTM: Vazão afluente UHE-Tucuruí;
 - Análise DGA: Diagnóstico de falhas em transformadores;
 - Regressão simbólica;
+- Extremum Seeking Control (ESC);
