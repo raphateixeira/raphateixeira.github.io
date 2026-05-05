@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/Ensino/Notas/index.html",
+    "items": [
+      "/Ensino/Notas/Notas03Temas.html",
+      "/Ensino/Notas/Nota01Publicaveis.html",
+      "/Ensino/Notas/Notas02Repositorios.html"
+    ]
+  },
+  {
+    "listing": "/Estudos/index.html",
+    "items": [
+      "/Estudos/Livros.html",
+      "/Estudos/Quarto.html",
+      "/Estudos/Sites.html",
+      "/Estudos/YouTube.html"
+    ]
+  }
+]

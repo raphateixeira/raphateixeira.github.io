@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "Publicacoes/index.html",
+    "href": "Publicacoes/index.html",
+    "title": "Artigos e Trabalhos Publicados",
+    "section": "",
+    "text": "Trabalhos de Conclusão de Curso\n\nAyla Lis, 2022: Previsão de vazão afluente da UHE-Tucuruí por redes neurais recorrentes LSTM\nRaissa Teixeira, 2025: Identificação e Controle - Filtro Sallen Key\nOseias Farias, 2023: Aeropêndulo\n\n\n\nDissertações de Mestrado"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ensino e Pesquisa em Engenharia",
+    "section": "",
+    "text": "Página pessoal para compartilhamento de informações de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí."
+  },
+  {
+    "objectID": "Estudos/Sites.html",
+    "href": "Estudos/Sites.html",
+    "title": "Sites",
+    "section": "",
+    "text": "Pratical Machine Learning: Livro focado em aprendizado de máquina prático com implementações em Python.\nDicas de markdown para Quarto: Guia oficial do Quarto destacando as diferenças e extensões do Markdown padrão.\nPoSit: Plataforma que oferece ferramentas para ciência de dados, incluindo RStudio e suporte para Quarto.\nIntroDeepLearningMIT: Curso introdutório ao aprendizado profundo oferecido pelo MIT, com foco em aplicações práticas."
+  },
+  {
+    "objectID": "Estudos/Livros.html",
+    "href": "Estudos/Livros.html",
+    "title": "Livros",
+    "section": "",
+    "text": "Introduction to Deep Learning:"
+  },
+  {
+    "objectID": "Ensino/Notas/Notas03Temas.html",
+    "href": "Ensino/Notas/Notas03Temas.html",
+    "title": "Temas de interesse",
+    "section": "",
+    "text": "Temas de interesse:\n\nRegressão simbólica;\nAprendizado por reforço;\nDynamic Programming;\nKoopman e Dinâmica;\nDMD - Dinamic Mode Decomposition;\nRedes Neurais Recorrentes (RNN, LSTM, GRU);\nRedes Neurais Informadas pela Física (PINN);\nControle preditivo;\nSistemas dinâmicos;\nManifold Learning; [1]\nRedes GAN;\n\nGan Data"
+  },
+  {
+    "objectID": "Ensino/Notas/Nota01Publicaveis.html",
+    "href": "Ensino/Notas/Nota01Publicaveis.html",
+    "title": "Congressos, Revistas e Editais",
+    "section": "",
+    "text": "Congressos\nCBA - Congresso Brasileiro de Automática: Evento que aborda temas relacionados à automação, controle e sistemas dinâmicos.\nSBAI - Simpósio Brasileiro de Automação Inteligente: Evento focado em automação inteligente, incluindo tópicos como robótica, sistemas inteligentes e aprendizado de máquina.\nCBEP - Congresso Brasileiro de Eletrônica de Potência: Congresso que reúne pesquisadores e profissionais da área de eletrônica de potência.\nSBIA - Sociedade Brasileira de Inteligência Artificial: Congresso anual que reúne pesquisadores e profissionais da área de inteligência artificial no Brasil.\n\n\nRevistas\nIEEE - Latin America Transactions: Revista que publica artigos científicos na área de engenharia elétrica, eletrônica e computação, com foco na América Latina.\nLearning & Nonlinear models: Revista da Sociedade Brasileira de Inteligência Artificial (SBIA) que publica artigos científicos na área de inteligência artificial, aprendizado de máquina e modelos não lineares.\nJournal of Control, Automation and Electrical Systems: Revista que abrange pesquisas em controle, automação e sistemas elétricos.\n\n\nEditais\n\nPIAPA: Participação em eventos - PROPESP/UFPA;\nPIBIC/PIVIC - CNPq: Bolsa de Iniciação Científica - CNPq/UFPA;"
+  },
+  {
+    "objectID": "Ensino/index.html",
+    "href": "Ensino/index.html",
+    "title": "Ensino",
+    "section": "",
+    "text": "Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado em Computação.\n\n1 - Álgebra Linear;\n2 - Aprendizagem de Máquina\n3 - Sistemas de Controle II: Espaço de Estados\n4 - Sistemas de Controle II: Controle Digital;\n5 - Cálculo Numérico;"
+  },
+  {
+    "objectID": "Ensino/Ensino01CalculoNumerico.html",
+    "href": "Ensino/Ensino01CalculoNumerico.html",
+    "title": "Cálculo Numérico",
+    "section": "",
+    "text": "Repositório Github de Cálculo Numérico"
+  },
+  {
+    "objectID": "Ensino/Ensino01CalculoNumerico.html#cálculo-numérico",
+    "href": "Ensino/Ensino01CalculoNumerico.html#cálculo-numérico",
+    "title": "Cálculo Numérico",
+    "section": "",
+    "text": "Repositório Github de Cálculo Numérico"
+  },
+  {
+    "objectID": "Documentos/index.html",
+    "href": "Documentos/index.html",
+    "title": "Documentos",
+    "section": "",
+    "text": "Documentos e normas da UFPA, CAMTUC e FEE:\n\nPortarias\n\nPortaria CAEG 2026 - Membro da Comissão de Avaliação de Ensino de Graduação (CAEG) do CAMTUC - UFPA.\n\n\n\nResoluções UFPA:\n\nResolução 4918/2027 - Regulamenta os Projetos de Pesquisa na UFPA.\n\n\n\nProjeto Pedagógico de Curso (PPC):\n\nEngenharia Elétrica - Projeto Pedagógico do Curso de Engenharia Elétrica da CAMTUC."
+  },
+  {
+    "objectID": "Editais/index.html",
+    "href": "Editais/index.html",
+    "title": "Editais",
+    "section": "",
+    "text": "2025\n\nPROEG-Monitoria - 22/2025"
+  },
+  {
+    "objectID": "Ensino/Ensino02TopicosEspeciaisControle.html",
+    "href": "Ensino/Ensino02TopicosEspeciaisControle.html",
+    "title": "Tópicos Especiais em Controle",
+    "section": "",
+    "text": "[Classificação]"
+  },
+  {
+    "objectID": "Ensino/Ensino02TopicosEspeciaisControle.html#tópicos-especiais-em-controle",
+    "href": "Ensino/Ensino02TopicosEspeciaisControle.html#tópicos-especiais-em-controle",
+    "title": "Tópicos Especiais em Controle",
+    "section": "",
+    "text": "[Classificação]"
+  },
+  {
+    "objectID": "Ensino/Notas/index.html",
+    "href": "Ensino/Notas/index.html",
+    "title": "Notas",
+    "section": "",
+    "text": "Ordenar por\n      Pré-selecionado\n      \n        Título\n      \n      \n        Data - Mais velho\n      \n      \n        Data - O mais novo\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTemas de interesse\n\n\n\nPesquisa\n\n\n\n\n\n\n\n\n\n2 de dez. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\nCongressos, Revistas e Editais\n\n\n\n\n\n\n\n\n12 de fev. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReposotórios GitHub\n\n\n\nNotícias\n\nPesquisa\n\nFinanciamento\n\n\n\n\n\n\n\n\n\n12 de fev. de 2025\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "Ensino/Notas/Notas02Repositorios.html",
+    "href": "Ensino/Notas/Notas02Repositorios.html",
+    "title": "Reposotórios GitHub",
+    "section": "",
+    "text": "Repositórios:\nGAN-MNIST: Utiliza redes GAN para gerar imagens de dígitos manuscritos.\nControle II: Repositório com códigos e materiais relacionados à disciplina de Controle II - Prof. Rafael Bayma.\nSINDy-RL: Combina SINDy com aprendizado por reforço para controle de sistemas dinâmicos.\nRL-Projects: Repositório com diversos projetos de aprendizado por reforço implementados em Python.\nMarcelino UNB: Repositório com materiais e códigos relacionados a projetos do Prof. Marcelino Andrade da Universidade de Brasília.\nTransformer MPC: Implementação de controle preditivo baseado em transformadores para sistemas dinâmicos.\nClear RL: Repositório com implementações simples e eficientes de algoritmos de aprendizado por reforço em PyTorch.\nCarbon Clips: Ferramenta para criar clipes de carbono em Python, útil para visualização de dados e simulações.\nDSO: Framework para otimização simbólica profunda, combinando aprendizado de máquina com métodos simbólicos.\nPySR: Biblioteca para descoberta de equações simbólicas usando algoritmos genéticos e aprendizado de máquina.\nSD-VAE:\nMPC-Pendulum-Python: Implementação de controle preditivo para o problema do pêndulo invertido em Python.\nReinforcement-Learning-in-Process-Control: Aplicações de aprendizado por reforço em controle de processos industriais.\nSeries Temporais: Repositório com materiais e códigos para análise e modelagem de séries temporais.\nSinDyAutoEncoders: Combina SINDy com autoencoders para modelagem de sistemas dinâmicos complexos.\nMeNum: Biblioteca para métodos numéricos em Python, focada em aplicações de engenharia e ciência de dados.\nKronic\nPINN2ODe: Tutorial sobre o uso de Redes Neurais Informadas pela Física (PINNs) para resolver equações diferenciais ordinárias (ODEs).\nSindyMPC: Combina SINDy com controle preditivo para sistemas dinâmicos."
+  },
+  {
+    "objectID": "Estudos/index.html",
+    "href": "Estudos/index.html",
+    "title": "Estudos",
+    "section": "",
+    "text": "Livros, sites e canais do YouTube recomendados para aprofundamento em temas relacionados a engenharia, ciência de dados e aprendizado de máquina.\n\n\n\n\n\n\n   \n    \n    \n      Ordenar por\n      Pré-selecionado\n      \n        Título\n      \n      \n        Autor\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLivros\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSites\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYouTube\n\n\n\n\n\n\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "Estudos/Quarto.html",
+    "href": "Estudos/Quarto.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "O que vou aprendendo com Quarto e Markdown para desenvolvimento deste site e de outros documentos de ensino e pesquisa.\nQuarto é uma ferramenta de código aberto para criação de documentos dinâmicos, sites, blogs e apresentações. Ele suporta múltiplos formatos de saída, incluindo HTML, PDF e Word, e é amplamente utilizado na comunidade de engenharia, ciência de dados e estatística devido à sua integração com R, Python e Julia.\nEmojis: 😎📚💻📝🚀 https://gist.github.com/rxaviers/7360908\nPara publicar direto do vscode: quarto publish gh-pages"
+  },
+  {
+    "objectID": "Estudos/YouTube.html",
+    "href": "Estudos/YouTube.html",
+    "title": "YouTube",
+    "section": "",
+    "text": "Canais YouTube\nhttps://www.youtube.com/@3blue1brown: Canal focado em matemática visual, cobrindo tópicos como álgebra linear, cálculo e aprendizado de máquina."
+  },
+  {
+    "objectID": "Pesquisa/index.html",
+    "href": "Pesquisa/index.html",
+    "title": "Pesquisa",
+    "section": "",
+    "text": "Temas de Pesquisa\n\nConversores DC-DC tipo Buck e Boost;\nControle preditivo - conversor de energia trifásico;\nControle preditivo - sistema térmico;\nVisão computacional: Diagnóstico de malária por imagens;\nIdentificação LSTM: Vazão afluente UHE-Tucuruí;\nAnálise DGA: Diagnóstico de falhas em transformadores;\nRegressão simbólica;\nExtremum Seeking Control (ESC);\nKolmogorov Arnold Network (KAN);\nModelos de difusão;"
+  }
+]
