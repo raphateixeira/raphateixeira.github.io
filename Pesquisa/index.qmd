@@ -11,3 +11,5 @@ title: "Pesquisa"
 - Análise DGA: Diagnóstico de falhas em transformadores;
 - Regressão simbólica;
 - Extremum Seeking Control (ESC);
+- Kolmogorov Arnold Network (KAN);
+- Modelos de difusão;

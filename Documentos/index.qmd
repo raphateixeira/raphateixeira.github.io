@@ -4,6 +4,10 @@ title: "Documentos"
 
 Documentos e normas da UFPA, CAMTUC e FEE:
 
+#### Portarias
+
+- [Portaria CAEG 2026](PortariaCAEG2026.pdf) - Membro da Comissão de Avaliação de Ensino de Graduação (CAEG) do CAMTUC - UFPA.
+
 #### Resoluções UFPA:
 
 - [Resolução 4918/2027](https://www.propesp.ufpa.br/arquivos/documentos/NOVA_RESOLUCAO_PROJETOS_N4918_25Abril2017.pdf) - Regulamenta os Projetos de Pesquisa na UFPA.
