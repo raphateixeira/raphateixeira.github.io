@@ -190,7 +190,7 @@ Página pessoal para compartilhamento de informações de ensino e pesquisa em e
 </style>
 ```
 
-Página pessoal para compartilhamento de informações de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí.
+Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
 
 ```{=html}
 
