@@ -4,6 +4,241 @@ subtitle: "UFPA - CAMTUC - FEE"
 image: UFPA.png
 ---
 
+Página pessoal para compartilhamento de informações de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí - Campus de Tucuruí (CAMTUC) - [Faculdade de Engenharia Elétrica - FEE](https://fee.camtuc.ufpa.br/).
+
+
+```{=html}
+<style>
+  :root {
+    --blue-ufpa: #002C6F;
+    --red-ufpa: #E4002B;
+    --ink: #231F20;
+    --muted: #5A6472;
+    --line: #E2E5EA;
+  }
+
+  /* Diagrama de blocos */
+  .block-diagram {
+    margin: 1.6rem 0 2.2rem 0;
+  }
+
+  .block-diagram svg {
+    width: 100%;
+    height: auto;
+    max-width: 680px;
+    display: block;
+  }
+
+  .block-diagram .blk-rect {
+    fill: #FFFFFF;
+    stroke: var(--blue-ufpa);
+    stroke-width: 1.3;
+  }
+
+  .block-diagram .blk-label {
+    font-size: 12px;
+    fill: var(--ink);
+  }
+
+  .block-diagram .blk-arrow {
+    stroke: #9AA2AD;
+    stroke-width: 1.3;
+    fill: none;
+    marker-end: url(#arrowhead);
+  }
+
+  .block-diagram .blk-feedback {
+    stroke: var(--red-ufpa);
+    stroke-width: 1.3;
+    fill: none;
+    stroke-dasharray: 4 3;
+    marker-end: url(#arrowhead-red);
+  }
+
+  .block-diagram .blk-small {
+    font-size: 10.5px;
+    fill: var(--muted);
+  }
+
+  /* Linhas de atuação */
+  .area-list {
+    margin: 1.6rem 0 2.2rem 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .area-row {
+    display: flex;
+    gap: 1.1rem;
+    padding: 0.95rem 0;
+    border-bottom: 1px solid var(--line);
+    align-items: flex-start;
+  }
+
+  .area-row .icon-slot {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+  }
+
+  .area-row .icon-slot svg {
+    width: 100%;
+    height: 100%;
+    stroke: var(--blue-ufpa);
+    fill: none;
+    stroke-width: 1.6;
+  }
+
+  .area-row h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 0 0 0.2rem 0;
+  }
+
+  .area-row p {
+    font-size: 0.93rem;
+    color: var(--muted);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* Painel de pesquisa */
+  .research-panel {
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--blue-ufpa);
+    border-radius: 4px;
+    padding: 1.3rem 1.5rem;
+    margin: 1.6rem 0 2.2rem 0;
+  }
+
+  .research-panel .rp-status {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--blue-ufpa);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .research-panel h3 {
+    font-size: 1.05rem;
+    color: var(--ink);
+    margin: 0 0 0.7rem 0;
+  }
+
+  .research-panel p {
+    color: var(--ink);
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+  }
+
+  .research-panel .rp-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin: 0.9rem 0 0 0;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .research-panel .rp-spec dt {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 0.2rem 0;
+  }
+
+  .research-panel .rp-spec dd {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 0;
+  }
+
+  /* Links rápidos */
+  .quicklinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin: 1.6rem 0 1rem 0;
+  }
+
+  .quicklinks a {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--blue-ufpa);
+    border: 1px solid var(--blue-ufpa);
+    padding: 0.45rem 0.9rem;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+  .quicklinks a:hover {
+    background: var(--blue-ufpa);
+    color: #FFFFFF;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--red-ufpa);
+    font-weight: 700;
+    margin: 0 0 0.3rem 0;
+  }
+</style>
+```
+
 Página pessoal para compartilhamento de informações de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí.
 
+```{=html}
 
+<div class="section-label">Linhas de atuação</div>
+
+```{=html}
+<div class="area-list">
+
+  <div class="area-row">
+    <div class="icon-slot">
+      <svg viewBox="0 0 24 24"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg>
+    </div>
+    <div>
+      <h3>Sistemas de Controle</h3>
+      <p>Representação em espaço de estados, alocação de polos, observadores de Luenberger e projeto de controladores digitais.</p>
+    </div>
+  </div>
+
+  <div class="area-row">
+    <div class="icon-slot">
+      <svg viewBox="0 0 24 24"><rect x="3" y="7" width="7" height="10" rx="1"/><path d="M10 9h4M10 15h4"/><circle cx="18" cy="12" r="3"/></svg>
+    </div>
+    <div>
+      <h3>Eletrônica de Potência</h3>
+      <p>Conversores Buck, Boost e Buck-Boost, inversores e acionamentos de motores de indução e DFIG.</p>
+    </div>
+  </div>
+
+  <div class="area-row">
+    <div class="icon-slot">
+      <svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16M8 15l3-4 3 3 4-6"/></svg>
+    </div>
+    <div>
+      <h3>Identificação de Sistemas</h3>
+      <p>Modelagem orientada a dados de plantas dinâmicas a partir de sinais PRBS e estimação paramétrica.</p>
+    </div>
+  </div>
+
+  <div class="area-row">
+    <div class="icon-slot">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="5" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M7 6.5l3.5 3.5M17 6.5l-3.5 3.5M7 17.5l3.5-3.5M17 17.5l-3.5-3.5"/></svg>
+    </div>
+    <div>
+      <h3>Controle Inteligente</h3>
+      <p>MPC, DeePC, MRAC e abordagens baseadas em Koopman e aprendizado por reforço para controle de conversores.</p>
+    </div>
+  </div>
+
+</div>
+```
+```
