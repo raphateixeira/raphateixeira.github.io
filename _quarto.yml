@@ -44,6 +44,8 @@ website:
         section: Perfil
         level: 1
         contents:
+          - text: "<i class='bi bi-building'></i> FEE"
+            href: "https://fee.camtuc.ufpa.br/"         
           - text: "<i class='bi bi-person-fill'></i> Lattes"
             href: "http://lattes.cnpq.br/4902824086591521" 
           - text: "<i class='bi bi-orcid'></i> Orcid"

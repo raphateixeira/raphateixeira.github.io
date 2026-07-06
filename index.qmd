@@ -193,10 +193,7 @@ Página pessoal para compartilhamento de informações de ensino e pesquisa em e
 Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
 
 ```{=html}
-
 <div class="section-label">Linhas de atuação</div>
-
-```{=html}
 <div class="area-list">
 
   <div class="area-row">
@@ -240,5 +237,4 @@ Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
   </div>
 
 </div>
-```
 ```
