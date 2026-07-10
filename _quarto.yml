@@ -53,8 +53,14 @@ website:
           - text: "<i class='bi bi-building'></i> PPCA - UFPA"
             href: "https://www.ppca.propesp.ufpa.br/index.php/br/"
 
-            
-  page-footer: 
+      - title: "Coleções"
+        section: Coleções
+        level: 1
+        contents:
+          - text: "<i class='bi bi-images'></i> Coleção TikZ"
+            href: "https://raphateixeira.github.io/TikZ/"
+
+  page-footer:
     background: "#231F20"
     foreground: "#FFFFFF"
     left: "©2025 Prof. Dr. Raphael Teixeira"
@@ -64,7 +70,6 @@ format:
   html:
     theme:
       light: [cosmo, custom.scss]
-    toc: true
-    toc-title: "Tópicos da Página"
+    toc: false
     code-block-border-left: "#E4002B"
     lang: pt

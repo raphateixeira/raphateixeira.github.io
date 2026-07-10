@@ -1,0 +1,13 @@
+---
+title: "Notas"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+---
+
+Notas de estudo em formato de artigo sobre temas de interesse em controle, aprendizado de máquina e métodos computacionais. Diferente do material de aula (em slides), aqui o objetivo é aprofundar cada assunto: fundamentação matemática, exemplos e implementação computacional, principalmente em Python.

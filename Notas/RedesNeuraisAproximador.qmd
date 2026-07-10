@@ -1,0 +1,175 @@
+---
+title: "Redes Neurais como Aproximadores Universais de Função"
+date: "10/07/2026"
+categories: ["Aprendizado de Máquina", "Redes Neurais"]
+description: "Fundamentação matemática do Teorema da Aproximação Universal e implementação, em Python puro (NumPy), de uma rede neural rasa treinada por retropropagação."
+---
+
+## Introdução
+
+Uma rede neural artificial pode ser entendida, antes de qualquer analogia biológica, como uma **classe paramétrica de funções** $f_\theta: \mathbb{R}^n \to \mathbb{R}^m$, ajustável por um vetor de parâmetros $\theta$ (pesos e vieses). O resultado que justifica seu uso massivo como aproximador de funções é o **Teorema da Aproximação Universal**, demonstrado por Cybenko (1989) para funções de ativação sigmoides e generalizado por Hornik (1991) para uma classe muito mais ampla de ativações não polinomiais.
+
+Esta nota apresenta (i) o enunciado e a intuição do teorema, (ii) a formulação matemática de uma rede rasa (uma camada oculta) e das equações de retropropagação, e (iii) uma implementação computacional em Python, sem bibliotecas de *deep learning*, para tornar transparente cada etapa do treinamento.
+
+## Formulação matemática
+
+### Arquitetura
+
+Considere uma rede com uma entrada escalar $x$, uma camada oculta com $H$ neurônios e uma saída escalar $\hat{y}$. A rede computa
+
+$$
+z_i = w^{(1)}_i x + b^{(1)}_i, \qquad a_i = \sigma(z_i), \qquad i = 1, \dots, H
+$$
+
+$$
+\hat{y}(x) = \sum_{i=1}^{H} w^{(2)}_i \, a_i + b^{(2)}
+$$
+
+em que $\sigma(\cdot)$ é uma função de ativação não linear (aqui, $\tanh$). O vetor de parâmetros é $\theta = \{w^{(1)}, b^{(1)}, w^{(2)}, b^{(2)}\}$.
+
+### Teorema da Aproximação Universal (informal)
+
+> Seja $f$ uma função contínua em um conjunto compacto $K \subset \mathbb{R}^n$. Para todo $\varepsilon > 0$, existe um número finito de neurônios $H$ e parâmetros $\theta$ tais que
+> $$
+> \sup_{x \in K} \big| f(x) - \hat{y}_\theta(x) \big| < \varepsilon.
+> $$
+
+O teorema garante **existência**, não construção: não diz como encontrar $\theta$, nem quantos neurônios são necessários na prática. É aqui que entra o treinamento por descida de gradiente.
+
+### Função de custo e retropropagação
+
+Dado um conjunto de $N$ pares $(x_n, y_n)$, define-se o erro quadrático médio
+
+$$
+\mathcal{L}(\theta) = \frac{1}{N} \sum_{n=1}^{N} \big(\hat{y}(x_n) - y_n\big)^2 .
+$$
+
+Pela regra da cadeia, os gradientes em relação a cada parâmetro são
+
+$$
+\frac{\partial \mathcal{L}}{\partial w^{(2)}_i} = \frac{2}{N}\sum_{n=1}^N \delta_n \, a_{i,n},
+\qquad
+\frac{\partial \mathcal{L}}{\partial b^{(2)}} = \frac{2}{N}\sum_{n=1}^N \delta_n
+$$
+
+$$
+\frac{\partial \mathcal{L}}{\partial w^{(1)}_i} = \frac{2}{N}\sum_{n=1}^N \delta_n \, w^{(2)}_i \, \sigma'(z_{i,n}) \, x_n,
+\qquad
+\frac{\partial \mathcal{L}}{\partial b^{(1)}_i} = \frac{2}{N}\sum_{n=1}^N \delta_n \, w^{(2)}_i \, \sigma'(z_{i,n})
+$$
+
+em que $\delta_n = \hat{y}(x_n) - y_n$ é o erro de saída e $\sigma'(z) = 1 - \tanh^2(z)$. A atualização por descida de gradiente com passo $\eta$ é $\theta \leftarrow \theta - \eta \, \partial \mathcal{L}/\partial \theta$.
+
+## Implementação computacional
+
+A seguir, uma rede rasa é implementada apenas com NumPy — cada equação acima corresponde a uma linha de código — e treinada para aproximar a função não linear
+
+$$
+f(x) = \sin(2x) + 0{,}3\,x, \qquad x \in [-3, 3].
+$$
+
+```{python}
+#| label: setup
+import numpy as np
+import matplotlib.pyplot as plt
+
+rng = np.random.default_rng(42)
+
+def f(x):
+    return np.sin(2 * x) + 0.3 * x
+
+# Dados de treinamento
+N = 200
+x_train = np.linspace(-3, 3, N)
+y_train = f(x_train) + rng.normal(scale=0.05, size=N)  # ruído leve de medição
+```
+
+```{python}
+#| label: rede-neural
+class RedeRasa:
+    """Rede com uma camada oculta (tanh) e saída linear, treinada por GD."""
+
+    def __init__(self, n_hidden: int, lr: float = 0.05, seed: int = 0):
+        g = np.random.default_rng(seed)
+        self.w1 = g.normal(scale=1.0, size=n_hidden)
+        self.b1 = g.normal(scale=1.0, size=n_hidden)
+        self.w2 = g.normal(scale=1.0, size=n_hidden)
+        self.b2 = 0.0
+        self.lr = lr
+
+    def forward(self, x):
+        z = np.outer(x, self.w1) + self.b1        # (N, H)
+        a = np.tanh(z)                             # ativação
+        y_hat = a @ self.w2 + self.b2               # (N,)
+        return y_hat, a, z
+
+    def train_step(self, x, y):
+        N = x.shape[0]
+        y_hat, a, z = self.forward(x)
+        delta = y_hat - y                          # (N,)
+
+        grad_w2 = (2 / N) * (a.T @ delta)
+        grad_b2 = (2 / N) * delta.sum()
+
+        dsig = 1 - np.tanh(z) ** 2                  # sigma'(z), (N, H)
+        common = delta[:, None] * self.w2[None, :] * dsig   # (N, H)
+        grad_w1 = (2 / N) * (common * x[:, None]).sum(axis=0)
+        grad_b1 = (2 / N) * common.sum(axis=0)
+
+        self.w2 -= self.lr * grad_w2
+        self.b2 -= self.lr * grad_b2
+        self.w1 -= self.lr * grad_w1
+        self.b1 -= self.lr * grad_b1
+
+        return np.mean(delta ** 2)
+
+rede = RedeRasa(n_hidden=20, lr=0.1, seed=1)
+
+n_epochs = 4000
+historico_perda = np.zeros(n_epochs)
+for epoch in range(n_epochs):
+    historico_perda[epoch] = rede.train_step(x_train, y_train)
+```
+
+```{python}
+#| label: fig-treinamento
+#| fig-cap: "Curva de aprendizado (erro quadrático médio) ao longo do treinamento."
+plt.figure(figsize=(6, 3.5))
+plt.plot(historico_perda)
+plt.xlabel("Época")
+plt.ylabel("EQM")
+plt.yscale("log")
+plt.title("Convergência da descida de gradiente")
+plt.tight_layout()
+plt.show()
+```
+
+```{python}
+#| label: fig-aproximacao
+#| fig-cap: "Função alvo versus aproximação pela rede neural rasa (H = 20 neurônios)."
+x_test = np.linspace(-3, 3, 400)
+y_hat, _, _ = rede.forward(x_test)
+
+plt.figure(figsize=(6, 3.5))
+plt.plot(x_test, f(x_test), label="$f(x) = \\sin(2x) + 0.3x$", linewidth=2)
+plt.plot(x_test, y_hat, "--", label="Aproximação da rede", linewidth=2)
+plt.scatter(x_train, y_train, s=8, color="gray", alpha=0.4, label="Dados de treino")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.legend()
+plt.tight_layout()
+plt.show()
+```
+
+## Discussão
+
+- **Número de neurônios ($H$):** poucos neurônios geram *underfitting* (a rede não tem "graus de liberdade" suficientes); muitos, com dados limitados, favorecem *overfitting* ao ruído.
+- **Taxa de aprendizado ($\eta$):** valores altos aceleram a convergência mas podem divergir; valores baixos são estáveis, porém lentos. Na prática usam-se variantes adaptativas (Adam, RMSProp).
+- **Ativação:** $\tanh$ e sigmoide saturam para $|z|$ grande, dificultando o treinamento de redes profundas (gradientes que se anulam). Redes modernas usam ReLU e variantes por evitar esse problema, embora o teorema de aproximação universal continue válido.
+- **De uma camada para "profundo":** o teorema garante que uma única camada oculta já é suficiente em teoria; na prática, redes profundas (múltiplas camadas) aproximam funções complexas com muito menos neurônios totais, por compor transformações hierarquicamente.
+
+## Referências
+
+- Cybenko, G. (1989). *Approximation by superpositions of a sigmoidal function*. Mathematics of Control, Signals and Systems.
+- Hornik, K. (1991). *Approximation capabilities of multilayer feedforward networks*. Neural Networks.
+- Goodfellow, I., Bengio, Y., Courville, A. (2016). *Deep Learning*. MIT Press.

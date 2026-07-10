@@ -1,5 +1,8 @@
 # requirements.txt
 pandas
 numpy
+scipy
+matplotlib
 jupyterlab
 jupyter_client
+ipykernel
