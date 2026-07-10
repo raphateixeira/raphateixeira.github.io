@@ -16,10 +16,37 @@
       "Bash(grep -oE '\\\\{\"id\":[0-9]+,\"name\":\"[^\"]*\"' /tmp/sheet_full.html)",
       "WebFetch(domain:docs.google.com)",
       "Bash(cd /Users/raphateixeira/GitRTx/raphateixeira.github.io/Ensino *)",
-      "Read(//Users/raphateixeira/GitRTx/_site/Ensino/**)"
+      "Read(//Users/raphateixeira/GitRTx/_site/Ensino/**)",
+      "Read(//Users/raphateixeira/GitRTx/TEControle/**)",
+      "Read(//Users/raphateixeira/GitRTx/**)",
+      "Read(//Users/raphateixeira/GitRTx/ImagensTikz/**)",
+      "Read(//Users/raphateixeira/GitRTx/TikZ/**)",
+      "Read(//Users/raphateixeira/GitRTx/TikZ/banco/**)",
+      "Read(//Users/raphateixeira/GitRTx/TikZ/scripts/**)",
+      "Read(//Users/raphateixeira/GitRTx/ControleEstados/**)",
+      "Read(//Users/raphateixeira/GitRTx/ControleDigital/Notas/**)",
+      "Read(//Users/raphateixeira/GitRTx/ControleClassico/**)",
+      "Read(//Users/raphateixeira/GitRTx/ControleClassico/scripts/**)",
+      "Read(//Users/raphateixeira/GitRTx/ControleClassico/Notas/**)",
+      "Read(//Users/raphateixeira/GitRTx/ControleDigital/**)",
+      "Bash(mkdir -p /Users/raphateixeira/GitRTx/TEControle/NotasRapidas/imgs/plots)",
+      "Bash(mkdir -p /Users/raphateixeira/GitRTx/TEControle/NotasRapidas/scripts)",
+      "Bash(cat -A /Users/raphateixeira/GitRTx/TEControle/_quarto.yml 2>&1 | head -5 *)",
+      "Bash(cat /Users/raphateixeira/GitRTx/ControleClassico/scripts/gerar_figuras.py | wc -l *)",
+      "Bash(python3 -c \"import control\")",
+      "Bash(cd /Users/raphateixeira/GitRTx/TEControle/NotasRapidas *)",
+      "Read(//Users/raphateixeira/GitRTx/TEControle/NotasRapidas/**)",
+      "Read(//Users/raphateixeira/GitRTx/TEControle/NotasRapidas/imgs/plots/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://ocw.mit.edu/courses/2-14-analysis-and-design-of-feedback-control-systems-spring-2014/\")",
+      "Bash(cd /Users/raphateixeira/GitRTx/TEControle *)",
+      "Bash(ls _site/NotasRapidas/imgs/plots/)",
+      "Bash(cat /Users/raphateixeira/GitRTx/ControleClassico/Notas/Aula08RespostaFrequencia.qmd)"
     ],
     "additionalDirectories": [
-      "/private/tmp/pdf-recovery"
+      "/private/tmp/pdf-recovery",
+      "/Users/raphateixeira/GitRTx/TEControle",
+      "/Users/raphateixeira/GitRTx/TEControle/NotasRapidas/scripts",
+      "/Users/raphateixeira/GitRTx/TEControle/NotasRapidas"
     ]
   }
 }
