@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git reflog *)",
+      "Bash(git gc *)",
+      "Bash(curl -sIL \"https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/PortariaCAEG2026.pdf\")",
+      "Bash(curl -sIL \"https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/Resolucao.2-2026.FEE.-.Plano.de.Ensino.pdf\")",
+      "Bash(git fetch *)",
+      "Bash(git clone *)",
+      "Bash(git -C /tmp/verify-clone log --oneline)",
+      "Bash(git -C /tmp/verify-clone branch -a)",
+      "Bash(git mv *)",
+      "Bash(curl -sL \"https://docs.google.com/spreadsheets/d/1LqINcllVoeH0PUd6EK-DNR3v5XXYFc5P/export?format=csv&gid=1315552712\" -o /tmp/calendario_raw.csv)",
+      "Bash(grep -oE '\\\\{\"id\":[0-9]+,\"name\":\"[^\"]*\"' /tmp/sheet_full.html)",
+      "WebFetch(domain:docs.google.com)",
+      "Bash(cd /Users/raphateixeira/GitRTx/raphateixeira.github.io/Ensino *)",
+      "Read(//Users/raphateixeira/GitRTx/_site/Ensino/**)"
+    ],
+    "additionalDirectories": [
+      "/private/tmp/pdf-recovery"
+    ]
+  }
+}
