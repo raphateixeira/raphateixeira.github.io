@@ -29,6 +29,10 @@ website:
       - text: "Editais"
         href: Editais/index.qmd
     right:
+      - text: "<i class='bi bi-mortarboard-fill'></i> SIGAA"
+        href: "https://sigaa.ufpa.br/sigaa/"
+      - text: "<i class='bi bi-book-half'></i> Minha Biblioteca"
+        href: "https://app.minhabiblioteca.com.br/"
       - icon: github
         href: https://github.com/raphateixeira
       - icon: envelope
@@ -52,6 +56,36 @@ website:
             href: "https://orcid.org/0000-0003-2993-802X"
           - text: "<i class='bi bi-building'></i> PPCA - UFPA"
             href: "https://www.ppca.propesp.ufpa.br/index.php/br/"
+
+      - title: "Institucional"
+        section: Institucional
+        level: 1
+        contents:
+          - text: "<i class='bi bi-bank'></i> UFPA"
+            href: "https://portal.ufpa.br/"
+          - text: "<i class='bi bi-building'></i> CAMTUC"
+            href: "https://www.camtuc.ufpa.br/"
+          - text: "<i class='bi bi-mortarboard'></i> PROEG"
+            href: "https://proeg.ufpa.br/"
+          - text: "<i class='bi bi-flask'></i> PROPESP"
+            href: "https://www.propesp.ufpa.br/"
+
+      - title: "Bases de Pesquisa"
+        section: Bases de Pesquisa
+        level: 1
+        contents:
+          - text: "<i class='bi bi-search'></i> Google Acadêmico"
+            href: "https://scholar.google.com/"
+          - text: "<i class='bi bi-lightning-charge'></i> IEEE Xplore"
+            href: "https://ieeexplore.ieee.org/"
+          - text: "<i class='bi bi-journal-richtext'></i> SpringerLink"
+            href: "https://link.springer.com/"
+          - text: "<i class='bi bi-journal-bookmark'></i> ScienceDirect (Elsevier)"
+            href: "https://www.sciencedirect.com/"
+          - text: "<i class='bi bi-flower1'></i> Nature"
+            href: "https://www.nature.com/"
+          - text: "<i class='bi bi-file-earmark-text'></i> arXiv"
+            href: "https://arxiv.org/"
 
       - title: "Coleções"
         section: Coleções

@@ -2,15 +2,120 @@
 title: "Ensino"
 ---
 
-Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado em Computação.
+Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado em Computação. Cada cartão abre o site da disciplina, com slides, listas e material de apoio.
 
-- 1 - [Circuitos Elétricos II](https://raphateixeira.github.io/CircuitosCA/);
-- 2 - [Sistemas de Controle I](https://raphateixeira.github.io/ControleClassico/);
-- 3 - [Álgebra Linear](https://raphateixeira.github.io/AlgebraLinear/);
-- 4 - [Aprendizagem de Máquina](https://raphateixeira.github.io/AprendizagemMaquina/)
-- 5 - Sistemas de Controle II: [Espaço de Estados](https://raphateixeira.github.io/ControleEstados/)
-- 6 - Sistemas de Controle II: [Controle Digital](https://raphateixeira.github.io/ControleDigital/);
-- 7 - [Cálculo Numérico](https://raphateixeira.github.io/MetodosNumericos/);
-- 8 - [Identificação de Sistemas](https://raphateixeira.github.io/Identificacao/);
-- 9 - [Controle Preditivo (MPC/DMC)](https://raphateixeira.github.io/MPC-DMC/);
-- 10 - [Tópicos Especiais em Controle](https://raphateixeira.github.io/TEControle/);
+```{=html}
+<style>
+  .disciplinas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+    margin: 1.6rem 0;
+  }
+
+  .disciplina-card {
+    display: block;
+    position: relative;
+    padding: 1.3rem 1.3rem 1.1rem 1.3rem;
+    border: 1px solid #E2E5EA;
+    border-top: 3px solid #002C6F;
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: #231F20 !important;
+    background: #FFFFFF;
+    transition: box-shadow .15s ease, border-color .15s ease, transform .15s ease;
+  }
+
+  .disciplina-card .disciplina-num {
+    font-size: .75rem;
+    font-weight: 700;
+    color: #E4002B;
+    letter-spacing: .04em;
+  }
+
+  .disciplina-card h3 {
+    font-size: 1rem;
+    margin: .3rem 0 .5rem 0;
+    color: #002C6F !important;
+  }
+
+  .disciplina-card p {
+    margin: 0;
+    font-size: .88rem;
+    color: #5A6472;
+    line-height: 1.45;
+  }
+
+  .disciplina-card:hover {
+    border-color: #002C6F;
+    box-shadow: 0 4px 14px rgba(0,44,111,.14);
+    transform: translateY(-2px);
+  }
+</style>
+```
+
+```{=html}
+<div class="disciplinas-grid">
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/CircuitosCA/" target="_blank">
+  <div class="disciplina-num">01</div>
+  <h3>Circuitos Elétricos II</h3>
+  <p>Circuitos em corrente alternada: fasores, potência e regime permanente senoidal.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/ControleClassico/" target="_blank">
+  <div class="disciplina-num">02</div>
+  <h3>Sistemas de Controle I</h3>
+  <p>Controle clássico em tempo contínuo via função de transferência: lugar das raízes e resposta em frequência.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/AlgebraLinear/" target="_blank">
+  <div class="disciplina-num">03</div>
+  <h3>Álgebra Linear</h3>
+  <p>Espaços vetoriais, transformações lineares, autovalores e decomposições matriciais.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/AprendizagemMaquina/" target="_blank">
+  <div class="disciplina-num">04</div>
+  <h3>Aprendizagem de Máquina</h3>
+  <p>Fundamentos de aprendizado supervisionado, não supervisionado e redes neurais.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/ControleEstados/" target="_blank">
+  <div class="disciplina-num">05</div>
+  <h3>Sistemas de Controle II: Espaço de Estados</h3>
+  <p>Representação em espaço de estados, alocação de polos e observadores de Luenberger.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/ControleDigital/" target="_blank">
+  <div class="disciplina-num">06</div>
+  <h3>Sistemas de Controle II: Controle Digital</h3>
+  <p>Discretização, estabilidade e projeto de controladores digitais.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/MetodosNumericos/" target="_blank">
+  <div class="disciplina-num">07</div>
+  <h3>Cálculo Numérico</h3>
+  <p>Fundamentos matemáticos e algoritmos de métodos numéricos.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/Identificacao/" target="_blank">
+  <div class="disciplina-num">08</div>
+  <h3>Identificação de Sistemas</h3>
+  <p>Modelagem orientada a dados a partir de sinais PRBS e estimação paramétrica.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/MPC-DMC/" target="_blank">
+  <div class="disciplina-num">09</div>
+  <h3>Controle Preditivo (MPC/DMC)</h3>
+  <p>Controle preditivo baseado em modelo: Controle por Matriz Dinâmica (DMC) e MPC para sistemas lineares.</p>
+</a>
+
+<a class="disciplina-card" href="https://raphateixeira.github.io/TEControle/" target="_blank">
+  <div class="disciplina-num">10</div>
+  <h3>Tópicos Especiais em Controle</h3>
+  <p>MPC, DeePC, MRAC e abordagens baseadas em Koopman e aprendizado por reforço.</p>
+</a>
+
+</div>
+```

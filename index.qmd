@@ -156,29 +156,6 @@ Página pessoal para compartilhamento de informações de ensino e pesquisa em e
     margin: 0;
   }
 
-  /* Links rápidos */
-  .quicklinks {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.7rem;
-    margin: 1.6rem 0 1rem 0;
-  }
-
-  .quicklinks a {
-    font-size: 0.88rem;
-    font-weight: 600;
-    color: var(--blue-ufpa);
-    border: 1px solid var(--blue-ufpa);
-    padding: 0.45rem 0.9rem;
-    border-radius: 4px;
-    text-decoration: none;
-  }
-
-  .quicklinks a:hover {
-    background: var(--blue-ufpa);
-    color: #FFFFFF;
-  }
-
   .section-label {
     font-size: 0.72rem;
     text-transform: uppercase;
@@ -206,13 +183,6 @@ Página pessoal para compartilhamento de informações de ensino e pesquisa em e
 ```
 
 Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
-
-```{=html}
-<div class="section-label">Links Rápidos</div>
-<div class="quicklinks">
-  <a href="https://raphateixeira.github.io/TikZ/" target="_blank">Coleção TikZ</a>
-</div>
-```
 
 ```{=html}
 <div class="section-label">Linhas de atuação</div>

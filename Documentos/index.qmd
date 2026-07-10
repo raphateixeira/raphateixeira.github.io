@@ -2,19 +2,43 @@
 title: "Documentos"
 ---
 
-Documentos e normas da UFPA, CAMTUC e FEE:
+Documentos e normas da UFPA, CAMTUC e FEE, organizados por categoria.
+
+```{=html}
+<style>
+  #quarto-content h4 {
+    border-left: 3px solid #B29600;
+    padding-left: .6rem;
+  }
+</style>
+```
+
+::: {.callout-note collapse="false"}
+As páginas de portarias do site do CAMTUC (`camtuc.ufpa.br/index.php/portarias-camtuc*`) estão retornando erro interno do servidor no momento da última verificação, então não foi possível levantar novas portarias além da já listada abaixo.
+:::
 
 #### Portarias
 
 - [Portaria CAEG 2026](PortariaCAEG2026.pdf) - Membro da Comissão de Avaliação de Ensino de Graduação (CAEG) do CAMTUC - UFPA.
 
-#### Resoluções FEE:
+#### Regulamentos FEE
 
-- [Resolução 02/2026](/Documentos/Resolucoes/Resolução 2-2026 FEE - Plano de Ensino.pdf) 
+- [Regulamento de Planos de Ensino - FEE (2026)](https://drive.google.com/file/d/1JtjL9buTB5QWKTA2logcqEF6UDcoIAck/view)
+- [Regulamento de Tutorias - FEE (2026)](https://drive.google.com/file/d/1rcRKAjL_u_vRtaE5JZN90CXep-KtfSkb/view)
+- [Regulamento de ACE (2023)](https://drive.google.com/file/d/1yjHlPuHSzK-DmC_QrpLYGz3Es0h1KcP9/view) - Atividades Complementares de Extensão.
+- [Regulamento de TCC (2019)](https://drive.google.com/file/d/1NiwsNRhXTA8E_eDzDtHYOtcJvrCJiifp/view)
+- [Regulamento de Estágio (2012)](https://drive.google.com/file/d/1J9cTELHAayil3ouNOQ1nTghpuFqJnwWG/view)
 
-#### Resoluções UFPA:
+#### Resoluções FEE
 
-- [Resolução 4918/2027](https://www.propesp.ufpa.br/arquivos/documentos/NOVA_RESOLUCAO_PROJETOS_N4918_25Abril2017.pdf) - Regulamenta os Projetos de Pesquisa na UFPA.
+- [Resolução 02/2026](/Documentos/Resolucoes/Resolução 2-2026 FEE - Plano de Ensino.pdf)
 
-#### Projeto Pedagógico de Curso (PPC):
-- [Engenharia Elétrica](https://fee.camtuc.ufpa.br/images/Regimentos/ProjetoPedag%C3%B3gicoFEE2012_final_2012.pdf) - Projeto Pedagógico do Curso de Engenharia Elétrica da CAMTUC.
+#### Resoluções UFPA
+
+- [Regulamento de Graduação da UFPA (2023)](https://drive.google.com/file/d/1rSjQFxTCcO5_CG_ogoX1aOJvF_SR2qrB/view)
+- [Resolução de Outorga de Grau - UFPA (2024)](https://drive.google.com/file/d/1ly5-XTaQ5s81s4QZXBYG1cp__soSKS1v/view)
+- [Resolução 4918/2017](https://www.propesp.ufpa.br/arquivos/documentos/NOVA_RESOLUCAO_PROJETOS_N4918_25Abril2017.pdf) - Regulamenta os Projetos de Pesquisa na UFPA.
+
+#### Projeto Pedagógico de Curso (PPC)
+
+- [Engenharia Elétrica (2012)](https://fee.camtuc.ufpa.br/images/Regimentos/ProjetoPedag%C3%B3gicoFEE2012_final_2012.pdf) - Projeto Pedagógico do Curso de Engenharia Elétrica da CAMTUC.

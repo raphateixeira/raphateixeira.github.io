@@ -2,13 +2,85 @@
 title: "Artigos e Trabalhos Publicados"
 ---
 
-### Trabalhos de Conclusão de Curso
+```{=html}
+<style>
+  .destaque-panel {
+    border: 1px solid #E2E5EA;
+    border-left: 3px solid #E4002B;
+    border-radius: 4px;
+    padding: 1.1rem 1.4rem;
+    margin: 0 0 1rem 0;
+  }
+  .destaque-panel .destaque-tipo {
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: #E4002B;
+    font-weight: 700;
+    margin-bottom: .3rem;
+  }
+  .destaque-panel h3 {
+    margin: 0 0 .3rem 0;
+    font-size: 1.02rem;
+  }
+  .destaque-panel p {
+    margin: 0;
+    color: #5A6472;
+    font-size: .92rem;
+  }
+</style>
+```
 
-- Ayla Lis, 2022: [Previsão de vazão afluente da UHE-Tucuruí por redes neurais recorrentes LSTM](https://bdm.ufpa.br/items/bb3e5ca8-fd2d-46e1-a3da-a24d976f27ee)
+### Destaques
 
-- Raissa Teixeira, 2025: [Identificação e Controle - Filtro Sallen Key](https://github.com/raphateixeira/TCC-Raissa)
+```{=html}
+<div class="destaque-panel">
+  <div class="destaque-tipo">Tese de Doutorado · 2019</div>
+  <h3><a href="https://repositorio.ufpa.br/items/d65b012c-edf1-4610-a45b-5eee914d93b9" target="_blank">Análise de sistemas não-lineares e síntese de operadores inversos por séries de Volterra diagonais</a></h3>
+  <p>Programa de Pós-Graduação em Engenharia Elétrica (PPGEE/UFPA). Orientador: Carlos Tavares da Costa Júnior; Coorientador: Rafael Suzuki Bayma.</p>
+</div>
 
-- Oseias Farias, 2023: [Aeropêndulo](https://github.com/raphateixeira/TCC-Oseias)
+<div class="destaque-panel">
+  <div class="destaque-tipo">Dissertação de Mestrado · 2010</div>
+  <h3><a href="https://repositorio.ufpa.br/items/c226ac57-7970-4395-b516-1e680222e6ba" target="_blank">Acionamento vetorial por controlador fuzzy modo deslizante de motor de indução</a></h3>
+  <p>Programa de Pós-Graduação em Engenharia Elétrica (PPGEE/UFPA). Orientador: José Augusto Lima Barreiros; Coorientador: Walter Barra Júnior.</p>
+</div>
+```
 
+### Artigos Publicados (2010 – presente)
 
-### Dissertações de Mestrado
+Levantamento via [Crossref](https://search.crossref.org/) sob o nome "Raphael Barros Teixeira" — o Currículo Lattes está protegido por reCAPTCHA e não pôde ser varrido automaticamente, então esta lista pode não ser exaustiva.
+
+- Sousa, R. S., **Teixeira, R. B.** (2026). [Diagnóstico automatizado da malária em imagens de esfregaços sanguíneos por meio de aprendizagem profunda](https://doi.org/10.54899/dcs.v23i88.4926). *Revista DCS*.
+- Costa Junior, C. S., Sousa, J. da S., **Teixeira, R. B.** (2025). [Desenvolvimento e validação de bancada pocket-size para ensino e experimentação em sistemas de controle](https://doi.org/10.37702/2175-957x.cobenge.2025.6189). *Anais do LIII Congresso Brasileiro de Educação em Engenharia (COBENGE)*.
+- Lopes, D. J. de S., Bayma, R. S., **Teixeira, R. B.** (2018). [Caracterização paramétrica de sistema não linear no domínio da frequência por série de Volterra diagonal](https://doi.org/10.20906/cps/cba2018-1311). *Anais do XXII Congresso Brasileiro de Automática (CBA)*.
+
+### Dissertações de Mestrado Orientadas
+
+Levantadas no [repositório institucional da UFPA](https://repositorio.ufpa.br/) (Programa de Pós-Graduação em Computação Aplicada, salvo indicação contrária):
+
+- Wanderley Pereira dos Santos, 2026: [Modelagem da dinâmica hidrológica para previsão do nível de jusante da UHE Tucuruí por redes neurais artificiais](https://repositorio.ufpa.br/items/9e24becc-5512-4e8c-8e5a-f0ed069fd456) (coorientação com Cleison Daniel Silva)
+- Otacílio Rodrigues de Oliveira Filho, 2024: [Diagnóstico inteligente de faltas em transformadores baseado na análise de gás dissolvido em óleo](https://repositorio.ufpa.br/items/eeecc00f-702c-453c-968a-867779a14a70)
+- Vander Augusto Oliveira da Silva, 2023: [Clusterização de padrões espaço-temporais de precipitação na Amazônia via deep convolutional autoencoder](https://repositorio.ufpa.br/items/17f6aaf3-d98b-4ac9-b167-ef6417cc892e)
+
+Em andamento (ainda sem registro no repositório institucional):
+
+- Gabriel — mestrado iniciado em 2026, com defesa prevista para novembro de 2026 (detecção de palmeiras em imagens de drone via YOLOv5).
+
+### Trabalhos de Conclusão de Curso Orientados
+
+Levantados na [Biblioteca Digital de Monografias da UFPA (BDM)](https://bdm.ufpa.br/):
+
+- Raissa Stephany Teixeira Paiva, 2025: [Filtro Sallen-Key como pocket-lab para ensino de identificação e controle de sistemas dinâmicos](https://bdm.ufpa.br/items/f010c31b-a220-4e7a-8d31-bee892d965aa) ([repositório](https://github.com/raphateixeira/TCC-Raissa))
+- Karine Brito da Silva, 2024: [Monitoramento de armazenagem de grãos em silos utilizando o sensor Micropilot FMR67 e o ambiente de automação TIA Portal](https://bdm.ufpa.br/items/ce1a5711-546e-402e-a557-cec6111a9ff2)
+- Dário Fernando da Silva Panagio, 2024: [Projeto e implementação do sistema de potência elétrica do satélite ST-OBSAT-01](https://bdm.ufpa.br/items/5be15dfa-e0f6-4205-b620-d56bb9f46988)
+- Alexandre Montibeller de Oliveira, 2023: [Controle de robô pêndulo invertido sobre duas rodas por abordagem analítica e experimental](https://bdm.ufpa.br/items/02b3eae4-76e8-405c-9d9b-daf4247af393)
+- Telson Galdino Pinheiro Teixeira, 2023: [Modelagem e controle de robô pêndulo invertido sobre rodas](https://bdm.ufpa.br/items/f5cfc675-b524-4f58-a962-ac989c8c5827)
+- Diego Antonio Silva de Jesus, 2023: [Otimização evolutiva de controladores PID para bancadas motor-gerador utilizando algoritmos genéticos e PyGad](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da) ([repositório](https://github.com/raphateixeira/TCC-Diego))
+- Oséias Dias de Farias, 2023: [Desenvolvimento de protótipo e gêmeo digital como ferramenta para um laboratório virtual com foco em modelagem e controle de sistemas dinâmicos (Aeropêndulo)](https://bdm.ufpa.br/items/ac964542-d071-43c4-b8f8-036cba6fdd82) ([repositório](https://github.com/raphateixeira/TCC-Oseias))
+- Elenildo Cássio Santos dos Santos, 2023: [Modelagem e controle de sistema fotovoltaico para rastreamento do ponto de máxima potência](https://bdm.ufpa.br/items/122bb641-ddbc-4eb9-aab7-3198331e8bb3)
+- Kevin Martins Medeiros, 2023: [Modelos de previsão de vazão afluente da UHE-Tucuruí: uma abordagem com redes neurais LSTM e CNN](https://bdm.ufpa.br/items/ad03475d-4ba4-489a-bc99-244195cdf28d)
+- Klarissa Carvalho de Souza, 2023: [Identificação não-linear no espaço de estados por regressão esparsa de bancada motor-gerador](https://bdm.ufpa.br/items/c143afc1-8c9e-415f-a0f7-a01138b90ba5)
+- Lyandra Araújo da Silva, 2023: [Energia solar fotovoltaica: estudo de caso, viabilidade técnica e financeira para atendimento de prédio comercial em Tucuruí - PA](https://bdm.ufpa.br/items/92521948-15e2-4f69-8bf2-53c93f282cfc)
+- Ayla Lis Lopes Santos, 2022: [Previsão de vazão afluente da UHE-Tucuruí por redes neurais recorrentes LSTM](https://bdm.ufpa.br/items/bb3e5ca8-fd2d-46e1-a3da-a24d976f27ee)
+- Paulo Ítalo Moreira da Silva, Nielson Miranda Faria, 2014: [Estratégia de controle PI com adaptação fuzzy no acionamento elétrico por orientação de campo do motor de indução](https://bdm.ufpa.br/items/c0ac52c3-12cc-441c-8976-c682e95887ab)

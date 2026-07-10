@@ -2,6 +2,15 @@
 title: "Pesquisa"
 ---
 
+```{=html}
+<style>
+  #quarto-content h3 {
+    border-left: 3px solid #002C6F;
+    padding-left: .6rem;
+  }
+</style>
+```
+
 ### Temas de Pesquisa
 - Conversores DC-DC tipo Buck e Boost;
 - Controle preditivo - conversor de energia trifásico;
@@ -15,5 +24,40 @@ title: "Pesquisa"
 - Modelos de difusão;
 
 ### Projetos no GitHub
+
+Levantamento de todos os repositórios públicos, categorizados por linha de pesquisa.
+
+#### Eletrônica de Potência e Conversores
+- [ControleBuck](https://github.com/raphateixeira/ControleBuck) - Modelagem e controle do conversor Buck.
+- [IC-DataDrive](https://github.com/raphateixeira/IC-DataDrive) - Identificação e controle (PID, MPC) de conversores CC-CC, CC-CA e CA-CA a partir de dados experimentais.
+
+#### Controle Preditivo Trifásico e Máquinas Elétricas
+- [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
+- [ControleVSC](https://github.com/raphateixeira/ControleVSC) - Controle de inversor de frequência (conversor de tensão trifásico).
+
+#### Controle e Modelagem Orientada a Dados
 - [Koopman](https://github.com/raphateixeira/Koopman) - Modelagem e controle de sistemas não lineares via operador de Koopman.
+
+#### Simulação
 - [Manin](https://github.com/raphateixeira/Manin) - Simulações de sistemas dinâmicos (massa-mola-amortecedor, conversor Buck) e animações.
+
+#### Aprendizado de Máquina Aplicado
+- [ModelosAtencionais](https://github.com/raphateixeira/ModelosAtencionais) - Estudo de modelos atencionais (Transformers).
+- [PerdaOsseaVC](https://github.com/raphateixeira/PerdaOsseaVC) - Visão computacional aplicada a diagnóstico por imagem (perda óssea).
+
+#### Fundamentos e Otimização
+- [DynamicProgramming](https://github.com/raphateixeira/DynamicProgramming) - Notas de programação dinâmica.
+
+### Temas ainda sem projeto público consolidado
+
+Ao cruzar os temas de pesquisa acima com os repositórios e publicações existentes, ficaram identificadas lacunas — temas com repositório reservado no GitHub mas ainda sem conteúdo, com publicação mas sem código público, ou sem nada disso ainda:
+
+- **Visão computacional - diagnóstico de malária:** já resultou em [artigo publicado](../Publicacoes/index.qmd) (Revista DCS, 2026), mas ainda sem repositório de código público.
+- **Análise DGA de transformadores:** já resultou em [dissertação de mestrado orientada](../Publicacoes/index.qmd) (Otacílio Oliveira Filho, 2024), mas ainda sem repositório de código público.
+- **Controle preditivo - conversor de energia trifásico (caso VSI):** repositório [`ControleVSI`](https://github.com/raphateixeira/ControleVSI) criado, porém vazio.
+- **Modelagem orientada a dados (linha geral):** repositório [`DataDrivenControl`](https://github.com/raphateixeira/DataDrivenControl) criado, porém vazio.
+- **Modelos de difusão:** repositório [`DiffusionModels`](https://github.com/raphateixeira/DiffusionModels) criado, porém vazio.
+- **Controle preditivo - sistema térmico:** sem repositório público e sem publicação encontrada.
+- **Regressão simbólica:** sem repositório público e sem publicação encontrada.
+- **Extremum Seeking Control (ESC):** sem repositório público e sem publicação encontrada.
+- **Kolmogorov Arnold Network (KAN):** sem repositório público e sem publicação encontrada.
