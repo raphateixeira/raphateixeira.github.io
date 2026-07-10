@@ -208,6 +208,13 @@ Página pessoal para compartilhamento de informações de ensino e pesquisa em e
 Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
 
 ```{=html}
+<div class="section-label">Links Rápidos</div>
+<div class="quicklinks">
+  <a href="https://github.com/raphateixeira/TikZ" target="_blank">Coleção TikZ</a>
+</div>
+```
+
+```{=html}
 <div class="section-label">Linhas de atuação</div>
 <div class="area-list">
 

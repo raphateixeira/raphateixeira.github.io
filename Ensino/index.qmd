@@ -9,5 +9,8 @@ Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado
 - 3 - [Álgebra Linear](https://raphateixeira.github.io/AlgebraLinear/);
 - 4 - [Aprendizagem de Máquina](https://raphateixeira.github.io/AprendizagemMaquina/)
 - 5 - Sistemas de Controle II: [Espaço de Estados](https://raphateixeira.github.io/ControleEstados/)
-- 6 - Sistemas de Controle II: Controle Digital;
-- 7 - Cálculo Numérico;
+- 6 - Sistemas de Controle II: [Controle Digital](https://raphateixeira.github.io/ControleDigital/);
+- 7 - [Cálculo Numérico](https://raphateixeira.github.io/MetodosNumericos/);
+- 8 - [Identificação de Sistemas](https://raphateixeira.github.io/Identificacao/);
+- 9 - [Controle Preditivo (MPC/DMC)](https://raphateixeira.github.io/MPC-DMC/);
+- 10 - [Tópicos Especiais em Controle](https://raphateixeira.github.io/TEControle/);

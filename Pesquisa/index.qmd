@@ -13,3 +13,7 @@ title: "Pesquisa"
 - Extremum Seeking Control (ESC);
 - Kolmogorov Arnold Network (KAN);
 - Modelos de difusão;
+
+### Projetos no GitHub
+- [Koopman](https://github.com/raphateixeira/Koopman) - Modelagem e controle de sistemas não lineares via operador de Koopman.
+- [Manin](https://github.com/raphateixeira/Manin) - Simulações de sistemas dinâmicos (massa-mola-amortecedor, conversor Buck) e animações.
