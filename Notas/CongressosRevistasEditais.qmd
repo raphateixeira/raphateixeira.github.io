@@ -1,6 +1,8 @@
 ---
 title: "Congressos, Revistas e Editais"
 date: "02/12/2025"
+categories: ["Referência"]
+description: "Lista de referência de congressos, revistas e editais de fomento relevantes para controle, automação e inteligência artificial."
 ---
 
 ### Congressos

@@ -1,7 +1,8 @@
 ---
-title: "Temas de interesse"
+title: "Temas de Interesse"
 date: "12/02/2025"
-categories: [Pesquisa]
+categories: ["Referência", "Pesquisa"]
+description: "Lista corrente de tópicos de interesse em controle, aprendizado por reforço e sistemas dinâmicos, acompanhados de referências pontuais."
 ---
 
 

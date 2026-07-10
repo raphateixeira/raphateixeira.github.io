@@ -1,7 +1,8 @@
 ---
-title: "Reposotórios GitHub"
+title: "Repositórios de Interesse"
 date: "02/12/2025"
-categories: [Notícias, Pesquisa, Financiamento]
+categories: ["Referência", "Pesquisa"]
+description: "Repositórios de terceiros no GitHub relevantes para as linhas de pesquisa em controle, aprendizado por reforço e modelagem orientada a dados."
 ---
 
 ### Repositórios:
