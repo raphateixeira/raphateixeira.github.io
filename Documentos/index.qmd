@@ -19,7 +19,7 @@ As páginas de portarias do site do CAMTUC (`camtuc.ufpa.br/index.php/portarias-
 
 #### Portarias
 
-- [Portaria CAEG 2026](PortariaCAEG2026.pdf) - Membro da Comissão de Avaliação de Ensino de Graduação (CAEG) do CAMTUC - UFPA.
+- [Portaria CAEG 2026](https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/PortariaCAEG2026.pdf) - Membro da Comissão de Avaliação de Ensino de Graduação (CAEG) do CAMTUC - UFPA.
 
 #### Regulamentos FEE
 
@@ -31,7 +31,7 @@ As páginas de portarias do site do CAMTUC (`camtuc.ufpa.br/index.php/portarias-
 
 #### Resoluções FEE
 
-- [Resolução 02/2026](/Documentos/Resolucoes/Resolução 2-2026 FEE - Plano de Ensino.pdf)
+- [Resolução 02/2026](https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/Resolucao.2-2026.FEE.-.Plano.de.Ensino.pdf)
 
 #### Resoluções UFPA
 
