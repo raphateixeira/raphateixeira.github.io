@@ -1,7 +1,7 @@
 ---
 title: "Notas"
 listing:
-  contents: "*.qmd"
+  contents: ["MPCMassaMolaAmortecedor.qmd", "RedesNeuraisAproximador.qmd"]
   sort: "date desc"
   type: default
   categories: true
@@ -11,3 +11,83 @@ page-layout: full
 ---
 
 Notas de estudo em formato de artigo sobre temas de interesse em controle, aprendizado de máquina e métodos computacionais. Diferente do material de aula (em slides), aqui o objetivo é aprofundar cada assunto: fundamentação matemática, exemplos e implementação computacional, principalmente em Python.
+
+## Temas de Interesse
+
+- Regressão simbólica;
+- Aprendizado por reforço;
+- Dynamic Programming;
+- Koopman e Dinâmica;
+- DMD - Dinamic Mode Decomposition;
+- Redes Neurais Recorrentes (RNN, LSTM, GRU);
+- Redes Neurais Informadas pela Física (PINN);
+- Controle preditivo;
+- Sistemas dinâmicos;
+- Manifold Learning; [[1]](https://arxiv.org/pdf/2011.01307#page=7.03)
+- Redes GAN;
+    - [Gan Data](https://github.com/raphateixeira/GAN-for-Data-Augmentation)
+
+## Congressos, Revistas e Editais
+
+### Congressos
+
+[CBA - Congresso Brasileiro de Automática](https://www.sba.org.br/cba/): Evento que aborda temas relacionados à automação, controle e sistemas dinâmicos.
+
+[SBAI - Simpósio Brasileiro de Automação Inteligente](https://www.sba.org.br/sbai/): Evento focado em automação inteligente, incluindo tópicos como robótica, sistemas inteligentes e aprendizado de máquina.
+
+[CBEP - Congresso Brasileiro de Eletrônica de Potência](https://www.cbeponline.org/): Congresso que reúne pesquisadores e profissionais da área de eletrônica de potência.
+
+[SBIA - Sociedade Brasileira de Inteligência Artificial](https://sbia.org.br/): Congresso anual que reúne pesquisadores e profissionais da área de inteligência artificial no Brasil.
+
+### Revistas
+
+[IEEE - Latin America Transactions](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858): Revista que publica artigos científicos na área de engenharia elétrica, eletrônica e computação, com foco na América Latina.
+
+[Learning & Nonlinear models](https://sbia.org.br/publicacoes/): Revista da Sociedade Brasileira de Inteligência Artificial (SBIA) que publica artigos científicos na área de inteligência artificial, aprendizado de máquina e modelos não lineares.
+
+[Journal of Control, Automation and Electrical Systems](https://www.springer.com/journal/40313): Revista que abrange pesquisas em controle, automação e sistemas elétricos.
+
+### Editais
+
+- PIAPA: Participação em eventos - PROPESP/UFPA;
+- PIBIC/PIVIC - CNPq: Bolsa de Iniciação Científica - CNPq/UFPA;
+
+## Repositórios de Interesse
+
+[GAN-MNIST](https://github.com/kroosen/GAN-in-keras-on-mnist): Utiliza redes GAN para gerar imagens de dígitos manuscritos.
+
+[Controle II](https://github.com/rsbayma/Controle-II): Repositório com códigos e materiais relacionados à disciplina de Controle II - Prof. Rafael Bayma.
+
+[SINDy-RL](https://github.com/raphateixeira/sindy-rl): Combina SINDy com aprendizado por reforço para controle de sistemas dinâmicos.
+
+[RL-Projects](https://github.com/swagatk/RL-Projects-SK): Repositório com diversos projetos de aprendizado por reforço implementados em Python.
+
+[Marcelino UNB](https://github.com/marcelinoandrade/UNB): Repositório com materiais e códigos relacionados a projetos do Prof. Marcelino Andrade da Universidade de Brasília.
+
+[Transformer MPC](https://github.com/BYU-PRISM/Transformer_MPC): Implementação de controle preditivo baseado em transformadores para sistemas dinâmicos.
+
+[Clear RL](https://github.com/vwxyzjn/cleanrl): Repositório com implementações simples e eficientes de algoritmos de aprendizado por reforço em PyTorch.
+
+[Carbon Clips](https://github.com/chavarera/py-carbon-clips): Ferramenta para criar clipes de carbono em Python, útil para visualização de dados e simulações.
+
+[DSO](https://github.com/dso-org/deep-symbolic-optimization): Framework para otimização simbólica profunda, combinando aprendizado de máquina com métodos simbólicos.
+
+[PySR](https://github.com/MilesCranmer/PySR): Biblioteca para descoberta de equações simbólicas usando algoritmos genéticos e aprendizado de máquina.
+
+[SD-VAE](https://github.com/stathius/sd-vae)
+
+[MPC-Pendulum-Python](https://github.com/simorxb/MPC-Pendulum-Python): Implementação de controle preditivo para o problema do pêndulo invertido em Python.
+
+[Reinforcement-Learning-in-Process-Control](https://github.com/emedd33/Reinforcement-Learning-in-Process-Control): Aplicações de aprendizado por reforço em controle de processos industriais.
+
+[Series Temporais](https://github.com/IvanildoBatista/Series-Temporais): Repositório com materiais e códigos para análise e modelagem de séries temporais.
+
+[SinDyAutoEncoders](https://github.com/kpchamp/SindyAutoencoders): Combina SINDy com autoencoders para modelagem de sistemas dinâmicos complexos.
+
+[MeNum](https://github.com/karo-txs/MeNum): Biblioteca para métodos numéricos em Python, focada em aplicações de engenharia e ciência de dados.
+
+[Kronic](https://github.com/eurika-kaiser/KRONIC)
+
+[PINN2ODe](https://github.com/PML-UCF/pinn_ode_tutorial): Tutorial sobre o uso de Redes Neurais Informadas pela Física (PINNs) para resolver equações diferenciais ordinárias (ODEs).
+
+[SindyMPC](https://github.com/eurika-kaiser/SINDY-MPC): Combina SINDy com controle preditivo para sistemas dinâmicos.

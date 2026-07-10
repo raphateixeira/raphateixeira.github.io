@@ -20,19 +20,19 @@ website:
         href: Pesquisa/index.qmd
       - text: "Publicações"
         href: Publicacoes/index.qmd
-      - text: "Notas"
-        href: Notas/index.qmd
       - text: "Estudos"
-        href: Estudos/index.qmd
+        menu:
+          - text: "Notas"
+            href: Notas/index.qmd
+          - text: "Estudos"
+            href: Estudos/index.qmd
       - text: "Documentos"
-        href: Documentos/index.qmd
-      - text: "Editais"
-        href: Editais/index.qmd
+        menu:
+          - text: "Documentos"
+            href: Documentos/index.qmd
+          - text: "Editais"
+            href: Editais/index.qmd
     right:
-      - text: "<i class='bi bi-mortarboard-fill'></i> SIGAA"
-        href: "https://sigaa.ufpa.br/sigaa/"
-      - text: "<i class='bi bi-book-half'></i> Minha Biblioteca"
-        href: "https://app.minhabiblioteca.com.br/"
       - icon: github
         href: https://github.com/raphateixeira
       - icon: envelope
@@ -48,6 +48,8 @@ website:
         section: Perfil
         level: 1
         contents:
+          - text: "<i class='bi bi-person-badge'></i> Raphael Teixeira"
+            href: "Perfil/index.qmd"
           - text: "<i class='bi bi-building'></i> FEE"
             href: "https://fee.camtuc.ufpa.br/"         
           - text: "<i class='bi bi-person-fill'></i> Lattes"
@@ -69,6 +71,10 @@ website:
             href: "https://proeg.ufpa.br/"
           - text: "<i class='bi bi-flask'></i> PROPESP"
             href: "https://www.propesp.ufpa.br/"
+          - text: "<i class='bi bi-mortarboard-fill'></i> SIGAA"
+            href: "https://sigaa.ufpa.br/sigaa/"
+          - text: "<i class='bi bi-book-half'></i> Minha Biblioteca"
+            href: "https://app.minhabiblioteca.com.br/"
 
       - title: "Bases de Pesquisa"
         section: Bases de Pesquisa
@@ -97,8 +103,8 @@ website:
   page-footer:
     background: "#231F20"
     foreground: "#FFFFFF"
-    left: "©2025 Prof. Dr. Raphael Teixeira"
-    right: "Desenvolvido com Quarto"
+    left: "©2026 Prof. Dr. Raphael Teixeira"
+    right: "UFPA-CAMTUC-FEE"
 
 format:
   html:

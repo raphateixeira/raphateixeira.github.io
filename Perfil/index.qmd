@@ -1,0 +1,43 @@
+---
+title: "Raphael Teixeira"
+---
+
+```{=html}
+<style>
+  .perfil-header {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    margin: 1rem 0 1.8rem 0;
+    flex-wrap: wrap;
+  }
+  .perfil-header img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #002C6F;
+  }
+  .perfil-header .perfil-cargo {
+    color: #5A6472;
+    font-size: 0.95rem;
+    margin-top: .3rem;
+  }
+</style>
+```
+
+```{=html}
+<div class="perfil-header">
+  <img src="../imagens/raphael-teixeira.jpg" alt="Raphael Teixeira">
+  <div>
+    <h2 style="margin-bottom:.2rem;">Prof. Dr. Raphael Barros Teixeira</h2>
+    <div class="perfil-cargo">Professor Adjunto — Faculdade de Engenharia Elétrica (FEE), CAMTUC/UFPA</div>
+  </div>
+</div>
+```
+
+Doutor em Engenharia Elétrica pela UFPA (2019), com dissertação de mestrado (2010) e tese de doutorado voltadas à identificação e controle de sistemas não lineares. Atua na graduação em Engenharia Elétrica e no Programa de Pós-Graduação em Computação Aplicada (PPCA), ministrando disciplinas de sistemas de controle, circuitos elétricos e cálculo numérico.
+
+Suas linhas de pesquisa incluem controle preditivo, identificação de sistemas, eletrônica de potência e aplicações de aprendizado de máquina — como redes neurais recorrentes, autoencoders e modelos de difusão — a problemas de engenharia elétrica e de sistemas dinâmicos.
+
+Mais detalhes em [Ensino](../Ensino/index.qmd), [Pesquisa](../Pesquisa/index.qmd) e [Publicações](../Publicacoes/index.qmd).

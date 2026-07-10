@@ -1,7 +1,7 @@
 ---
 title: "Ensino e Pesquisa em Engenharia"
 subtitle: "UFPA - CAMTUC - FEE"
-image: UFPA.png
+image: imagens/UFPA.png
 ---
 
 Página pessoal para compartilhamento de informações de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí - Campus de Tucuruí (CAMTUC) - [Faculdade de Engenharia Elétrica - FEE](https://fee.camtuc.ufpa.br/).
@@ -164,21 +164,6 @@ Página pessoal para compartilhamento de informações de ensino e pesquisa em e
     font-weight: 700;
     margin: 0 0 0.3rem 0;
   }
-
-  /* Calendário embutido */
-  .calendar-embed {
-    margin: 1.6rem 0 2.2rem 0;
-    border: 1px solid var(--line);
-    border-radius: 4px;
-    overflow: hidden;
-  }
-
-  .calendar-embed iframe {
-    width: 100%;
-    height: 600px;
-    border: 0;
-    display: block;
-  }
 </style>
 ```
 
@@ -230,19 +215,3 @@ Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
 
 </div>
 ```
-
-```{=html}
-<div class="section-label">Calendário</div>
-```
-
-## Calendário de Aulas — 2º Semestre 2026
-
-```{=html}
-<div class="calendar-embed">
-  <iframe src="https://docs.google.com/spreadsheets/d/1LqINcllVoeH0PUd6EK-DNR3v5XXYFc5P/preview?gid=1315552712"
-          title="Calendário de Aulas - 2º Semestre 2026"
-          loading="lazy"></iframe>
-</div>
-```
-
-[Abrir planilha completa em nova aba](https://docs.google.com/spreadsheets/d/1LqINcllVoeH0PUd6EK-DNR3v5XXYFc5P/edit?gid=1315552712#gid=1315552712){target="_blank"}

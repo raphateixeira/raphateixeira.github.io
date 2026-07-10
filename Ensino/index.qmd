@@ -51,68 +51,135 @@ Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado
     box-shadow: 0 4px 14px rgba(0,44,111,.14);
     transform: translateY(-2px);
   }
+
+  /* Destaque para as disciplinas do semestre corrente */
+  .disciplina-card.destaque {
+    border-top: 3px solid #E4002B;
+    background: #FFFBF7;
+  }
+
+  .disciplina-card.destaque .disciplina-num {
+    color: #002C6F;
+  }
+
+  .disciplina-card .badge-semestre {
+    position: absolute;
+    top: .9rem;
+    right: .9rem;
+    background: #E4002B;
+    color: #FFFFFF !important;
+    font-size: .68rem;
+    font-weight: 700;
+    padding: .15rem .5rem;
+    border-radius: 3px;
+  }
+
+  .disciplina-card .disciplina-horario {
+    display: block;
+    margin-top: .5rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: #E4002B;
+  }
 </style>
 ```
+
+## Disciplinas — 2º Semestre de 2026
 
 ```{=html}
 <div class="disciplinas-grid">
 
-<a class="disciplina-card" href="https://raphateixeira.github.io/CircuitosCA/" target="_blank">
-  <div class="disciplina-num">01</div>
+<a class="disciplina-card destaque" href="https://raphateixeira.github.io/CircuitosCA/" target="_blank">
+  <span class="badge-semestre">2026.2</span>
   <h3>Circuitos Elétricos II</h3>
   <p>Circuitos em corrente alternada: fasores, potência e regime permanente senoidal.</p>
+  <span class="disciplina-horario">Terça e Quinta, 15:40–17:20</span>
 </a>
 
-<a class="disciplina-card" href="https://raphateixeira.github.io/ControleClassico/" target="_blank">
-  <div class="disciplina-num">02</div>
+<a class="disciplina-card destaque" href="https://raphateixeira.github.io/ControleClassico/" target="_blank">
+  <span class="badge-semestre">2026.2</span>
   <h3>Sistemas de Controle I</h3>
   <p>Controle clássico em tempo contínuo via função de transferência: lugar das raízes e resposta em frequência.</p>
+  <span class="disciplina-horario">Segunda e Sexta, 14:00–15:40</span>
 </a>
 
+<a class="disciplina-card destaque" href="https://raphateixeira.github.io/MetodosNumericos/" target="_blank">
+  <span class="badge-semestre">2026.2</span>
+  <h3>Cálculo Numérico</h3>
+  <p>Fundamentos matemáticos e algoritmos de métodos numéricos.</p>
+  <span class="disciplina-horario">Turma fora de sede</span>
+</a>
+
+</div>
+```
+
+## Calendário de Aulas
+
+Horários de Circuitos Elétricos II e Sistemas de Controle I, Turma 2024 - Tarde (Bloco 5), período de 31 de agosto a 19 de dezembro de 2026 (~15 semanas). Cálculo Numérico não entra por ser turma fora de sede.
+
+```{python}
+#| echo: false
+import pandas as pd
+
+dias_ordem = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira"]
+
+df = pd.read_csv("horarios.csv")
+df["dia"] = pd.Categorical(df["dia"], categories=dias_ordem, ordered=True)
+df["horário"] = df["inicio"] + "–" + df["fim"]
+
+tabela = df.pivot_table(index="horário", columns="dia", values="disciplina", aggfunc="first", observed=False)
+tabela = tabela.reindex(columns=dias_ordem).fillna("—")
+tabela = tabela.sort_index(key=lambda idx: idx.str.split("–").str[0])
+tabela.columns.name = None
+tabela.index.name = None
+tabela
+```
+
+[Abrir planilha completa](https://docs.google.com/spreadsheets/d/1LqINcllVoeH0PUd6EK-DNR3v5XXYFc5P/edit){target="_blank"}
+
+## Todas as Disciplinas
+
+```{=html}
+<div class="disciplinas-grid">
+
 <a class="disciplina-card" href="https://raphateixeira.github.io/AlgebraLinear/" target="_blank">
-  <div class="disciplina-num">03</div>
+  <div class="disciplina-num">01</div>
   <h3>Álgebra Linear</h3>
   <p>Espaços vetoriais, transformações lineares, autovalores e decomposições matriciais.</p>
 </a>
 
 <a class="disciplina-card" href="https://raphateixeira.github.io/AprendizagemMaquina/" target="_blank">
-  <div class="disciplina-num">04</div>
+  <div class="disciplina-num">02</div>
   <h3>Aprendizagem de Máquina</h3>
   <p>Fundamentos de aprendizado supervisionado, não supervisionado e redes neurais.</p>
 </a>
 
 <a class="disciplina-card" href="https://raphateixeira.github.io/ControleEstados/" target="_blank">
-  <div class="disciplina-num">05</div>
+  <div class="disciplina-num">03</div>
   <h3>Sistemas de Controle II: Espaço de Estados</h3>
   <p>Representação em espaço de estados, alocação de polos e observadores de Luenberger.</p>
 </a>
 
 <a class="disciplina-card" href="https://raphateixeira.github.io/ControleDigital/" target="_blank">
-  <div class="disciplina-num">06</div>
+  <div class="disciplina-num">04</div>
   <h3>Sistemas de Controle II: Controle Digital</h3>
   <p>Discretização, estabilidade e projeto de controladores digitais.</p>
 </a>
 
-<a class="disciplina-card" href="https://raphateixeira.github.io/MetodosNumericos/" target="_blank">
-  <div class="disciplina-num">07</div>
-  <h3>Cálculo Numérico</h3>
-  <p>Fundamentos matemáticos e algoritmos de métodos numéricos.</p>
-</a>
-
 <a class="disciplina-card" href="https://raphateixeira.github.io/Identificacao/" target="_blank">
-  <div class="disciplina-num">08</div>
+  <div class="disciplina-num">05</div>
   <h3>Identificação de Sistemas</h3>
   <p>Modelagem orientada a dados a partir de sinais PRBS e estimação paramétrica.</p>
 </a>
 
 <a class="disciplina-card" href="https://raphateixeira.github.io/MPC-DMC/" target="_blank">
-  <div class="disciplina-num">09</div>
+  <div class="disciplina-num">06</div>
   <h3>Controle Preditivo (MPC/DMC)</h3>
   <p>Controle preditivo baseado em modelo: Controle por Matriz Dinâmica (DMC) e MPC para sistemas lineares.</p>
 </a>
 
 <a class="disciplina-card" href="https://raphateixeira.github.io/TEControle/" target="_blank">
-  <div class="disciplina-num">10</div>
+  <div class="disciplina-num">07</div>
   <h3>Tópicos Especiais em Controle</h3>
   <p>MPC, DeePC, MRAC e abordagens baseadas em Koopman e aprendizado por reforço.</p>
 </a>

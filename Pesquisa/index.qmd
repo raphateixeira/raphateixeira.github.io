@@ -11,18 +11,6 @@ title: "Pesquisa"
 </style>
 ```
 
-### Temas de Pesquisa
-- Conversores DC-DC tipo Buck e Boost;
-- Controle preditivo - conversor de energia trifásico;
-- Controle preditivo - sistema térmico;
-- Visão computacional: Diagnóstico de malária por imagens;
-- Identificação LSTM: Vazão afluente UHE-Tucuruí;
-- Análise DGA: Diagnóstico de falhas em transformadores;
-- Regressão simbólica;
-- Extremum Seeking Control (ESC);
-- Kolmogorov Arnold Network (KAN);
-- Modelos de difusão;
-
 ### Projetos no GitHub
 
 Levantamento de todos os repositórios públicos, categorizados por linha de pesquisa.

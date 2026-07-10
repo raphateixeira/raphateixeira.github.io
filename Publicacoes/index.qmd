@@ -49,10 +49,12 @@ title: "Artigos e Trabalhos Publicados"
 
 ### Artigos Publicados (2010 – presente)
 
-Levantamento via [Crossref](https://search.crossref.org/) sob o nome "Raphael Barros Teixeira" — o Currículo Lattes está protegido por reCAPTCHA e não pôde ser varrido automaticamente, então esta lista pode não ser exaustiva.
-
 - Sousa, R. S., **Teixeira, R. B.** (2026). [Diagnóstico automatizado da malária em imagens de esfregaços sanguíneos por meio de aprendizagem profunda](https://doi.org/10.54899/dcs.v23i88.4926). *Revista DCS*.
+- Gonçalves, A. G. A., **Teixeira, R. B.**, Santos, A., Moreira, G., Martins, K., Silva, C. (2025). [Previsão de vazão afluente da UHE-Tucuruí usando redes neurais](https://doi.org/10.29327/1842969.1-121). *Anais do XVII Simpósio Brasileiro de Automação Inteligente (SBAI) / XI Simpósio Brasileiro de Sistemas Elétricos (SBSE)*.
 - Costa Junior, C. S., Sousa, J. da S., **Teixeira, R. B.** (2025). [Desenvolvimento e validação de bancada pocket-size para ensino e experimentação em sistemas de controle](https://doi.org/10.37702/2175-957x.cobenge.2025.6189). *Anais do LIII Congresso Brasileiro de Educação em Engenharia (COBENGE)*.
+- Pereira, W., Silva, D., **Teixeira, R. B.**, Silva, C. (2024). [Identification of the downstream level dynamics of the UHE Tucuruí using LSTM neural networks](https://doi.org/10.20906/cba2024/4328). *Anais do Congresso Brasileiro de Automática (CBA)*.
+- Carvalho, K., Anjos, L. dos, Paiva, R., Otacílio, **Teixeira, R. B.**, Silva, C. (2024). [Identificação não linear no espaço de estados de motor-gerador via regressão esparsa](https://doi.org/10.20906/cba2024/4280). *Anais do Congresso Brasileiro de Automática (CBA)*.
+- Cota, Y. de O., Farias, O. D. de, **Teixeira, R. B.**, Bayma, R. S. (2023). [Explorando o potencial do Laboratório Virtual de Controle de Sistemas com VPython no ensino de Engenharia: análise e perspectivas para o futuro](https://doi.org/10.37702/2175-957x.cobenge.2023.4253). *Anais do 51º Congresso Brasileiro de Educação em Engenharia (COBENGE)*.
 - Lopes, D. J. de S., Bayma, R. S., **Teixeira, R. B.** (2018). [Caracterização paramétrica de sistema não linear no domínio da frequência por série de Volterra diagonal](https://doi.org/10.20906/cps/cba2018-1311). *Anais do XXII Congresso Brasileiro de Automática (CBA)*.
 
 ### Dissertações de Mestrado Orientadas
