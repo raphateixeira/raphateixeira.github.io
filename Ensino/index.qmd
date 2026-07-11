@@ -148,7 +148,7 @@ tabela
   <p>Espaços vetoriais, transformações lineares, autovalores e decomposições matriciais.</p>
 </a>
 
-<a class="disciplina-card" href="https://raphateixeira.github.io/AprendizagemMaquina/" target="_blank">
+<a class="disciplina-card" href="https://raphateixeira.github.io/DeepLearning/" target="_blank">
   <div class="disciplina-num">02</div>
   <h3>Aprendizagem de Máquina</h3>
   <p>Fundamentos de aprendizado supervisionado, não supervisionado e redes neurais.</p>

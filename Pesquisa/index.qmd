@@ -23,7 +23,7 @@ Levantamento de todos os repositórios públicos, categorizados por linha de pes
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
 
 #### Simulação
-- [Manin](https://github.com/raphateixeira/Manin) - Simulações de sistemas dinâmicos (massa-mola-amortecedor, conversor Buck) e animações.
+- [Manim](https://github.com/raphateixeira/Manim) - Coleção de animações matemáticas/didáticas (sistemas dinâmicos, conversores estáticos).
 
 ### Temas ainda sem projeto público consolidado
 
