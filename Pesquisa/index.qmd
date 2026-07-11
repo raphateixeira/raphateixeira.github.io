@@ -30,10 +30,6 @@ Levantamento de todos os repositórios públicos, categorizados por linha de pes
 Ao cruzar os temas de pesquisa acima com os repositórios e publicações existentes, ficaram identificadas lacunas — temas com repositório reservado no GitHub mas ainda sem conteúdo, com publicação mas sem código público, ou sem nada disso ainda:
 
 - **Visão computacional - diagnóstico de malária:** já resultou em [artigo publicado](../Publicacoes/index.qmd) (Revista DCS, 2026), mas ainda sem repositório de código público.
-- **Análise DGA de transformadores:** já resultou em [dissertação de mestrado orientada](../Publicacoes/index.qmd) (Otacílio Oliveira Filho, 2024), mas ainda sem repositório de código público.
-- **Controle preditivo - conversor de energia trifásico (caso VSI):** repositório [`ControleVSI`](https://github.com/raphateixeira/ControleVSI) criado, porém vazio.
-- **Modelagem orientada a dados (linha geral):** repositório [`DataDrivenControl`](https://github.com/raphateixeira/DataDrivenControl) criado, porém vazio.
-- **Modelos de difusão:** repositório [`DiffusionModels`](https://github.com/raphateixeira/DiffusionModels) criado, porém vazio.
 - **Controle preditivo - sistema térmico:** sem repositório público e sem publicação encontrada.
 - **Regressão simbólica:** sem repositório público e sem publicação encontrada.
 - **Extremum Seeking Control (ESC):** sem repositório público e sem publicação encontrada.
