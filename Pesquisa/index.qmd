@@ -23,18 +23,8 @@ Levantamento de todos os repositórios públicos, categorizados por linha de pes
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
 - [ControleVSC](https://github.com/raphateixeira/ControleVSC) - Controle de inversor de frequência (conversor de tensão trifásico).
 
-#### Controle e Modelagem Orientada a Dados
-- [Koopman](https://github.com/raphateixeira/Koopman) - Modelagem e controle de sistemas não lineares via operador de Koopman.
-
 #### Simulação
 - [Manin](https://github.com/raphateixeira/Manin) - Simulações de sistemas dinâmicos (massa-mola-amortecedor, conversor Buck) e animações.
-
-#### Aprendizado de Máquina Aplicado
-- [ModelosAtencionais](https://github.com/raphateixeira/ModelosAtencionais) - Estudo de modelos atencionais (Transformers).
-- [PerdaOsseaVC](https://github.com/raphateixeira/PerdaOsseaVC) - Visão computacional aplicada a diagnóstico por imagem (perda óssea).
-
-#### Fundamentos e Otimização
-- [DynamicProgramming](https://github.com/raphateixeira/DynamicProgramming) - Notas de programação dinâmica.
 
 ### Temas ainda sem projeto público consolidado
 
