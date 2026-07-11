@@ -172,14 +172,8 @@ tabela
   <p>Modelagem orientada a dados a partir de sinais PRBS e estimação paramétrica.</p>
 </a>
 
-<a class="disciplina-card" href="https://raphateixeira.github.io/MPC-DMC/" target="_blank">
-  <div class="disciplina-num">06</div>
-  <h3>Controle Preditivo (MPC/DMC)</h3>
-  <p>Controle preditivo baseado em modelo: Controle por Matriz Dinâmica (DMC) e MPC para sistemas lineares.</p>
-</a>
-
 <a class="disciplina-card" href="https://raphateixeira.github.io/TEControle/" target="_blank">
-  <div class="disciplina-num">07</div>
+  <div class="disciplina-num">06</div>
   <h3>Tópicos Especiais em Controle</h3>
   <p>MPC, DeePC, MRAC e abordagens baseadas em Koopman e aprendizado por reforço.</p>
 </a>
