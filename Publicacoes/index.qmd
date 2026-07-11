@@ -73,13 +73,13 @@ Em andamento (ainda sem registro no repositório institucional):
 
 Levantados na [Biblioteca Digital de Monografias da UFPA (BDM)](https://bdm.ufpa.br/):
 
-- Raissa Stephany Teixeira Paiva, 2025: [Filtro Sallen-Key como pocket-lab para ensino de identificação e controle de sistemas dinâmicos](https://bdm.ufpa.br/items/f010c31b-a220-4e7a-8d31-bee892d965aa) ([repositório](https://github.com/raphateixeira/TCC-Raissa))
+- Raissa Stephany Teixeira Paiva, 2025: [Filtro Sallen-Key como pocket-lab para ensino de identificação e controle de sistemas dinâmicos](https://bdm.ufpa.br/items/f010c31b-a220-4e7a-8d31-bee892d965aa) ([repositório](https://github.com/raphateixeira/FiltroSK))
 - Karine Brito da Silva, 2024: [Monitoramento de armazenagem de grãos em silos utilizando o sensor Micropilot FMR67 e o ambiente de automação TIA Portal](https://bdm.ufpa.br/items/ce1a5711-546e-402e-a557-cec6111a9ff2)
 - Dário Fernando da Silva Panagio, 2024: [Projeto e implementação do sistema de potência elétrica do satélite ST-OBSAT-01](https://bdm.ufpa.br/items/5be15dfa-e0f6-4205-b620-d56bb9f46988)
 - Alexandre Montibeller de Oliveira, 2023: [Controle de robô pêndulo invertido sobre duas rodas por abordagem analítica e experimental](https://bdm.ufpa.br/items/02b3eae4-76e8-405c-9d9b-daf4247af393)
 - Telson Galdino Pinheiro Teixeira, 2023: [Modelagem e controle de robô pêndulo invertido sobre rodas](https://bdm.ufpa.br/items/f5cfc675-b524-4f58-a962-ac989c8c5827)
 - Diego Antonio Silva de Jesus, 2023: [Otimização evolutiva de controladores PID para bancadas motor-gerador utilizando algoritmos genéticos e PyGad](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da) ([repositório](https://github.com/raphateixeira/TCC-Diego))
-- Oséias Dias de Farias, 2023: [Desenvolvimento de protótipo e gêmeo digital como ferramenta para um laboratório virtual com foco em modelagem e controle de sistemas dinâmicos (Aeropêndulo)](https://bdm.ufpa.br/items/ac964542-d071-43c4-b8f8-036cba6fdd82) ([repositório](https://github.com/raphateixeira/TCC-Oseias))
+- Oséias Dias de Farias, 2023: [Desenvolvimento de protótipo e gêmeo digital como ferramenta para um laboratório virtual com foco em modelagem e controle de sistemas dinâmicos (Aeropêndulo)](https://bdm.ufpa.br/items/ac964542-d071-43c4-b8f8-036cba6fdd82)
 - Elenildo Cássio Santos dos Santos, 2023: [Modelagem e controle de sistema fotovoltaico para rastreamento do ponto de máxima potência](https://bdm.ufpa.br/items/122bb641-ddbc-4eb9-aab7-3198331e8bb3)
 - Kevin Martins Medeiros, 2023: [Modelos de previsão de vazão afluente da UHE-Tucuruí: uma abordagem com redes neurais LSTM e CNN](https://bdm.ufpa.br/items/ad03475d-4ba4-489a-bc99-244195cdf28d)
 - Klarissa Carvalho de Souza, 2023: [Identificação não-linear no espaço de estados por regressão esparsa de bancada motor-gerador](https://bdm.ufpa.br/items/c143afc1-8c9e-415f-a0f7-a01138b90ba5)
