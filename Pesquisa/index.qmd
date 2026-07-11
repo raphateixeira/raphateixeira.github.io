@@ -16,20 +16,33 @@ title: "Pesquisa"
 Levantamento de todos os repositórios públicos, categorizados por linha de pesquisa.
 
 #### Eletrônica de Potência e Conversores
-- [ControleBuck](https://github.com/raphateixeira/ControleBuck) - Modelagem e controle do conversor Buck.
-- [IC-DataDrive](https://github.com/raphateixeira/IC-DataDrive) - Identificação e controle (PID, MPC) de conversores CC-CC, CC-CA e CA-CA a partir de dados experimentais.
+- [ControleBuck](https://raphateixeira.github.io/ControleBuck/) - Modelagem e controle do conversor Buck.
+- [IC-DataDrive](https://raphateixeira.github.io/IC-DataDrive/) - Identificação e controle (PID, MPC) de conversores CC-CC, CC-CA e CA-CA a partir de dados experimentais.
 
 #### Controle Preditivo Trifásico e Máquinas Elétricas
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
 
-#### Simulação
-- [Manim](https://github.com/raphateixeira/Manim) - Coleção de animações matemáticas/didáticas (sistemas dinâmicos, conversores estáticos).
+#### Identificação de Sistemas
+- [IdentificaLSTM](https://raphateixeira.github.io/IdentificaLSTM/) - Identificação de um modelo Linear Invariante no Tempo (LIT); segunda etapa via LSTM planejada.
+
+#### Diagnóstico Inteligente de Equipamentos
+- [Dataset-DGA](https://raphateixeira.github.io/Dataset-DGA/) - Conjunto de dados de gases dissolvidos em óleo (DGA) de transformadores de potência.
+- [SDI-DGA](https://raphateixeira.github.io/SDI-DGA/) - Sistema de diagnóstico inteligente de faltas em transformadores por análise DGA (ANN, KNN, DUVAL).
+
+#### Protótipos, Bancadas e Laboratórios
+- [Projeto-Aeropendulo](https://raphateixeira.github.io/Projeto-Aeropendulo/) - Identificação de um modelo linear do sistema aeropêndulo.
+- [LabVirtual](https://raphateixeira.github.io/LabVirtual/) - Laboratório virtual para modelagem e controle de sistemas dinâmicos (maglev, drone, motor DC, pêndulos).
+
+### Coleções
+
+- [Coleção TikZ](https://raphateixeira.github.io/TikZ/) - Figuras TikZ organizadas por tema, com download em PNG/SVG/EPS.
+- [Coleção Manim](https://raphateixeira.github.io/Manim/) - Animações matemáticas/didáticas de sistemas dinâmicos.
 
 ### Temas ainda sem projeto público consolidado
 
-Ao cruzar os temas de pesquisa acima com os repositórios e publicações existentes, ficaram identificadas lacunas — temas com repositório reservado no GitHub mas ainda sem conteúdo, com publicação mas sem código público, ou sem nada disso ainda:
+Ao cruzar os temas de pesquisa acima com os repositórios e publicações existentes, ficaram identificadas lacunas — temas com publicação mas sem código público, ou sem nada disso ainda:
 
-- **Visão computacional - diagnóstico de malária:** já resultou em [artigo publicado](../Publicacoes/index.qmd) (Revista DCS, 2026), mas ainda sem repositório de código público.
+- **Visão computacional - diagnóstico de malária:** já resultou em [artigo publicado](../Publicacoes/index.qmd) (Revista DCS, 2026); código em repositório privado (dissertação de mestrado de Raphael Saraiva Sousa).
 - **Controle preditivo - sistema térmico:** sem repositório público e sem publicação encontrada.
 - **Regressão simbólica:** sem repositório público e sem publicação encontrada.
 - **Extremum Seeking Control (ESC):** sem repositório público e sem publicação encontrada.

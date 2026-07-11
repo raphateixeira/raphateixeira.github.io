@@ -99,6 +99,8 @@ website:
         contents:
           - text: "<i class='bi bi-images'></i> Coleção TikZ"
             href: "https://raphateixeira.github.io/TikZ/"
+          - text: "<i class='bi bi-film'></i> Coleção Manim"
+            href: "https://raphateixeira.github.io/Manim/"
 
   page-footer:
     background: "#231F20"

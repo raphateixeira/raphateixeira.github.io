@@ -61,8 +61,9 @@ title: "Artigos e Trabalhos Publicados"
 
 Levantadas no [repositório institucional da UFPA](https://repositorio.ufpa.br/) (Programa de Pós-Graduação em Computação Aplicada, salvo indicação contrária):
 
-- Wanderley Pereira dos Santos, 2026: [Modelagem da dinâmica hidrológica para previsão do nível de jusante da UHE Tucuruí por redes neurais artificiais](https://repositorio.ufpa.br/items/9e24becc-5512-4e8c-8e5a-f0ed069fd456) (coorientação com Cleison Daniel Silva)
-- Otacílio Rodrigues de Oliveira Filho, 2024: [Diagnóstico inteligente de faltas em transformadores baseado na análise de gás dissolvido em óleo](https://repositorio.ufpa.br/items/eeecc00f-702c-453c-968a-867779a14a70)
+- Raphael Saraiva Sousa, 2026: [Diagnóstico automatizado da malária em imagens de esfregaços sanguíneos por meio de aprendizagem profunda](https://doi.org/10.54899/dcs.v23i88.4926) ([repositório](https://github.com/raphateixeira/MScRaphael))
+- Wanderley Pereira dos Santos, 2026: [Modelagem da dinâmica hidrológica para previsão do nível de jusante da UHE Tucuruí por redes neurais artificiais](https://repositorio.ufpa.br/items/9e24becc-5512-4e8c-8e5a-f0ed069fd456) (coorientação com Cleison Daniel Silva) ([repositório](https://github.com/raphateixeira/MScWanderley))
+- Otacílio Rodrigues de Oliveira Filho, 2024: [Diagnóstico inteligente de faltas em transformadores baseado na análise de gás dissolvido em óleo](https://repositorio.ufpa.br/items/eeecc00f-702c-453c-968a-867779a14a70) ([repositório](https://raphateixeira.github.io/SDI-DGA/))
 - Vander Augusto Oliveira da Silva, 2023: [Clusterização de padrões espaço-temporais de precipitação na Amazônia via deep convolutional autoencoder](https://repositorio.ufpa.br/items/17f6aaf3-d98b-4ac9-b167-ef6417cc892e)
 
 Em andamento (ainda sem registro no repositório institucional):
