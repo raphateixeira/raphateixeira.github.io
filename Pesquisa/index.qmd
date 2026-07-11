@@ -21,7 +21,6 @@ Levantamento de todos os repositórios públicos, categorizados por linha de pes
 
 #### Controle Preditivo Trifásico e Máquinas Elétricas
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
-- [ControleVSC](https://github.com/raphateixeira/ControleVSC) - Controle de inversor de frequência (conversor de tensão trifásico).
 
 #### Simulação
 - [Manin](https://github.com/raphateixeira/Manin) - Simulações de sistemas dinâmicos (massa-mola-amortecedor, conversor Buck) e animações.
