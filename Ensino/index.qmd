@@ -145,7 +145,7 @@ tabela
 <a class="disciplina-card" href="https://raphateixeira.github.io/AlgebraLinear/" target="_blank">
   <div class="disciplina-num">01</div>
   <h3>Álgebra Linear</h3>
-  <p>Espaços vetoriais, transformações lineares, autovalores e decomposições matriciais.</p>
+  <p>Sistemas lineares e matrizes, espaços vetoriais, transformações lineares, autovalores e espaços com produto interno.</p>
 </a>
 
 <a class="disciplina-card" href="https://raphateixeira.github.io/DeepLearning/" target="_blank">
