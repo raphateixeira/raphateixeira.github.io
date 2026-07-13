@@ -4,7 +4,7 @@ subtitle: "UFPA - CAMTUC - FEE"
 image: imagens/UFPA.png
 ---
 
-Página pessoal para compartilhamento de informações de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí - Campus de Tucuruí (CAMTUC) - [Faculdade de Engenharia Elétrica - FEE](https://fee.camtuc.ufpa.br/).
+Página pessoal para compartilhamento de informações de ensino e pesquisa em engenharia na Universidade Federal do Pará em Tucuruí - Campus de Tucuruí: - [Engenharia Elétrica].(https://fee.camtuc.ufpa.br/).
 
 
 ```{=html}
@@ -167,7 +167,17 @@ Página pessoal para compartilhamento de informações de ensino e pesquisa em e
 </style>
 ```
 
-Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
+```{=html}
+<div class="section-label">Destaque</div>
+<div class="research-panel" style="display:flex; gap:1.4rem; align-items:center; flex-wrap:wrap;">
+  <img src="imagens/cba2026.png" alt="Logo XXVI CBA 2026" style="width:88px; height:auto; flex-shrink:0;">
+  <div>
+    <div class="rp-status">3 artigos aceitos</div>
+    <h3>XXVI Congresso Brasileiro de Automática (CBA 2026)</h3>
+    <p>Três artigos do grupo de pesquisa foram aceitos para apresentação e publicação nos anais do CBA 2026, em São Paulo (6 a 9 de outubro de 2026): dois sobre controle preditivo aplicado a sistema térmico e um sobre FCS-MPC com ARX adaptativo via RLS para controle P-Q de inversores trifásicos. Veja os detalhes em <a href="Publicacoes/index.qmd">Publicações</a>.</p>
+  </div>
+</div>
+```
 
 ```{=html}
 <div class="section-label">Linhas de atuação</div>
@@ -179,7 +189,7 @@ Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
     </div>
     <div>
       <h3>Sistemas de Controle</h3>
-      <p>Representação em espaço de estados, alocação de polos, observadores de Luenberger e projeto de controladores digitais.</p>
+      <p>Controle Clássico, Moderno, Digital e Preditivo.</p>
     </div>
   </div>
 
@@ -209,7 +219,7 @@ Prof. Raphael Teixeira: ensino e pesquisa em engenharia na UFPA - Tucuruí.
     </div>
     <div>
       <h3>Controle Inteligente</h3>
-      <p>MPC, DeePC, MRAC e abordagens baseadas em Koopman e aprendizado por reforço para controle de conversores.</p>
+      <p>MPC, DeePC e abordagens baseadas em Koopman e aprendizado por reforço para controle de conversores.</p>
     </div>
   </div>
 

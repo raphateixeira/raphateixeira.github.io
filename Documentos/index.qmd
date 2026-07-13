@@ -13,6 +13,12 @@ Documentos e normas da UFPA, CAMTUC e FEE, organizados por categoria.
 </style>
 ```
 
+::: {.callout-important collapse="false"}
+## Calendário Acadêmico 2026
+
+[Calendário Acadêmico 2026 da UFPA](https://proeg.ufpa.br/images/Artigos/Academico/Calendarios/UFPACalendarioAcademico2026-final.pdf){target="_blank"}
+:::
+
 ::: {.callout-note collapse="false"}
 As páginas de portarias do site do CAMTUC (`camtuc.ufpa.br/index.php/portarias-camtuc*`) estão retornando erro interno do servidor no momento da última verificação, então não foi possível levantar novas portarias além da já listada abaixo.
 :::
@@ -42,3 +48,7 @@ As páginas de portarias do site do CAMTUC (`camtuc.ufpa.br/index.php/portarias-
 #### Projeto Pedagógico de Curso (PPC)
 
 - [Engenharia Elétrica (2012)](https://fee.camtuc.ufpa.br/images/Regimentos/ProjetoPedag%C3%B3gicoFEE2012_final_2012.pdf) - Projeto Pedagógico do Curso de Engenharia Elétrica da CAMTUC.
+
+#### Editais
+
+- [Editais](../Editais/index.qmd) - Editais de monitoria, bolsas e demais oportunidades.

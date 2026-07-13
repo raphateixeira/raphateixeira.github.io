@@ -1,5 +1,5 @@
 ---
-title: "Raphael Teixeira"
+title: ""
 ---
 
 ```{=html}
@@ -31,7 +31,8 @@ title: "Raphael Teixeira"
   <img src="../imagens/raphael-teixeira.jpg" alt="Raphael Teixeira">
   <div>
     <h2 style="margin-bottom:.2rem;">Prof. Dr. Raphael Barros Teixeira</h2>
-    <div class="perfil-cargo">Professor Adjunto — Faculdade de Engenharia Elétrica (FEE), CAMTUC/UFPA</div>
+    <div class="perfil-cargo">Professor Associado — Faculdade de Engenharia Elétrica (FEE), CAMTUC/UFPA</div>
+    <div class="perfil-cargo"><a href="mailto:raphaelbt@ufpa.br">raphaelbt@ufpa.br</a></div>
   </div>
 </div>
 ```

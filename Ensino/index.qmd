@@ -84,27 +84,27 @@ Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado
 </style>
 ```
 
-## Disciplinas — 2º Semestre de 2026
+## Disciplinas — 2026
 
 ```{=html}
 <div class="disciplinas-grid">
 
 <a class="disciplina-card destaque" href="https://raphateixeira.github.io/CircuitosCA/" target="_blank">
-  <span class="badge-semestre">2026.2</span>
+  <span class="badge-semestre">2026.4</span>
   <h3>Circuitos Elétricos II</h3>
   <p>Circuitos em corrente alternada: fasores, potência e regime permanente senoidal.</p>
   <span class="disciplina-horario">Terça e Quinta, 15:40–17:20</span>
 </a>
 
 <a class="disciplina-card destaque" href="https://raphateixeira.github.io/ControleClassico/" target="_blank">
-  <span class="badge-semestre">2026.2</span>
+  <span class="badge-semestre">2026.4</span>
   <h3>Sistemas de Controle I</h3>
   <p>Controle clássico em tempo contínuo via função de transferência: lugar das raízes e resposta em frequência.</p>
   <span class="disciplina-horario">Segunda e Sexta, 14:00–15:40</span>
 </a>
 
 <a class="disciplina-card destaque" href="https://raphateixeira.github.io/MetodosNumericos/" target="_blank">
-  <span class="badge-semestre">2026.2</span>
+  <span class="badge-semestre">2026.3</span>
   <h3>Cálculo Numérico</h3>
   <p>Fundamentos matemáticos e algoritmos de métodos numéricos.</p>
   <span class="disciplina-horario">Turma fora de sede</span>
@@ -116,6 +116,8 @@ Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado
 ## Calendário de Aulas
 
 Horários de Circuitos Elétricos II e Sistemas de Controle I, Turma 2024 - Tarde (Bloco 5), período de 31 de agosto a 19 de dezembro de 2026 (~15 semanas). Cálculo Numérico não entra por ser turma fora de sede.
+
+[Calendário Acadêmico 2026 da UFPA](https://proeg.ufpa.br/images/Artigos/Academico/Calendarios/UFPACalendarioAcademico2026-final.pdf){target="_blank"}
 
 ```{python}
 #| echo: false

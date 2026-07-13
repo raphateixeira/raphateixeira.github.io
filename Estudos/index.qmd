@@ -10,3 +10,5 @@ page-layout: full
 ---
 
 Livros, sites e canais do YouTube recomendados para aprofundamento em temas relacionados a engenharia, ciência de dados e aprendizado de máquina.
+
+Veja também as [Notas](../Notas/index.qmd) de estudo.

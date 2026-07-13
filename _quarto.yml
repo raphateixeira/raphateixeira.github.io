@@ -20,18 +20,12 @@ website:
         href: Pesquisa/index.qmd
       - text: "Publicações"
         href: Publicacoes/index.qmd
+      - text: "LINCE"
+        href: LINCE/index.qmd
       - text: "Estudos"
-        menu:
-          - text: "Notas"
-            href: Notas/index.qmd
-          - text: "Estudos"
-            href: Estudos/index.qmd
+        href: Estudos/index.qmd
       - text: "Documentos"
-        menu:
-          - text: "Documentos"
-            href: Documentos/index.qmd
-          - text: "Editais"
-            href: Editais/index.qmd
+        href: Documentos/index.qmd
     right:
       - icon: github
         href: https://github.com/raphateixeira
@@ -50,8 +44,6 @@ website:
         contents:
           - text: "<i class='bi bi-person-badge'></i> Raphael Teixeira"
             href: "Perfil/index.qmd"
-          - text: "<i class='bi bi-building'></i> FEE"
-            href: "https://fee.camtuc.ufpa.br/"         
           - text: "<i class='bi bi-person-fill'></i> Lattes"
             href: "http://lattes.cnpq.br/4902824086591521" 
           - text: "<i class='bi bi-orcid'></i> Orcid"
@@ -67,6 +59,8 @@ website:
             href: "https://portal.ufpa.br/"
           - text: "<i class='bi bi-building'></i> CAMTUC"
             href: "https://www.camtuc.ufpa.br/"
+          - text: "<i class='bi bi-building'></i> FEE"
+            href: "https://fee.camtuc.ufpa.br/"
           - text: "<i class='bi bi-mortarboard'></i> PROEG"
             href: "https://proeg.ufpa.br/"
           - text: "<i class='bi bi-flask'></i> PROPESP"
@@ -74,7 +68,7 @@ website:
           - text: "<i class='bi bi-mortarboard-fill'></i> SIGAA"
             href: "https://sigaa.ufpa.br/sigaa/"
           - text: "<i class='bi bi-book-half'></i> Minha Biblioteca"
-            href: "https://app.minhabiblioteca.com.br/"
+            href: "https://sso.minhabiblioteca.com.br/Login.aspx?key=UFPA"
 
       - title: "Bases de Pesquisa"
         section: Bases de Pesquisa

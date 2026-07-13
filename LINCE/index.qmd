@@ -1,0 +1,8 @@
+---
+title: "LINCE"
+subtitle: "Laboratório de Inteligência, Controle e Eletrônica"
+---
+
+Página do LINCE — Laboratório de Inteligência, Controle e Eletrônica, CAMTUC/UFPA.
+
+Conteúdo em desenvolvimento.

@@ -47,6 +47,28 @@ title: "Artigos e Trabalhos Publicados"
 </div>
 ```
 
+### Aceitos — CBA 2026
+
+```{=html}
+<div class="destaque-panel">
+  <div class="destaque-tipo">Aceito · XXVI CBA 2026 · São Paulo</div>
+  <h3>Controle Preditivo Multivariável com Identificação Paramétrica Recursiva de Sistema Térmico</h3>
+  <p><strong>Teixeira, R. B.</strong> et al. Aceito para apresentação e publicação nos anais do XXVI Congresso Brasileiro de Automática (CBA 2026).</p>
+</div>
+
+<div class="destaque-panel">
+  <div class="destaque-tipo">Aceito · XXVI CBA 2026 · São Paulo</div>
+  <h3>Emulação de Controle Preditivo via Redes Neurais Aplicado a Sistema Térmico</h3>
+  <p><strong>Teixeira, R. B.</strong> et al. Aceito para apresentação e publicação nos anais do XXVI Congresso Brasileiro de Automática (CBA 2026).</p>
+</div>
+
+<div class="destaque-panel">
+  <div class="destaque-tipo">Aceito · XXVI CBA 2026 · São Paulo</div>
+  <h3>FCS-MPC com ARX Adaptativo via RLS para Controle P-Q Robusto a Variações Paramétricas em Inversores Trifásicos Conectados à Rede</h3>
+  <p><strong>Teixeira, R. B.</strong> et al. Aceito para apresentação e publicação nos anais do XXVI Congresso Brasileiro de Automática (CBA 2026).</p>
+</div>
+```
+
 ### Artigos Publicados (2010 – presente)
 
 - Sousa, R. S., **Teixeira, R. B.** (2026). [Diagnóstico automatizado da malária em imagens de esfregaços sanguíneos por meio de aprendizagem profunda](https://doi.org/10.54899/dcs.v23i88.4926). *Revista DCS*.
