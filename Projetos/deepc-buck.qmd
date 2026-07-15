@@ -1,0 +1,35 @@
+---
+title: "Controle Preditivo Data-Enabled (DeePC) em Conversor Buck"
+date: "2026-07-14"
+categories: ["Controle Preditivo", "Eletrônica de Potência", "Disponível"]
+description: "Aplicação do DeePC — controle preditivo direto a partir de dados, sem etapa explícita de identificação de modelo — à regulação de tensão de um conversor CC-CC Buck."
+---
+
+## Objetivos
+
+O *Data-Enabled Predictive Control* (DeePC) é uma estratégia de controle preditivo que substitui o modelo em espaço de estados do MPC clássico por uma representação **não paramétrica**, construída diretamente a partir de trajetórias de entrada/saída medidas, com base no Lema Fundamental de Willems. O projeto tem como objetivos:
+
+- Implementar o algoritmo DeePC em Python (ou MATLAB) para o conversor Buck já modelado nos repositórios [ControleBuck](https://raphateixeira.github.io/ControleBuck/) e [IC-DataDrive](https://raphateixeira.github.io/IC-DataDrive/);
+- Coletar/gerar trajetórias de excitação persistente (PRBS) em simulação e, se possível, em bancada real;
+- Comparar o desempenho do DeePC com um MPC baseado em modelo (já existente no LabVirtual) e com um controlador PID clássico, em termos de erro de regulação, esforço de controle e robustez a variações de carga;
+- Investigar o efeito da regularização (termos de folga e penalização em norma) na robustez a ruído de medição.
+
+## Pré-requisitos
+
+- Sistemas de Controle I e II (função de transferência e espaço de estados);
+- Noções de otimização convexa (o DeePC resulta em um QP a cada instante de amostragem);
+- Programação em Python (numpy, cvxpy ou osqp) ou MATLAB;
+- Desejável, não obrigatório: Tópicos Especiais em Controle (ementa cobre MPC/DeePC) ou Identificação de Sistemas.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** de 1h entre os membros do grupo para revisão de progresso, com **reunião quinzenal** com o orientador para validação de resultados e definição dos próximos passos;
+- **Entregáveis mensais**: relatório curto (2-3 páginas) documentando o que foi implementado, resultados de simulação e próximos passos;
+- **Ferramentas**: repositório Git compartilhado (GitHub), notebooks Jupyter ou scripts versionados para as simulações, planilha ou quadro Kanban (ex: GitHub Projects) para organizar tarefas entre os membros;
+- Divisão sugerida de papéis dentro do grupo: um membro focado na formulação/otimização do DeePC, outro na infraestrutura de simulação e coleta de dados, outro na comparação com os controladores de referência (MPC/PID) e documentação.
+
+## Referências
+
+1. Coulson, J., Lygeros, J., & Dörfler, F. (2019). *Data-Enabled Predictive Control: In the Shallows of the DeePC*. European Control Conference (ECC). [placeholder — confirmar edição/páginas]
+2. Willems, J. C., Rapisarda, P., Markovsky, I., & De Moor, B. (2005). *A note on persistency of excitation*. Systems & Control Letters. [placeholder — confirmar edição/páginas]
+3. Berberich, J., Köhler, J., Müller, M. A., & Allgöwer, F. (2021). *Data-Driven Model Predictive Control with Stability and Robustness Guarantees*. IEEE Transactions on Automatic Control. [placeholder — confirmar edição/páginas]

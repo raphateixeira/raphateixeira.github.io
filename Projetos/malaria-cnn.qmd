@@ -1,0 +1,36 @@
+---
+title: "Classificação de Imagens de Malária via Redes Neurais Convolucionais"
+date: "2026-07-14"
+categories: ["Machine Learning", "Concluído"]
+description: "Classificação binária (infectado/não infectado) de imagens de esfregaço sanguíneo para diagnóstico de malária, usando redes neurais convolucionais (CNN)."
+---
+
+## Objetivos
+
+Diagnóstico de malária por microscopia depende de análise visual de lâminas de esfregaço sanguíneo, um processo manual, sujeito a variabilidade entre examinadores e que demanda tempo de profissionais especializados. Este projeto avalia o uso de CNNs para automatizar essa triagem. Objetivos:
+
+- Treinar uma CNN para classificação binária de células (parasitadas / não parasitadas) a partir de um conjunto de imagens de esfregaço sanguíneo;
+- Comparar arquiteturas (uma CNN rasa treinada do zero vs. *transfer learning* com arquiteturas pré-treinadas, ex: ResNet, MobileNet);
+- Avaliar métricas relevantes para o contexto de saúde (sensibilidade/recall, especificidade, matriz de confusão), não apenas acurácia, dado o custo assimétrico de falsos negativos;
+- Analisar interpretabilidade (ex: Grad-CAM) para verificar se o modelo atenta às regiões da célula clinicamente relevantes.
+
+Este projeto guarda relação com um [artigo já publicado](../Publicacoes/index.qmd) (Revista DCS, 2026) fruto da dissertação de mestrado de Raphael Saraiva Sousa, cujo código está em repositório privado — esta é uma proposta de replicação/extensão aberta, como projeto de IC independente.
+
+## Pré-requisitos
+
+- Aprendizagem de Máquina / Deep Learning (fundamentos de redes neurais e CNNs);
+- Programação em Python (PyTorch ou TensorFlow/Keras);
+- Noções básicas de estatística para avaliação de classificadores (matriz de confusão, curva ROC).
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** do grupo, com **reunião quinzenal** com o orientador para acompanhamento;
+- **Entregáveis mensais**: notebook com experimentos, métricas de avaliação e comparação entre arquiteturas testadas;
+- **Ferramentas**: repositório Git compartilhado, ambiente com GPU (Google Colab ou cluster local, conforme disponibilidade), controle de experimentos (ex: planilha simples ou MLflow);
+- Divisão sugerida: um membro focado em pré-processamento e pipeline de dados, outro em arquitetura/treinamento dos modelos, outro em avaliação, interpretabilidade e documentação dos resultados.
+
+## Referências
+
+1. Rajaraman, S. et al. (2018). *Pre-trained convolutional neural networks as feature extractors toward improved malaria parasite detection in thin blood smear images*. PeerJ. [placeholder — confirmar edição/páginas]
+2. Sousa, R. S. (2026). Dissertação de Mestrado — diagnóstico de malária via visão computacional. PPCA/UFPA. [placeholder — completar referência definitiva do artigo/dissertação]
+3. Selvaraju, R. R. et al. (2017). *Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization*. ICCV. [placeholder — confirmar edição/páginas]

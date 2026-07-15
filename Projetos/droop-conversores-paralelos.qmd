@@ -1,0 +1,35 @@
+---
+title: "Controle Droop para Compartilhamento de Carga entre Módulos de Conversores CC-CC em Paralelo"
+date: "2026-07-14"
+categories: ["Eletrônica de Potência", "Controle Robusto", "Disponível"]
+description: "Controle descentralizado (droop) para divisão equilibrada de corrente entre módulos de conversores Buck operando em paralelo (interleaved), sem comunicação direta entre módulos."
+---
+
+## Objetivos
+
+Arranjos modulares de conversores — vários conversores idênticos operando em paralelo sobre a mesma carga — são comuns em aplicações de maior potência ou que exigem redundância. O desafio de controle passa a ser não apenas regular a tensão do barramento comum, mas também dividir a corrente de forma equilibrada entre os módulos. Objetivos:
+
+- Modelar um arranjo de N (2 ou 3) conversores Buck idênticos operando em paralelo (estrutura modular/*interleaved*) sobre a mesma carga;
+- Projetar um controle droop (queda de tensão de referência proporcional à corrente de saída de cada módulo) para garantir divisão equilibrada de corrente sem comunicação direta entre os módulos;
+- Avaliar o compromisso clássico do droop entre precisão da regulação de tensão do barramento comum e qualidade da divisão de corrente;
+- Comparar com uma estratégia de compartilhamento ativo (com comunicação entre módulos, ex: master-slave) em termos de robustez à falha ou desconexão de um módulo.
+
+## Pré-requisitos
+
+- Eletrônica de Potência I e II;
+- Sistemas de Controle II;
+- Programação em Python ou MATLAB/Simulink;
+- Noções de microrredes são desejáveis, mas não obrigatórias.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador;
+- **Entregáveis mensais**: notebook/script com o modelo do arranjo modular, o controlador droop implementado e os experimentos de divisão de carga;
+- **Ferramentas**: repositório Git compartilhado, ambiente Python ou MATLAB/Simulink;
+- Divisão sugerida: um membro focado na modelagem do arranjo de módulos em paralelo, outro no projeto e sintonia do controle droop, outro na implementação da estratégia de comparação (master-slave) e nos testes de robustez a falha de módulo.
+
+## Referências
+
+1. Guerrero, J. M., et al. (2011). *Hierarchical Control of Droop-Controlled AC and DC Microgrids — A General Approach Toward Standardization*. IEEE Transactions on Industrial Electronics. [placeholder — confirmar edição/páginas]
+2. Zumel, P., et al. *Interleaving of Multiphase/Multimodule DC-DC Converters: A Review*. [placeholder — confirmar periódico/edição/páginas]
+3. Repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/) — modelo de módulo individual a ser replicado no arranjo paralelo.

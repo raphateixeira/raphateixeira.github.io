@@ -23,11 +23,10 @@ Levantamento de todos os repositórios públicos, categorizados por linha de pes
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
 
 #### Identificação de Sistemas
-- [IdentificaLSTM](https://raphateixeira.github.io/IdentificaLSTM/) - Identificação de um modelo Linear Invariante no Tempo (LIT); segunda etapa via LSTM planejada.
+- [Identificacao](https://raphateixeira.github.io/Identificacao/) - Notas de identificação de sistemas: ajuste de reta, PRBS, modelos ARX e identificação de um modelo Linear Invariante no Tempo (LIT), todos por mínimos quadrados.
 
 #### Diagnóstico Inteligente de Equipamentos
-- [Dataset-DGA](https://raphateixeira.github.io/Dataset-DGA/) - Conjunto de dados de gases dissolvidos em óleo (DGA) de transformadores de potência.
-- [SDI-DGA](https://raphateixeira.github.io/SDI-DGA/) - Sistema de diagnóstico inteligente de faltas em transformadores por análise DGA (ANN, KNN, DUVAL).
+- [AnaliseDGA](https://raphateixeira.github.io/AnaliseDGA/) - Sistema de diagnóstico inteligente de faltas em transformadores por análise DGA (ANN, KNN, DUVAL), com o conjunto de dados de gases dissolvidos em óleo usado no treinamento.
 
 #### Protótipos, Bancadas e Laboratórios
 - [Projeto-Aeropendulo](https://raphateixeira.github.io/Projeto-Aeropendulo/) - Identificação de um modelo linear do sistema aeropêndulo.

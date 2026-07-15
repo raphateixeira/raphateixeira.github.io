@@ -1,0 +1,35 @@
+---
+title: "ARX Adaptativo via RLS para Controle de Inversor Monofásico Conectado à Rede"
+date: "2026-07-14"
+categories: ["Identificação de Sistemas", "Controle Preditivo", "Eletrônica de Potência", "Disponível"]
+description: "Extensão, para um inversor monofásico conectado à rede, da abordagem de identificação ARX adaptativa via RLS acoplada a FCS-MPC já desenvolvida para o controle P-Q de inversores trifásicos."
+---
+
+## Objetivos
+
+O grupo teve recentemente um artigo aceito no CBA 2026 sobre FCS-MPC com modelo ARX adaptado em tempo real via RLS para controle P-Q robusto de inversores trifásicos (ver [Publicações](../Publicacoes/index.qmd)). Este projeto propõe uma versão de entrada, mais acessível a um aluno de graduação, aplicando a mesma ideia a um inversor monofásico. Objetivos:
+
+- Estudar o artigo do grupo (CBA 2026) e identificar o que precisa ser adaptado da formulação trifásica (dq0) para a topologia monofásica;
+- Implementar a identificação recursiva (RLS) de um modelo ARX da planta (filtro de saída + rede) em tempo real, atualizado a cada amostra;
+- Integrar o modelo ARX adaptativo a um controlador preditivo (FCS-MPC) para regulação da corrente injetada na rede;
+- Avaliar a robustez a variações paramétricas (indutância do filtro, impedância da rede) comparando com um controlador baseado em modelo ARX fixo (não adaptativo).
+
+## Pré-requisitos
+
+- Eletrônica de Potência II (inversores);
+- Identificação de Sistemas (estimação recursiva, modelos ARX);
+- Sistemas de Controle II;
+- Programação em Python ou MATLAB/Simulink.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: notebook reprodutível com o pipeline de identificação RLS → FCS-MPC → validação;
+- **Ferramentas**: repositório Git compartilhado, ambiente Python/MATLAB com controle de versão;
+- Divisão sugerida: um membro focado na identificação RLS, outro na formulação/otimização do FCS-MPC, outro na análise de robustez a variações paramétricas e documentação.
+
+## Referências
+
+1. Ljung, L. (1999). *System Identification: Theory for the User*. Prentice Hall. [placeholder — confirmar edição/páginas]
+2. Teixeira, R. B., et al. (2026). *FCS-MPC com ARX Adaptativo via RLS para Controle P-Q Robusto a Variações Paramétricas em Inversores Trifásicos Conectados à Rede*. Anais do XXVI CBA. Ver [Publicações](../Publicacoes/index.qmd).
+3. Repositório [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) — base de FCS-MPC/ARX já em uso no grupo.

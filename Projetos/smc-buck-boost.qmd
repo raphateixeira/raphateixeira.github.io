@@ -1,0 +1,34 @@
+---
+title: "Controle por Modos Deslizantes (Sliding Mode) em Conversor Buck-Boost"
+date: "2026-07-14"
+categories: ["Controle Robusto", "Eletrônica de Potência", "Disponível"]
+description: "Projeto e simulação de um controlador por modos deslizantes para regulação de tensão de saída de um conversor Buck-Boost sob variações de carga e da tensão de entrada."
+---
+
+## Objetivos
+
+O conversor Buck-Boost tem dinâmica não linear e de fase não mínima, o que torna seu controle mais desafiador que o de conversores Buck ou Boost isolados. O controle por modos deslizantes (SMC) é naturalmente robusto a incertezas de modelo e variações de carga, sendo uma alternativa interessante a controladores lineares. Objetivos:
+
+- Modelar o conversor Buck-Boost em espaço de estados e definir uma superfície de deslizamento adequada para regulação da tensão de saída;
+- Projetar a lei de controle chaveada (sliding mode) e analisar condições de existência e alcançabilidade da superfície;
+- Comparar, em simulação, a robustez do SMC frente a um PID e a um MPC (se disponível no LabVirtual) sob degraus de carga e variações na tensão de entrada;
+- Investigar técnicas de mitigação do *chattering* (ex: camada limite, controle equivalente com filtro passa-baixas).
+
+## Pré-requisitos
+
+- Eletrônica de Potência I (conversores CC-CC não isolados);
+- Sistemas de Controle II (espaço de estados); noções de estabilidade de Lyapunov são desejáveis, mas podem ser estudadas durante o projeto;
+- Programação em Python ou MATLAB/Simulink.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador;
+- **Entregáveis mensais**: notebook/script reprodutível com o modelo, o controlador e os experimentos de robustez, mais um resumo curto dos resultados;
+- **Ferramentas**: repositório Git compartilhado, ambiente Python ou MATLAB com controle de versão dos scripts;
+- Divisão sugerida: um membro focado na modelagem do conversor e projeto da superfície de deslizamento, outro na implementação e sintonia da lei de controle, outro na comparação com os controladores de referência e nas técnicas anti-chattering.
+
+## Referências
+
+1. Utkin, V. (1993). *Sliding Mode Control Design Principles and Applications to Electric Drives*. IEEE Transactions on Industrial Electronics. [placeholder — confirmar edição/páginas]
+2. Tan, S.-C., Lai, Y. M., & Tse, C. K. (2011). *Sliding Mode Control of Switching Power Converters: Techniques and Implementation*. CRC Press. [placeholder — confirmar edição/páginas]
+3. Repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/) — modelo de referência do conversor, a ser adaptado para a topologia Buck-Boost.

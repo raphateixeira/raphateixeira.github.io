@@ -1,0 +1,35 @@
+---
+title: "Controle Preditivo de Módulos em Conversor Multinível Modular (MMC) Reduzido"
+date: "2026-07-14"
+categories: ["Controle Preditivo", "Eletrônica de Potência", "Disponível"]
+description: "Aplicação de controle preditivo de conjunto finito ao balanceamento de tensão dos módulos (submódulos) de um Conversor Multinível Modular (MMC) em escala reduzida."
+---
+
+## Objetivos
+
+O Conversor Multinível Modular (MMC) é formado por vários submódulos idênticos conectados em série por braço, o que impõe um desafio de controle específico: além de regular a tensão/corrente de saída, é preciso equilibrar a tensão dos capacitores de cada submódulo. Este projeto propõe atacar esse problema com a abordagem de FCS-MPC já usada no grupo. Objetivos:
+
+- Estudar a topologia de um MMC em escala reduzida (poucos submódulos por braço) e seus desafios específicos de controle: balanceamento de tensão dos capacitores e controle de corrente circulante;
+- Formular um FCS-MPC (nos moldes já usados em [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/)) que selecione, a cada instante, o subconjunto de submódulos inseridos de forma a equilibrar as tensões de capacitor e regular a tensão de saída;
+- Simular o MMC reduzido e comparar o balanceamento de tensão obtido com uma estratégia clássica de ordenação por tensão (*voltage sorting*);
+- Avaliar o custo computacional do FCS-MPC com o crescimento do número de submódulos (explosão combinatória de estados de chaveamento) e discutir estratégias de redução do espaço de busca.
+
+## Pré-requisitos
+
+- Eletrônica de Potência II;
+- Sistemas de Controle II;
+- Tópicos Especiais em Controle (MPC/FCS-MPC) desejável, não obrigatório;
+- Programação em Python ou MATLAB/Simulink (PLECS recomendado para simulação de chaveamento).
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** de 1h entre os membros do grupo, com **reunião quinzenal** com o orientador;
+- **Entregáveis mensais**: relatório curto documentando o que foi implementado, resultados de simulação e próximos passos;
+- **Ferramentas**: repositório Git compartilhado, notebooks/scripts versionados, quadro de tarefas;
+- Divisão sugerida: um membro focado na modelagem do MMC reduzido, outro na formulação do FCS-MPC para balanceamento de submódulos, outro na implementação da estratégia de referência (*voltage sorting*) e na análise de custo computacional.
+
+## Referências
+
+1. Perez, M. A., et al. (2021). *Modular Multilevel Converters: Recent Achievements and Challenges*. IEEE Open Journal of the Industrial Electronics Society. [placeholder — confirmar edição/páginas]
+2. Rodriguez, J., & Cortes, P. (2012). *Predictive Control of Power Converters and Electrical Drives*. Wiley. [placeholder — confirmar edição/páginas]
+3. Repositório [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) — base de FCS-MPC do grupo.

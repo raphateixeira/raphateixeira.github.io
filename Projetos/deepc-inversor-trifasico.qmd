@@ -1,0 +1,35 @@
+---
+title: "DeePC Aplicado ao Controle P-Q de Inversor Trifásico Conectado à Rede"
+date: "2026-07-14"
+categories: ["Controle Preditivo", "Eletrônica de Potência", "Disponível"]
+description: "Extensão do Controle Preditivo Data-Enabled (DeePC), já aplicado ao conversor Buck, para a regulação de potência ativa e reativa (P-Q) de um inversor trifásico conectado à rede."
+---
+
+## Objetivos
+
+O DeePC já está sendo aplicado no grupo à regulação de tensão de um conversor Buck (ver [projeto DeePC-Buck](deepc-buck.qmd)). Este projeto propõe estender a abordagem a um inversor trifásico conectado à rede, comparando-a diretamente com o FCS-MPC com ARX adaptativo via RLS já publicado pelo grupo. Objetivos:
+
+- Estender a formulação do DeePC (já implementada para o conversor Buck) para um inversor trifásico conectado à rede, com variáveis de interesse P e Q injetadas;
+- Coletar trajetórias de excitação persistente em simulação (e, se possível, em bancada) contemplando as dinâmicas de eixo direto/quadratura (dq0);
+- Comparar o DeePC com o FCS-MPC com ARX adaptativo via RLS já publicado pelo grupo (CBA 2026) em erro de rastreamento de P-Q, esforço computacional e robustez a variações paramétricas da rede;
+- Investigar o dimensionamento do horizonte de dados (janela de Hankel) necessário para captar adequadamente a dinâmica trifásica, mais complexa que a do conversor Buck.
+
+## Pré-requisitos
+
+- Sistemas de Controle II;
+- Eletrônica de Potência II (inversores, transformação dq0);
+- Noções de otimização convexa (o DeePC resulta em um QP a cada instante de amostragem);
+- Programação em Python (numpy, cvxpy ou osqp) ou MATLAB.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** de 1h entre os membros do grupo, com **reunião quinzenal** com o orientador;
+- **Entregáveis mensais**: relatório curto documentando o que foi implementado, resultados de simulação e próximos passos;
+- **Ferramentas**: repositório Git compartilhado, notebooks/scripts versionados, quadro de tarefas;
+- Divisão sugerida: um membro focado na formulação/otimização do DeePC para o caso trifásico, outro na infraestrutura de simulação e coleta de dados (dq0), outro na comparação com o FCS-MPC/ARX-RLS já publicado e documentação.
+
+## Referências
+
+1. Coulson, J., Lygeros, J., & Dörfler, F. (2019). *Data-Enabled Predictive Control: In the Shallows of the DeePC*. European Control Conference (ECC). [placeholder — confirmar edição/páginas]
+2. Teixeira, R. B., et al. (2026). *FCS-MPC com ARX Adaptativo via RLS para Controle P-Q Robusto a Variações Paramétricas em Inversores Trifásicos Conectados à Rede*. Anais do XXVI CBA. Ver [Publicações](../Publicacoes/index.qmd).
+3. Repositório [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/).

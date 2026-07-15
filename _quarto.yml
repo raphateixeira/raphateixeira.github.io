@@ -18,6 +18,8 @@ website:
         href: Ensino/index.qmd
       - text: "Pesquisa"
         href: Pesquisa/index.qmd
+      - text: "Projetos"
+        href: Projetos/index.qmd
       - text: "Publicações"
         href: Publicacoes/index.qmd
       - text: "LINCE"

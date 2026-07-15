@@ -1,0 +1,35 @@
+---
+title: "Otimização de Ganhos PID de Conversor Buck via Algoritmos Genéticos"
+date: "2026-07-14"
+categories: ["Eletrônica de Potência", "Controle Inteligente", "Disponível"]
+description: "Sintonia automática dos ganhos de um controlador PID para um conversor Buck via algoritmo genético (PyGad), estendendo a abordagem já aplicada a bancadas motor-gerador para a topologia de conversores CC-CC."
+---
+
+## Objetivos
+
+O grupo já validou a otimização evolutiva de ganhos PID (via PyGad) em bancadas motor-gerador, no TCC de Diego Antonio Silva de Jesus. Este projeto propõe estender essa metodologia a um conversor CC-CC Buck. Objetivos:
+
+- Revisar a metodologia de otimização evolutiva de PID com PyGad já aplicada a bancadas motor-gerador e adaptá-la ao conversor Buck já modelado no repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/);
+- Definir a função de aptidão (fitness) considerando erro de regulação, *overshoot* e esforço de controle;
+- Comparar os ganhos obtidos via algoritmo genético com uma sintonia clássica (Ziegler-Nichols ou alocação de polos) em simulação e, se possível, em bancada real;
+- Avaliar a sensibilidade da sintonia obtida a variações de carga não vistas durante a otimização (teste de generalização).
+
+## Pré-requisitos
+
+- Eletrônica de Potência I;
+- Sistemas de Controle I;
+- Noções de algoritmos evolutivos (podem ser aprendidas durante o projeto);
+- Programação em Python (PyGad).
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** do grupo, com **reunião quinzenal** com o orientador;
+- **Entregáveis mensais**: notebook com os experimentos de otimização, curvas de convergência do GA e comparação com a sintonia clássica;
+- **Ferramentas**: repositório Git compartilhado, ambiente Python (PyGad);
+- Divisão sugerida: um membro focado na definição da função de aptidão e no laço evolutivo, outro na simulação do conversor e integração com o PID, outro na sintonia de referência (Ziegler-Nichols) e nos testes de generalização.
+
+## Referências
+
+1. Ang, K. H., Chong, G., & Li, Y. (2005). *PID Control System Analysis, Design, and Technology*. IEEE Transactions on Control Systems Technology. [placeholder — confirmar edição/páginas]
+2. Jesus, D. A. S. de (2023). [Otimização evolutiva de controladores PID para bancadas motor-gerador utilizando algoritmos genéticos e PyGad](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da). TCC, UFPA. Repositório: [TCC-Diego](https://github.com/raphateixeira/TCC-Diego).
+3. Repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/).

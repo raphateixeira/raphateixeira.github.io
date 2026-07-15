@@ -1,0 +1,34 @@
+---
+title: "Regressão Simbólica para Modelagem Não Linear de Conversores CC-CC"
+date: "2026-07-14"
+categories: ["Identificação de Sistemas", "Machine Learning", "Eletrônica de Potência", "Disponível"]
+description: "Uso de regressão simbólica (programação genética) para obter expressões analíticas compactas da dinâmica não linear de conversores CC-CC, com validação frente a modelos ARX e em espaço de estados."
+---
+
+## Objetivos
+
+A regressão simbólica busca, a partir de dados, não apenas ajustar parâmetros de uma estrutura de modelo fixa (como no ARX), mas também descobrir a própria forma funcional da relação entre variáveis — um tema identificado como lacuna de pesquisa no grupo (ver [Pesquisa](../Pesquisa/index.qmd)). Objetivos:
+
+- Revisar a abordagem de identificação não linear por regressão esparsa já aplicada a bancada motor-gerador (Carvalho, Anjos, Paiva, Teixeira & Silva, 2024) como ponto de partida metodológico;
+- Aplicar regressão simbólica (ex: bibliotecas PySR ou gplearn) aos dados de tensão/corrente de um conversor Buck ou Boost, buscando uma expressão fechada para a dinâmica;
+- Comparar a expressão simbólica obtida com o modelo físico conhecido do conversor (derivado por espaço de estados médio) e com um modelo ARX identificado por mínimos quadrados;
+- Avaliar interpretabilidade e capacidade de extrapolação (fora da faixa de operação usada no treinamento) da expressão simbólica frente a modelos "caixa-preta" (redes neurais).
+
+## Pré-requisitos
+
+- Identificação de Sistemas;
+- Noções de otimização/algoritmos evolutivos (podem ser aprendidas durante o projeto);
+- Programação em Python (PySR ou gplearn).
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** do grupo, com **reunião quinzenal** com o orientador;
+- **Entregáveis mensais**: notebook reprodutível com o pipeline de coleta de dados → regressão simbólica → validação frente aos modelos de referência;
+- **Ferramentas**: repositório Git compartilhado, ambiente Python com controle de dependências;
+- Divisão sugerida: um membro focado na geração/coleta dos dados de simulação do conversor, outro na aplicação da regressão simbólica e escolha dos operadores/funções candidatas, outro na comparação com os modelos ARX e em espaço de estados.
+
+## Referências
+
+1. Koza, J. R. (1992). *Genetic Programming: On the Programming of Computers by Means of Natural Selection*. MIT Press. [placeholder — confirmar edição/páginas]
+2. Carvalho, K., Anjos, L. dos, Paiva, R., Otacílio, Teixeira, R. B., & Silva, C. (2024). *Identificação não linear no espaço de estados de motor-gerador via regressão esparsa*. Anais do CBA. Ver [Publicações](../Publicacoes/index.qmd).
+3. Repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/).

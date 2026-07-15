@@ -1,0 +1,35 @@
+---
+title: "Extremum Seeking Control (ESC) Aplicado ao MPPT de Sistema Fotovoltaico"
+date: "2026-07-14"
+categories: ["Controle Inteligente", "Eletrônica de Potência", "Disponível"]
+description: "Rastreamento do ponto de máxima potência (MPPT) de um painel fotovoltaico via Extremum Seeking Control, sem uso de modelo explícito do arranjo PV, comparado ao método Perturba e Observa."
+---
+
+## Objetivos
+
+O rastreamento do ponto de máxima potência (MPPT) é, essencialmente, um problema de otimização em tempo real de uma função desconhecida e variante no tempo (a curva P-V do arranjo fotovoltaico, que muda com irradiância e temperatura). O *Extremum Seeking Control* (ESC) ataca esse problema sem exigir um modelo explícito da planta — um tema identificado como lacuna de pesquisa no grupo (ver [Pesquisa](../Pesquisa/index.qmd)). Objetivos:
+
+- Revisar a curva característica P-V de um painel/arranjo fotovoltaico e o modelo do conversor Boost usado como estágio de potência, tomando como base o TCC de Elenildo Cássio Santos dos Santos sobre MPPT;
+- Implementar um controlador ESC (perturbação senoidal, demodulação e integrador) para buscar o ponto de máxima potência sem depender de um modelo explícito do arranjo PV;
+- Comparar o ESC com o algoritmo clássico Perturba e Observa (P&O) em velocidade de convergência, oscilação em regime permanente e comportamento sob sombreamento parcial (múltiplos máximos locais);
+- Investigar a sintonia da frequência e amplitude do sinal de perturbação e seu efeito na velocidade de convergência.
+
+## Pré-requisitos
+
+- Eletrônica de Potência I (conversor Boost como estágio de MPPT);
+- Sistemas de Controle I e II;
+- Noções de sistemas fotovoltaicos (desejável, não obrigatório);
+- Programação em Python ou MATLAB/Simulink.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** do grupo, com **reunião quinzenal** com o orientador;
+- **Entregáveis mensais**: notebook com o modelo do arranjo PV, o controlador ESC implementado e a comparação com P&O;
+- **Ferramentas**: repositório Git compartilhado, ambiente Python ou MATLAB/Simulink;
+- Divisão sugerida: um membro focado na modelagem do arranjo PV e do conversor, outro na implementação do ESC, outro na implementação do P&O de referência e na análise comparativa (incluindo cenários de sombreamento parcial).
+
+## Referências
+
+1. Leyva, R., et al. (2006). *MPPT of Photovoltaic Systems Using Extremum-Seeking Control*. IEEE Transactions on Aerospace and Electronic Systems. [placeholder — confirmar edição/páginas]
+2. Ariyur, K. B., & Krstic, M. (2003). *Real-Time Optimization by Extremum-Seeking Control*. Wiley. [placeholder — confirmar edição/páginas]
+3. Santos, E. C. S. dos (2023). [Modelagem e controle de sistema fotovoltaico para rastreamento do ponto de máxima potência](https://bdm.ufpa.br/items/122bb641-ddbc-4eb9-aab7-3198331e8bb3). TCC, UFPA.

@@ -1,0 +1,14 @@
+---
+title: "Projetos"
+listing:
+  contents: "*.qmd"
+  type: grid
+  categories: true
+  sort: "date desc"
+  fields: [title, description, categories]
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+---
+
+Projetos de Iniciação Científica (IC) abertos para alunos de graduação, organizados em **grupos autônomos autogerenciados**: o grupo define sua própria rotina de reuniões e entregáveis, com acompanhamento periódico do orientador. Use os filtros de categoria abaixo para buscar por tema de pesquisa ou por status ("Disponível", "Em andamento", "Concluído").
