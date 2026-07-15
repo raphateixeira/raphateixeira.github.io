@@ -3,7 +3,7 @@ project:
   type: website
 
 website:
-  title: "UFPA - Raphael Teixeira"
+  title: "Raphael Teixeira"
   description: "Página pessoal para ensino e pesquisa."
   site-url: https://raphateixeira.github.io
 
@@ -50,8 +50,6 @@ website:
             href: "http://lattes.cnpq.br/4902824086591521" 
           - text: "<i class='bi bi-orcid'></i> Orcid"
             href: "https://orcid.org/0000-0003-2993-802X"
-          - text: "<i class='bi bi-building'></i> PPCA - UFPA"
-            href: "https://www.ppca.propesp.ufpa.br/index.php/br/"
 
       - title: "Institucional"
         section: Institucional
@@ -63,6 +61,8 @@ website:
             href: "https://www.camtuc.ufpa.br/"
           - text: "<i class='bi bi-building'></i> FEE"
             href: "https://fee.camtuc.ufpa.br/"
+          - text: "<i class='bi bi-building'></i> PPCA"
+            href: "https://www.ppca.propesp.ufpa.br/index.php/br/"
           - text: "<i class='bi bi-mortarboard'></i> PROEG"
             href: "https://proeg.ufpa.br/"
           - text: "<i class='bi bi-flask'></i> PROPESP"
