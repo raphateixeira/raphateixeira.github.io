@@ -29,6 +29,6 @@ A regressão simbólica busca, a partir de dados, não apenas ajustar parâmetro
 
 ## Referências
 
-1. Koza, J. R. (1992). *Genetic Programming: On the Programming of Computers by Means of Natural Selection*. MIT Press. [placeholder — confirmar edição/páginas]
+1. Koza, J. R. (1992). *Genetic Programming: On the Programming of Computers by Means of Natural Selection*. MIT Press.
 2. Carvalho, K., Anjos, L. dos, Paiva, R., Otacílio, Teixeira, R. B., & Silva, C. (2024). *Identificação não linear no espaço de estados de motor-gerador via regressão esparsa*. Anais do CBA. Ver [Publicações](../Publicacoes/index.qmd).
 3. Repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/).

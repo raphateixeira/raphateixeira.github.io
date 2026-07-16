@@ -1,0 +1,34 @@
+---
+title: "Estabilização de Pêndulo Invertido sobre Carrinho (Cart-Pole)"
+date: "2026-07-16"
+categories: ["Controle Clássico", "Controle Robusto", "Disponível"]
+description: "Modelagem, identificação e controle por realimentação de estados (LQR) de uma bancada clássica de pêndulo invertido sobre carrinho acionado por motor/trilho."
+---
+
+## Objetivos
+
+O pêndulo invertido sobre carrinho (cart-pole), com o carrinho deslocando-se sobre um trilho acionado por motor e o pêndulo livre para girar em torno de um eixo no carrinho, é a planta de referência mais tradicional em disciplinas de controle em espaço de estados. O LINCE dispõe de uma bancada didática desse tipo. Objetivos:
+
+- Deduzir as equações não lineares de movimento do sistema carrinho-pêndulo (via Lagrange ou Newton-Euler) e sua linearização em torno do ponto de equilíbrio instável (pêndulo na vertical);
+- Identificar experimentalmente os parâmetros do modelo (massas, comprimento efetivo, atritos) a partir de ensaios na bancada;
+- Projetar um controlador por realimentação de estados (alocação de polos e LQR) para estabilizar o pêndulo na posição vertical e posicionar o carrinho no trilho;
+- Avaliar a região de atração do controlador linear (ângulo inicial máximo a partir do qual ainda estabiliza) e comparar com uma estratégia de *swing-up* para partir da posição pendente.
+
+## Pré-requisitos
+
+- Sistemas de Controle II (espaço de estados, controlabilidade, LQR);
+- Mecânica (Lagrange ou Newton-Euler para sistemas com múltiplos graus de liberdade);
+- Instrumentação (encoders de posição do carrinho e ângulo do pêndulo);
+- Programação em Python, MATLAB ou C/C++ para microcontrolador.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: notebook/firmware reprodutível com o pipeline de modelagem → identificação → projeto do LQR → testes de estabilização na bancada;
+- **Ferramentas**: bancada de pêndulo invertido sobre carrinho do LINCE, microcontrolador, repositório Git compartilhado;
+- Divisão sugerida: um membro focado na modelagem e identificação, outro no projeto e sintonia do LQR, outro na avaliação experimental e, se houver tempo, na estratégia de swing-up.
+
+## Referências
+
+1. Ogata, K. *Engenharia de Controle Moderno*. 5ª ed. Pearson, 2010.
+2. Åström, K. J.; Murray, R. M. *Feedback Systems: An Introduction for Scientists and Engineers*. 2ª ed. Princeton University Press, 2021.

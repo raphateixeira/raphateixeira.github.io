@@ -31,6 +31,6 @@ Este projeto guarda relação com um [artigo já publicado](../Publicacoes/index
 
 ## Referências
 
-1. Rajaraman, S. et al. (2018). *Pre-trained convolutional neural networks as feature extractors toward improved malaria parasite detection in thin blood smear images*. PeerJ. [placeholder — confirmar edição/páginas]
-2. Sousa, R. S. (2026). Dissertação de Mestrado — diagnóstico de malária via visão computacional. PPCA/UFPA. [placeholder — completar referência definitiva do artigo/dissertação]
-3. Selvaraju, R. R. et al. (2017). *Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization*. ICCV. [placeholder — confirmar edição/páginas]
+1. Rajaraman, S.; Antani, S. K.; Poostchi, M.; Silamut, K.; Hossain, M. A.; Maude, R. J.; Jaeger, S.; Thoma, G. R. (2018). Pre-trained convolutional neural networks as feature extractors toward improved malaria parasite detection in thin blood smear images. *PeerJ*, 6, e4568.
+2. Sousa, R. S. (2026). [Diagnóstico automatizado da malária em imagens de esfregaços sanguíneos por meio de aprendizagem profunda](https://doi.org/10.54899/dcs.v23i88.4926). Dissertação de Mestrado, PPCA/UFPA. Publicado em *Revista DCS*. Repositório: [MScRaphael](https://github.com/raphateixeira/MScRaphael).
+3. Selvaraju, R. R.; Cogswell, M.; Das, A.; Vedantam, R.; Parikh, D.; Batra, D. (2017). Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization. *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*, 618–626.

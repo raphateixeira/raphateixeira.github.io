@@ -1,0 +1,33 @@
+---
+title: "Controle de Planta com Resposta Inversa (Sistema de Fase Não Mínima)"
+date: "2026-07-16"
+categories: ["Instrumentação", "Controle Clássico", "Disponível"]
+description: "Identificação e controle de uma bancada didática que exibe resposta inversa (fase não mínima), ilustrando as limitações clássicas de controladores PID nesses casos."
+---
+
+## Objetivos
+
+Sistemas de resposta inversa — aqueles em que a saída inicialmente se move na direção oposta à do regime permanente, antes de convergir para o valor final — são um caso didático clássico de planta de fase não mínima (zero no semiplano direito), com implicações importantes para o projeto de controladores. O LINCE dispõe de uma bancada que reproduz esse comportamento (ex.: dois efeitos competindo com constantes de tempo distintas). Objetivos:
+
+- Levantar experimentalmente a resposta ao degrau da bancada e identificar o modelo (função de transferência com zero no semiplano direito) que explica a resposta inversa observada;
+- Discutir, a partir do modelo identificado, por que a resposta inversa impõe um limite fundamental à velocidade de resposta em malha fechada, independentemente do controlador usado;
+- Projetar um controlador PID (com sintonia adequada às limitações do sistema) e comparar seu desempenho com uma estratégia mais avançada (ex.: preditor de Smith modificado para sistemas de fase não mínima);
+- Documentar as diferenças observadas em relação ao controle de uma planta "bem comportada" (fase mínima), como comparação didática.
+
+## Pré-requisitos
+
+- Sistemas de Controle I e II (função de transferência, resposta em frequência, zeros no semiplano direito);
+- Instrumentação (sensores e atuadores da bancada específica);
+- Programação em Python ou MATLAB.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: notebook reprodutível com o pipeline de aquisição → identificação → projeto e comparação de controladores;
+- **Ferramentas**: bancada de resposta inversa do LINCE, placa de aquisição, repositório Git compartilhado;
+- Divisão sugerida: um membro focado na instrumentação e aquisição de dados, outro na identificação do modelo, outro no projeto e comparação dos controladores.
+
+## Referências
+
+1. Ogata, K. *Engenharia de Controle Moderno*. 5ª ed. Pearson, 2010.
+2. Åström, K. J.; Hägglund, T. *PID Controllers: Theory, Design, and Tuning*. 2ª ed. ISA, 1995.

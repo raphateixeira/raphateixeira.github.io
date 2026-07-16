@@ -1,0 +1,34 @@
+---
+title: "Controle de Ângulo de Disparo em Retificador Controlado a Tiristores"
+date: "2026-07-16"
+categories: ["Eletrônica de Potência", "Instrumentação", "Disponível"]
+description: "Modelagem, identificação e controle de tensão CC de saída de uma bancada de retificador controlado a tiristores via ajuste do ângulo de disparo."
+---
+
+## Objetivos
+
+O retificador controlado a tiristores (SCR) é uma planta clássica de eletrônica de potência para ensino de controle: a tensão CC média de saída é ajustada pelo ângulo de disparo dos tiristores em relação à rede CA, numa relação não linear (proporcional ao cosseno do ângulo de disparo, no caso de carga resistiva/indutiva). O LINCE dispõe de uma bancada didática desse tipo. Objetivos:
+
+- Revisar o princípio de operação do retificador controlado (topologia monofásica ou trifásica da bancada) e a relação teórica entre ângulo de disparo e tensão CC média de saída;
+- Implementar o circuito de disparo sincronizado com a rede (detecção de passagem por zero e geração do pulso de gate com o atraso correspondente ao ângulo desejado);
+- Levantar experimentalmente a curva tensão-ângulo de disparo e comparar com o modelo teórico, incluindo o efeito da carga (resistiva vs. resistivo-indutiva);
+- Projetar um controlador de tensão CC de saída (malha fechada ajustando o ângulo de disparo) e avaliar seu desempenho frente a variações de carga.
+
+## Pré-requisitos
+
+- Eletrônica de Potência I (retificadores controlados);
+- Sistemas de Controle I;
+- Instrumentação (sincronismo com a rede, isolação de sinais de disparo);
+- Programação em C/C++ para microcontrolador e Python/MATLAB para análise de dados.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: firmware/notebook reprodutível com o pipeline de sincronismo → geração de disparo → identificação da curva tensão-ângulo → controle de tensão;
+- **Ferramentas**: bancada de retificador controlado do LINCE, osciloscópio, repositório Git compartilhado;
+- Divisão sugerida: um membro focado no circuito de sincronismo e geração de disparo, outro na identificação da curva tensão-ângulo, outro no projeto e validação do controlador de tensão.
+
+## Referências
+
+1. Mohan, N.; Undeland, T. M.; Robbins, W. P. *Power Electronics: Converters, Applications, and Design*. 3ª ed. Wiley, 2003. Cap. 6 — Line-Frequency Phase-Controlled Rectifiers and Inverters.
+2. Ogata, K. *Engenharia de Controle Moderno*. 5ª ed. Pearson, 2010.

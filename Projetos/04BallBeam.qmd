@@ -1,0 +1,34 @@
+---
+title: "Controle de Posição em Bancada Ball and Beam"
+date: "2026-07-16"
+categories: ["Controle Clássico", "Robótica", "Disponível"]
+description: "Modelagem, identificação e controle em cascata de uma bancada didática Ball and Beam para posicionamento de uma esfera sobre uma viga inclinável."
+---
+
+## Objetivos
+
+O Ball and Beam é uma planta clássica de laboratório de controle: uma esfera rola livremente sobre uma viga cuja inclinação é ajustada por um servomotor, e o objetivo é controlar a posição da esfera ao longo da viga — um sistema instável em malha aberta e subatuado. O LINCE dispõe de uma bancada didática desse tipo. Objetivos:
+
+- Deduzir o modelo não linear do sistema (dinâmica da esfera sobre a viga inclinada) e sua linearização em torno do ponto de operação;
+- Identificar experimentalmente os parâmetros relevantes (atrito, ganho do servo de inclinação) a partir de ensaios na bancada;
+- Projetar um controlador em cascata (malha interna de ângulo da viga, malha externa de posição da esfera), comparando uma sintonia PID clássica com uma abordagem em espaço de estados (alocação de polos ou LQR);
+- Avaliar o desempenho de rastreamento de referência (posição desejada da esfera) e a robustez a perturbações (toque manual na esfera).
+
+## Pré-requisitos
+
+- Sistemas de Controle I e II (linearização, espaço de estados);
+- Mecânica básica (dinâmica de rolamento sem escorregamento);
+- Instrumentação (sensor de posição da esfera, servomotor);
+- Programação em Python, MATLAB ou C/C++ para microcontrolador.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: notebook/firmware reprodutível com o pipeline de modelagem → identificação → projeto do controlador em cascata → testes na bancada;
+- **Ferramentas**: bancada Ball and Beam do LINCE, microcontrolador, repositório Git compartilhado;
+- Divisão sugerida: um membro focado na modelagem e identificação, outro no projeto da malha interna (ângulo), outro no projeto da malha externa (posição) e na avaliação experimental.
+
+## Referências
+
+1. Ogata, K. *Engenharia de Controle Moderno*. 5ª ed. Pearson, 2010.
+2. Åström, K. J.; Murray, R. M. *Feedback Systems: An Introduction for Scientists and Engineers*. 2ª ed. Princeton University Press, 2021.

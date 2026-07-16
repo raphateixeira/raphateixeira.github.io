@@ -30,6 +30,6 @@ O grupo já validou a otimização evolutiva de ganhos PID (via PyGad) em bancad
 
 ## Referências
 
-1. Ang, K. H., Chong, G., & Li, Y. (2005). *PID Control System Analysis, Design, and Technology*. IEEE Transactions on Control Systems Technology. [placeholder — confirmar edição/páginas]
+1. Ang, K. H.; Chong, G.; Li, Y. (2005). PID control system analysis, design, and technology. *IEEE Transactions on Control Systems Technology*, 13(4), 559–576.
 2. Jesus, D. A. S. de (2023). [Otimização evolutiva de controladores PID para bancadas motor-gerador utilizando algoritmos genéticos e PyGad](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da). TCC, UFPA. Repositório: [TCC-Diego](https://github.com/raphateixeira/TCC-Diego).
 3. Repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/).

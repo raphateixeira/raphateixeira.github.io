@@ -30,6 +30,6 @@ O Conversor Multinível Modular (MMC) é formado por vários submódulos idênti
 
 ## Referências
 
-1. Perez, M. A., et al. (2021). *Modular Multilevel Converters: Recent Achievements and Challenges*. IEEE Open Journal of the Industrial Electronics Society. [placeholder — confirmar edição/páginas]
-2. Rodriguez, J., & Cortes, P. (2012). *Predictive Control of Power Converters and Electrical Drives*. Wiley. [placeholder — confirmar edição/páginas]
+1. Perez, M. A.; Ceballos, S.; Konstantinou, G.; Pou, J.; Aguilera, R. P. (2021). Modular Multilevel Converters: Recent Achievements and Challenges. *IEEE Open Journal of the Industrial Electronics Society*, 2, 224–239.
+2. Rodríguez, J.; Cortés, P. *Predictive Control of Power Converters and Electrical Drives*. Wiley-IEEE Press, 2012.
 3. Repositório [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) — base de FCS-MPC do grupo.

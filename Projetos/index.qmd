@@ -1,6 +1,7 @@
 ---
 title: "Projetos"
 listing:
+  id: projetos-listing
   contents: "*.qmd"
   type: grid
   categories: true
@@ -12,3 +13,21 @@ page-layout: full
 ---
 
 Projetos de Iniciação Científica (IC) abertos para alunos de graduação, organizados em **grupos autônomos autogerenciados**: o grupo define sua própria rotina de reuniões e entregáveis, com acompanhamento periódico do orientador. Use os filtros de categoria abaixo para buscar por tema de pesquisa ou por status ("Disponível", "Em andamento", "Concluído").
+
+::: {#projetos-listing}
+:::
+
+## Temas em Avaliação
+
+Os temas abaixo já foram estudados pelo grupo e têm potencial para se tornar projetos de IC, mas ainda não foram estruturados como bancadas/entregáveis para um aluno de graduação. Alunos interessados em algum desses temas podem procurar o orientador para discutir a viabilidade de abertura.
+
+- **ARX Adaptativo via RLS para Controle de Inversor Monofásico Conectado à Rede** — Extensão, para um inversor monofásico conectado à rede, da abordagem de identificação ARX adaptativa via RLS acoplada a FCS-MPC já desenvolvida para o controle P-Q de inversores trifásicos.
+- **Bancada Didática Pocket-Size de Conversor Boost com Identificação via PRBS** — Extensão da bancada pocket-size já validada para ensino de controle (COBENGE 2025) a um conversor Boost, com identificação paramétrica a partir de sinais PRBS.
+- **Controle Preditivo Data-Enabled (DeePC) em Conversor Buck** — Aplicação do DeePC — controle preditivo direto a partir de dados, sem etapa explícita de identificação de modelo — à regulação de tensão de um conversor CC-CC Buck.
+- **DeePC Aplicado ao Controle P-Q de Inversor Trifásico Conectado à Rede** — Extensão do Controle Preditivo Data-Enabled (DeePC), já aplicado ao conversor Buck, para a regulação de potência ativa e reativa (P-Q) de um inversor trifásico conectado à rede.
+- **Detecção e Tolerância a Falhas em Módulos de Conversores CC-CC Redundantes** — Detecção de falhas (circuito aberto/curto em chave) em módulos de um arranjo redundante de conversores CC-CC em paralelo, com reconfiguração do controle para operação tolerante a falhas.
+- **Controle Droop para Compartilhamento de Carga entre Módulos de Conversores CC-CC em Paralelo** — Controle descentralizado (droop) para divisão equilibrada de corrente entre módulos de conversores Buck operando em paralelo (interleaved), sem comunicação direta entre módulos.
+- **Extremum Seeking Control (ESC) Aplicado ao MPPT de Sistema Fotovoltaico** — Rastreamento do ponto de máxima potência (MPPT) de um painel fotovoltaico via Extremum Seeking Control, sem uso de modelo explícito do arranjo PV, comparado ao método Perturba e Observa.
+- **Controle Preditivo de Conjunto Finito (FCS-MPC) em Conversor Boost** — Extensão do FCS-MPC já validado em acionamentos DFIG (ControleDFIG) para a regulação de tensão de um conversor CC-CC Boost, com avaliação de desempenho frente ao PID clássico.
+- **Kolmogorov-Arnold Networks (KAN) para Modelagem de Conversores CC-CC** — Avaliação exploratória de Kolmogorov-Arnold Networks como alternativa às redes neurais tradicionais (MLP) para identificação da dinâmica não linear de conversores CC-CC.
+- **Identificação via Operadores de Koopman de um Acionamento DFIG** — Uso de operadores de Koopman (EDMD) para obter uma representação linear no espaço de observáveis da dinâmica não linear de um gerador de indução duplamente alimentado (DFIG).

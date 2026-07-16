@@ -1,0 +1,34 @@
+---
+title: "Controle de Ângulo de Aeropêndulo"
+date: "2026-07-16"
+categories: ["Controle Clássico", "Robótica", "Disponível"]
+description: "Modelagem, identificação e controle do ângulo de uma bancada didática de aeropêndulo (braço pivotado acionado por hélice) em torno de referências variáveis."
+---
+
+## Objetivos
+
+O aeropêndulo é uma planta didática composta por um braço pivotado em torno de um eixo horizontal, com um conjunto motor-hélice na extremidade que gera o empuxo usado para controlar o ângulo do braço — um sistema não linear (torque gravitacional proporcional ao seno do ângulo) clássico em disciplinas de controle. O LINCE dispõe de uma bancada didática desse tipo. Objetivos:
+
+- Deduzir o modelo não linear do aeropêndulo (torque gravitacional, torque de empuxo em função da velocidade do motor, atrito no eixo) e sua linearização em torno de um ponto de operação;
+- Identificar experimentalmente os parâmetros do modelo (relação empuxo-tensão do motor, momento de inércia efetivo, coeficiente de atrito) a partir de ensaios na bancada;
+- Projetar um controlador de ângulo (PID ou por realimentação de estados) e avaliar seu desempenho para diferentes referências (incluindo a região próxima à posição vertical, onde a linearização degrada);
+- Comparar o desempenho do controlador linear com uma extensão simples de compensação da não linearidade (ex: linearização por realimentação, *feedback linearization*).
+
+## Pré-requisitos
+
+- Sistemas de Controle I e II (linearização, espaço de estados);
+- Mecânica básica (dinâmica rotacional, torques);
+- Instrumentação (encoder/potenciômetro de ângulo, driver de motor);
+- Programação em Python, MATLAB ou C/C++ para microcontrolador.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: notebook/firmware reprodutível com o pipeline de modelagem → identificação → projeto do controlador → testes na bancada;
+- **Ferramentas**: bancada de aeropêndulo do LINCE, microcontrolador, repositório Git compartilhado;
+- Divisão sugerida: um membro focado na modelagem e identificação, outro no projeto e sintonia do controlador linear, outro na investigação da compensação da não linearidade.
+
+## Referências
+
+1. Ogata, K. *Engenharia de Controle Moderno*. 5ª ed. Pearson, 2010.
+2. Khalil, H. K. *Nonlinear Systems*. 3ª ed. Prentice Hall, 2002. Cap. 13 — Feedback Linearization.
