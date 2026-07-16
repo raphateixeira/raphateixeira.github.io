@@ -1,0 +1,13 @@
+---
+title: "Identificação de Sistemas"
+description: "Modelagem e identificação de sistemas dinâmicos."
+categories: ["Identificação de Sistemas"]
+bibliography: bib/identificacao-sistemas.bib
+csl: ieee.csl
+nocite: '@*'
+---
+
+Referências sobre identificação de sistemas e controle digital.
+
+::: {#refs}
+:::

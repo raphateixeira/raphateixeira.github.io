@@ -1,0 +1,13 @@
+---
+title: "Eletrônica de Potência"
+description: "Conversores, inversores e acionamentos."
+categories: ["Eletrônica de Potência"]
+bibliography: bib/eletronica-potencia.bib
+csl: ieee.csl
+nocite: '@*'
+---
+
+Referências sobre conversores, inversores e controle de acionamentos.
+
+::: {#refs}
+:::

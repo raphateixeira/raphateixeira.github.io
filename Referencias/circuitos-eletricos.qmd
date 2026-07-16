@@ -1,0 +1,13 @@
+---
+title: "Circuitos Elétricos"
+description: "Análise de circuitos em corrente contínua e alternada."
+categories: ["Circuitos Elétricos"]
+bibliography: bib/circuitos-eletricos.bib
+csl: ieee.csl
+nocite: '@*'
+---
+
+Referências sobre análise de circuitos elétricos em corrente contínua e alternada.
+
+::: {#refs}
+:::

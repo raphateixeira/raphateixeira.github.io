@@ -1,0 +1,17 @@
+---
+title: "Referências"
+description: "Bibliografia organizada por linha de pesquisa/estudo."
+listing:
+  contents:
+    - controle-classico.qmd
+    - controle-preditivo.qmd
+    - identificacao-sistemas.qmd
+    - eletronica-potencia.qmd
+    - circuitos-eletricos.qmd
+  type: default
+  categories: true
+  sort: "title asc"
+  fields: [title, description, categories]
+page-layout: full
+title-block-banner: false
+---

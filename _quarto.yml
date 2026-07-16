@@ -26,6 +26,8 @@ website:
         href: LINCE/index.qmd
       - text: "Estudos"
         href: Estudos/index.qmd
+      - text: "Referências"
+        href: Referencias/index.qmd
       - text: "Documentos"
         href: Documentos/index.qmd
     right:

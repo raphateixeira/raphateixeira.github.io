@@ -1,0 +1,13 @@
+---
+title: "Controle Clássico"
+description: "Ganhos fixos, resposta em frequência e sintonia PID."
+categories: ["Controle Clássico"]
+bibliography: bib/controle-classico.bib
+csl: ieee.csl
+nocite: '@*'
+---
+
+Referências sobre teoria clássica de controle: PID, resposta em frequência e fundamentos.
+
+::: {#refs}
+:::

@@ -1,5 +1,11 @@
 ---
 title: "Pesquisa"
+bibliography:
+  - ../Referencias/bib/eletronica-potencia.bib
+  - ../Referencias/bib/controle-preditivo.bib
+  - ../Referencias/bib/identificacao-sistemas.bib
+csl: ../Referencias/ieee.csl
+nocite: '@*'
 ---
 
 ```{=html}
@@ -46,3 +52,8 @@ Ao cruzar os temas de pesquisa acima com os repositórios e publicações existe
 - **Regressão simbólica:** sem repositório público e sem publicação encontrada.
 - **Extremum Seeking Control (ESC):** sem repositório público e sem publicação encontrada.
 - **Kolmogorov Arnold Network (KAN):** sem repositório público e sem publicação encontrada.
+
+### Referências
+
+::: {#refs}
+:::

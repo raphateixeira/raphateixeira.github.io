@@ -1,0 +1,13 @@
+---
+title: "Controle Preditivo"
+description: "MPC, DeePC e variantes baseadas em dados."
+categories: ["Controle Preditivo"]
+bibliography: bib/controle-preditivo.bib
+csl: ieee.csl
+nocite: '@*'
+---
+
+Referências sobre controle preditivo baseado em modelo (MPC) e em dados (DeePC).
+
+::: {#refs}
+:::

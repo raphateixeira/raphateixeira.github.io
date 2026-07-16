@@ -1,8 +1,16 @@
 ---
 title: "Tópicos Especiais em Controle"
 date: "02/12/2025"
+bibliography: ../Referencias/bib/controle-preditivo.bib
+csl: ../Referencias/ieee.csl
+nocite: '@*'
 ---
 
 ## Tópicos Especiais em Controle
 
 - [Classificação]
+
+### Referências
+
+::: {#refs}
+:::
