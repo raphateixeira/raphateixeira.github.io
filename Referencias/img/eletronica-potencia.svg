@@ -1,0 +1,50 @@
+<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="320" fill="#E7EEFA"/>
+  <g fill="none" stroke="#002C6F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ground rail -->
+    <path d="M50 250 H430"/>
+    <!-- source leads -->
+    <path d="M50 80 V140"/>
+    <path d="M50 180 V250"/>
+    <!-- top rail: source to switch -->
+    <path d="M50 80 H140"/>
+    <!-- switch -->
+    <path d="M140 80 L172 52"/>
+    <!-- top rail: switch to node A -->
+    <path d="M180 80 H230"/>
+    <!-- node A leads (diode branch) -->
+    <path d="M230 80 V150"/>
+    <path d="M230 180 V250"/>
+    <!-- inductor leads -->
+    <path d="M230 80 H250"/>
+    <path d="M320 80 H340"/>
+    <!-- inductor coil -->
+    <path d="M250 80 a10 10 0 0 1 17.5 0 a10 10 0 0 1 17.5 0 a10 10 0 0 1 17.5 0 a10 10 0 0 1 17.5 0"/>
+    <!-- node B leads (capacitor branch) -->
+    <path d="M340 80 V155"/>
+    <path d="M340 175 V250"/>
+    <!-- top rail: node B to load -->
+    <path d="M340 80 H410"/>
+    <!-- load leads -->
+    <path d="M410 80 V150"/>
+    <path d="M410 210 V250"/>
+  </g>
+  <!-- switch contacts -->
+  <circle cx="140" cy="80" r="5" fill="#002C6F"/>
+  <circle cx="180" cy="80" r="5" fill="#002C6F"/>
+  <!-- source battery plates -->
+  <g stroke="#002C6F" stroke-linecap="round">
+    <line x1="20" y1="140" x2="80" y2="140" stroke-width="5"/>
+    <line x1="32" y1="180" x2="68" y2="180" stroke-width="10"/>
+  </g>
+  <!-- diode -->
+  <path d="M215 150 L245 150 L230 180 Z" fill="#002C6F"/>
+  <line x1="215" y1="180" x2="245" y2="180" stroke="#002C6F" stroke-width="6" stroke-linecap="round"/>
+  <!-- capacitor plates -->
+  <line x1="325" y1="155" x2="355" y2="155" stroke="#002C6F" stroke-width="7" stroke-linecap="round"/>
+  <line x1="325" y1="175" x2="355" y2="175" stroke="#002C6F" stroke-width="7" stroke-linecap="round"/>
+  <!-- load resistor -->
+  <path d="M410 150 L425 163 L395 176 L425 189 L395 202 L410 210" fill="none" stroke="#002C6F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="230" cy="80" r="6" fill="#E4002B"/>
+  <circle cx="340" cy="80" r="6" fill="#E4002B"/>
+</svg>

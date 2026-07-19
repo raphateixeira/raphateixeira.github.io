@@ -1,6 +1,7 @@
 ---
 title: "Circuitos Elétricos"
 description: "Análise de circuitos em corrente contínua e alternada."
+image: img/circuitos-eletricos.svg
 categories: ["Circuitos Elétricos"]
 bibliography: bib/circuitos-eletricos.bib
 csl: ieee.csl

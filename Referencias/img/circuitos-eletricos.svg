@@ -1,0 +1,30 @@
+<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="320" fill="#E7EEFA"/>
+  <g fill="none" stroke="#002C6F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- top wire with resistor -->
+    <path d="M90 90 H170"/>
+    <path d="M270 90 H390"/>
+    <path d="M170 90 L183 68 L199 112 L215 68 L231 112 L247 68 L260 90 L270 90"/>
+    <!-- right wire with inductor -->
+    <path d="M390 90 V115"/>
+    <path d="M390 205 V230"/>
+    <path d="M390 115 a12 12 0 0 1 0 22 a12 12 0 0 1 0 22 a12 12 0 0 1 0 22 a12 12 0 0 1 0 22"/>
+    <!-- bottom wire with capacitor -->
+    <path d="M390 230 H255"/>
+    <path d="M205 230 H90"/>
+    <!-- left wire with source -->
+    <path d="M90 230 V180"/>
+    <path d="M90 140 V90"/>
+  </g>
+  <!-- capacitor plates -->
+  <g stroke="#002C6F" stroke-width="7" stroke-linecap="round">
+    <line x1="255" y1="205" x2="255" y2="255"/>
+    <line x1="205" y1="205" x2="205" y2="255"/>
+  </g>
+  <!-- battery / source symbol -->
+  <g stroke="#002C6F" stroke-linecap="round">
+    <line x1="60" y1="140" x2="120" y2="140" stroke-width="5"/>
+    <line x1="72" y1="180" x2="108" y2="180" stroke-width="10"/>
+  </g>
+  <circle cx="390" cy="90" r="6" fill="#E4002B"/>
+</svg>

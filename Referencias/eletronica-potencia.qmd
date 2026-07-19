@@ -1,6 +1,7 @@
 ---
 title: "Eletrônica de Potência"
 description: "Conversores, inversores e acionamentos."
+image: img/eletronica-potencia.svg
 categories: ["Eletrônica de Potência"]
 bibliography: bib/eletronica-potencia.bib
 csl: ieee.csl

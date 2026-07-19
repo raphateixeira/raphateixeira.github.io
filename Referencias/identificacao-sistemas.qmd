@@ -1,6 +1,7 @@
 ---
 title: "Identificação de Sistemas"
 description: "Modelagem e identificação de sistemas dinâmicos."
+image: img/identificacao-sistemas.svg
 categories: ["Identificação de Sistemas"]
 bibliography: bib/identificacao-sistemas.bib
 csl: ieee.csl

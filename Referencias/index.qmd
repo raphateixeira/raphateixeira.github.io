@@ -11,7 +11,7 @@ listing:
   type: default
   categories: true
   sort: "title asc"
-  fields: [title, description, categories]
+  fields: [image, title, description, categories]
 page-layout: full
 title-block-banner: false
 ---

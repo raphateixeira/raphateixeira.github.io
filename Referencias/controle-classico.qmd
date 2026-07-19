@@ -1,6 +1,7 @@
 ---
 title: "Controle Clássico"
 description: "Ganhos fixos, resposta em frequência e sintonia PID."
+image: img/controle-classico.svg
 categories: ["Controle Clássico"]
 bibliography: bib/controle-classico.bib
 csl: ieee.csl

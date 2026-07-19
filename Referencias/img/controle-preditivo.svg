@@ -1,0 +1,21 @@
+<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="320" fill="#E7EEFA"/>
+  <!-- time axis -->
+  <line x1="40" y1="260" x2="440" y2="260" stroke="#5A6472" stroke-width="3" stroke-linecap="round"/>
+  <path d="M440 260 l-14 -8 v16 z" fill="#5A6472"/>
+  <!-- reference line -->
+  <line x1="40" y1="110" x2="440" y2="110" stroke="#B29600" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <!-- past trajectory (measured) -->
+  <path d="M50 220 C 100 210, 150 180, 230 160" fill="none" stroke="#002C6F" stroke-width="6" stroke-linecap="round"/>
+  <!-- now marker -->
+  <line x1="230" y1="90" x2="230" y2="260" stroke="#231F20" stroke-width="3" stroke-dasharray="6 6"/>
+  <!-- candidate future trajectories -->
+  <g fill="none" stroke="#002C6F" stroke-width="3" stroke-dasharray="8 6" stroke-linecap="round" opacity="0.55">
+    <path d="M230 160 C 290 150, 340 170, 400 190"/>
+    <path d="M230 160 C 290 130, 340 100, 400 130"/>
+  </g>
+  <!-- optimal predicted trajectory -->
+  <path d="M230 160 C 290 145, 350 120, 400 112" fill="none" stroke="#E4002B" stroke-width="6" stroke-linecap="round"/>
+  <!-- horizon bracket -->
+  <path d="M230 285 V295 H400 V285" fill="none" stroke="#5A6472" stroke-width="3" stroke-linecap="round"/>
+</svg>

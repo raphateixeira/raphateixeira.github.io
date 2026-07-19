@@ -1,6 +1,7 @@
 ---
 title: "Controle Preditivo"
 description: "MPC, DeePC e variantes baseadas em dados."
+image: img/controle-preditivo.svg
 categories: ["Controle Preditivo"]
 bibliography: bib/controle-preditivo.bib
 csl: ieee.csl

@@ -21,6 +21,9 @@ nocite: '@*'
 
 Levantamento de todos os repositórios públicos, categorizados por linha de pesquisa.
 
+#### Controle Baseado em Dados
+- [DataDrivenControl](https://raphateixeira.github.io/DataDrivenControl/) - Notas de pesquisa sobre controle baseado em dados, organizadas por subtema: DeePC (controle preditivo direto sobre dados), Koopman (linearização de dinâmicas não lineares), SINDy (identificação esparsa de dinâmicas) e Aprendizagem por Reforço, com um panorama de como as técnicas se interconectam.
+
 #### Eletrônica de Potência e Conversores
 - [ControleBuck](https://raphateixeira.github.io/ControleBuck/) - Modelagem e controle do conversor Buck.
 - [IC-DataDrive](https://raphateixeira.github.io/IC-DataDrive/) - Identificação e controle (PID, MPC) de conversores CC-CC, CC-CA e CA-CA a partir de dados experimentais.
@@ -49,9 +52,7 @@ Ao cruzar os temas de pesquisa acima com os repositórios e publicações existe
 
 - **Visão computacional - diagnóstico de malária:** já resultou em [artigo publicado](../Publicacoes/index.qmd) (Revista DCS, 2026); código em repositório privado (dissertação de mestrado de Raphael Saraiva Sousa).
 - **Controle preditivo - sistema térmico:** sem repositório público e sem publicação encontrada.
-- **Regressão simbólica:** sem repositório público e sem publicação encontrada.
-- **Extremum Seeking Control (ESC):** sem repositório público e sem publicação encontrada.
-- **Kolmogorov Arnold Network (KAN):** sem repositório público e sem publicação encontrada.
+
 
 ### Referências
 

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="320" fill="#E7EEFA"/>
+  <!-- input PRBS signal (left) -->
+  <path d="M40 220 H70 V180 H100 V220 H130 V160 H160 V220 H190" fill="none" stroke="#002C6F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- arrow into system box -->
+  <path d="M195 200 H228" stroke="#5A6472" stroke-width="4" stroke-linecap="round"/>
+  <path d="M230 200 l-10 -6 v12 z" fill="#5A6472"/>
+  <!-- system box -->
+  <rect x="235" y="165" width="80" height="70" rx="8" fill="#002C6F"/>
+  <text x="275" y="207" font-size="22" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#FFFFFF">G(s)</text>
+  <!-- arrow out of box -->
+  <path d="M320 200 H348" stroke="#5A6472" stroke-width="4" stroke-linecap="round"/>
+  <path d="M350 200 l-10 -6 v12 z" fill="#5A6472"/>
+  <!-- output response: measured (dots) + identified model (dashed line) -->
+  <g fill="#5A6472">
+    <circle cx="360" cy="215" r="4"/>
+    <circle cx="378" cy="195" r="4"/>
+    <circle cx="396" cy="178" r="4"/>
+    <circle cx="414" cy="168" r="4"/>
+    <circle cx="432" cy="163" r="4"/>
+  </g>
+  <path d="M358 218 C 380 200, 400 175, 435 163" fill="none" stroke="#E4002B" stroke-width="5" stroke-dasharray="9 6" stroke-linecap="round"/>
+</svg>
