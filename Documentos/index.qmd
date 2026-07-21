@@ -25,6 +25,8 @@ As páginas de portarias do site do CAMTUC (`camtuc.ufpa.br/index.php/portarias-
 
 #### Portarias
 
+- [Portaria 53/2026](PortariaProjeto2026.pdf) - Projeto de Pesquisa: dentificação, Estimação e Controle Baseados em Dados e Inteligência Computacional Aplicados a Conversores de Potência e Acionamentos Elétricos.
+
 - [Portaria CAEG 2026](https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/PortariaCAEG2026.pdf) - Membro da Comissão de Avaliação de Ensino de Graduação (CAEG) do CAMTUC - UFPA.
 
 #### Regulamentos FEE
