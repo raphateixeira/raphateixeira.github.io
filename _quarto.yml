@@ -25,7 +25,7 @@ website:
       - text: "LINCE"
         href: LINCE/index.qmd
       - text: "Notas"
-        href: Estudos/index.qmd
+        href: https://raphateixeira.github.io/Notas/
       - text: "Referências"
         href: Referencias/index.qmd
       - text: "Documentos"

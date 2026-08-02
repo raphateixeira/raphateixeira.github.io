@@ -484,20 +484,6 @@ page-layout: full
       </div>
     </a>
 
-    <a class="sn-card" href="Estudos/index.qmd">
-      <div class="sn-card-thumb" style="background:#E7EEFA;">
-        <svg viewBox="0 0 24 24" stroke="#002C6F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 19.5V4.5A1.5 1.5 0 0 1 5.5 3H15v18H5.5A1.5 1.5 0 0 1 4 19.5z"/>
-          <path d="M15 3h3.5A1.5 1.5 0 0 1 20 4.5v15a1.5 1.5 0 0 1-1.5 1.5H15"/>
-        </svg>
-      </div>
-      <div class="sn-card-body">
-        <span class="sn-tag sn-tag-azul">Acadêmico</span>
-        <h4>Estudos</h4>
-        <p>Livros, sites e canais recomendados para aprofundar-se em engenharia, ciência de dados e aprendizado de máquina.</p>
-      </div>
-    </a>
-
   </div>
 </div>
 ```
@@ -584,8 +570,8 @@ page-layout: full
     </a>
 
     <a class="sn-collection-card" href="https://raphateixeira.github.io/Notas/">
-      <h4>Notas de Estudo</h4>
-      <p>Artigos aprofundados sobre controle, aprendizado de máquina e métodos computacionais, com implementação em Python.</p>
+      <h4>Notas</h4>
+      <p>Notas de leitura por livro, com fundamentação matemática e implementação em Python, além de recomendações de livros, sites e canais.</p>
     </a>
 
   </div>
