@@ -583,7 +583,7 @@ page-layout: full
       <p>Animações matemáticas e de engenharia produzidas com a biblioteca Manim.</p>
     </a>
 
-    <a class="sn-collection-card" href="Notas/index.qmd">
+    <a class="sn-collection-card" href="https://raphateixeira.github.io/Notas/">
       <h4>Notas de Estudo</h4>
       <p>Artigos aprofundados sobre controle, aprendizado de máquina e métodos computacionais, com implementação em Python.</p>
     </a>

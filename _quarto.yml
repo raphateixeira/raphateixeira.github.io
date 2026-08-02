@@ -24,7 +24,7 @@ website:
         href: Publicacoes/index.qmd
       - text: "LINCE"
         href: LINCE/index.qmd
-      - text: "Estudos"
+      - text: "Notas"
         href: Estudos/index.qmd
       - text: "Referências"
         href: Referencias/index.qmd
@@ -99,6 +99,8 @@ website:
             href: "https://raphateixeira.github.io/TikZ/"
           - text: "<i class='bi bi-film'></i> Coleção Manim"
             href: "https://raphateixeira.github.io/Manim/"
+          - text: "<i class='bi bi-journal-text'></i> Notas de Leitura"
+            href: "https://raphateixeira.github.io/Notas/"
 
   page-footer:
     background: "#231F20"
