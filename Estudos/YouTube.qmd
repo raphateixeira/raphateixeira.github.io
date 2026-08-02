@@ -1,7 +1,0 @@
----
-title: "YouTube"
----
-
-### Canais YouTube
-
-[https://www.youtube.com/@3blue1brown](https://www.youtube.com/@3blue1brown): Canal focado em matemática visual, cobrindo tópicos como álgebra linear, cálculo e aprendizado de máquina.
