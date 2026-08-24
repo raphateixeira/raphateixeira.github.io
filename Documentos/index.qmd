@@ -41,6 +41,10 @@ As páginas de portarias do site do CAMTUC (`camtuc.ufpa.br/index.php/portarias-
 
 - [Resolução 02/2026](https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/Resolucao.2-2026.FEE.-.Plano.de.Ensino.pdf)
 
+#### Resoluções CAMTUC
+
+- [Resolução 727/2015](Resolucao727-2015-CAMTUC-ProgressaoDocente.pdf) - Quadro de Atividades Referenciais e critérios de pontuação para Avaliação de Desempenho, fins de progressão e promoção docente no CAMTUC.
+
 #### Resoluções UFPA
 
 - [Regulamento de Graduação da UFPA (2023)](https://drive.google.com/file/d/1rSjQFxTCcO5_CG_ogoX1aOJvF_SR2qrB/view)
