@@ -1,0 +1,46 @@
+---
+title: "Identificação e Controle Clássico Linear e Baseado em Dados de Conversores CC-CC Buck, Boost e Buck-Boost"
+date: "2026-09-11"
+categories: ["Eletrônica de Potência", "Identificação de Sistemas", "Em andamento"]
+description: "Identificação (MQC/MQR) e controle clássico (PI) e baseado em dados (MPC, DeePC) dos conversores Buck, Boost e Buck-Boost sobre a plataforma comercial Texas Instruments LAUNCHXL-F28379D."
+---
+
+### Plano de Trabalho
+
+**Pesquisador - IC:** Luiz Felipe Souza de Lima Silva — [Plano de Trabalho completo (PDF)](../Pesquisa/PlanosTrabalho/PlanoIC02.pdf)\
+**Orientador:** Prof. Dr. Raphael Teixeira
+
+## Objetivos
+
+Este plano investiga a identificação de sistemas e o controle clássico e baseado em dados dos conversores CC-CC Buck, Boost e Buck-Boost, implementados sobre a plataforma comercial de controle digital Texas Instruments LAUNCHXL-F28379D (C2000 Delfino), com estágio de potência Buck na BoosterPack BOOSTXL-BUCKCONV e estágios Boost/Buck-Boost acionados pelos gate drivers DRV8323RS/DRV8320RS. O uso de uma plataforma comercial validada concentra o esforço nas etapas de identificação e controle, reduzindo os riscos de desenvolvimento de hardware dedicado. Objetivos:
+
+- Estudar os fundamentos das três topologias (MCC/MCD, PWM digital) e a arquitetura da plataforma LAUNCHXL-F28379D (ePWM/HRPWM, ADC, CLA, Code Composer Studio);
+- Configurar a BoosterPack BOOSTXL-BUCKCONV para o conversor Buck e projetar, dimensionar e montar os estágios de potência Boost e Buck-Boost acionados pelos módulos DRV8323RS/DRV8320RS;
+- Derivar os modelos de pequenos sinais das três topologias (média no espaço de estados) e simular em MATLAB/Simulink, gerando dados para identificação;
+- Identificar experimentalmente, por mínimos quadrados convencionais (MQC) e recursivos (MQR), modelos ARX entre razão cíclica e tensão de saída nas três plantas físicas, validando-os frente aos modelos analíticos;
+- Projetar e implementar embarcadamente controladores PI (alocação de polos) como referência de desempenho, controladores preditivos baseados em modelo (MPC) com restrições de razão cíclica e de corrente no indutor, e controladores preditivos diretos por dados (DeePC), dispensando a identificação explícita;
+- Comparar experimentalmente PI, MPC e DeePC nas três topologias quanto a tempo de acomodação, sobressinal, erro em regime permanente e rejeição a perturbações de carga.
+
+## Pré-requisitos
+
+- Eletrônica de Potência I e II (conversores CC-CC);
+- Sistemas de Controle I;
+- Identificação de Sistemas (mínimos quadrados);
+- Programação em C/C++ (Code Composer Studio, C2000) e Python/MATLAB para identificação e controle.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: firmware/notebook reprodutível cobrindo o pipeline modelagem → simulação → bancada → identificação → controle, para cada topologia;
+- **Ferramentas**: kit LAUNCHXL-F28379D, BOOSTXL-BUCKCONV, módulos DRV8323RS/DRV8320RS, osciloscópio, MATLAB/Simulink, Python, repositório Git compartilhado;
+- Divisão sugerida: um membro focado na montagem e caracterização das três bancadas, outro na identificação de sistemas (MQC/MQR), outro no projeto e na validação dos controladores (PI, MPC, DeePC).
+
+## Referências
+
+1. Erickson, R. W.; Maksimović, D. *Fundamentals of Power Electronics*. 3ª ed. Springer, 2020.
+2. Camacho, E. F.; Bordons, C. *Model Predictive Control*. 2ª ed. Springer, 2007.
+3. Coulson, J.; Lygeros, J.; Dörfler, F. Data-enabled predictive control: In the shallows of the DeePC. *ECC*, 2019.
+4. Aguirre, L. A. *Introdução à Identificação de Sistemas*. 4ª ed. Editora UFMG, 2015.
+5. Ljung, L. *System Identification: Theory for the User*. Prentice Hall, 1999.
+6. Texas Instruments. *LAUNCHXL-F28379D — C2000 Delfino LaunchPad Development Kit — User's Guide*.
+7. Texas Instruments. *BOOSTXL-BUCKCONV — Buck Converter BoosterPack — User's Guide*.

@@ -1,0 +1,47 @@
+---
+title: "Modelagem, Identificação e Controle Clássico e Preditivo de um Inversor de Frequência Trifásico com Carga RL em Plataforma Comercial Texas Instruments"
+date: "2026-09-11"
+categories: ["Eletrônica de Potência", "Controle Preditivo", "Em andamento"]
+description: "Identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor trifásico a GaN com carga RL sobre a plataforma Texas Instruments LAUNCHXL-F28379D."
+---
+
+### Plano de Trabalho
+
+**Pesquisador - IC:** Alessandra Gabrielly Costa de Sousa — [Plano de Trabalho completo (PDF)](../Pesquisa/PlanosTrabalho/PlanoIC03.pdf)\
+**Orientador:** Prof. Dr. Raphael Teixeira
+
+## Objetivos
+
+Este plano investiga a identificação de sistemas e o controle clássico e preditivo de um inversor de frequência trifásico de dois níveis alimentando uma carga RL trifásica equilibrada, implementado sobre a plataforma Texas Instruments LAUNCHXL-F28379D com o módulo inversor a GaN BOOSTXL-3PHGANINV. A carga RL isola o estudo do inversor e de suas malhas de corrente da dinâmica adicional de uma máquina elétrica, servindo de etapa intermediária para os acionamentos elétricos previstos no projeto de pesquisa. Objetivos:
+
+- Estudar os fundamentos do inversor trifásico de dois níveis, das modulações SPWM/SVPWM e das transformações de Clarke e Park;
+- Estudar a arquitetura da plataforma LAUNCHXL-F28379D com o módulo BOOSTXL-3PHGANINV (estágios a GaN, sensoriamento integrado, PWM trifásico com tempo morto);
+- Projetar e montar o banco de carga RL trifásica equilibrada e as interfaces de medição necessárias;
+- Derivar o modelo do inversor com carga RL nos referenciais estacionário (αβ) e síncrono (dq), e simular em MATLAB/Simulink, gerando dados para identificação;
+- Identificar experimentalmente, por mínimos quadrados convencionais (MQC) e recursivos (RLS), modelos ARX entre índice de modulação e corrente de carga nos referenciais αβ e dq;
+- Projetar e implementar embarcadamente o controlador PI no referencial síncrono dq, o controlador Proporcional-Ressonante (PR) no referencial estacionário αβ, e o controle preditivo de conjunto finito (FCS-MPC) a partir dos modelos identificados;
+- Comparar experimentalmente PI-dq, PR-αβ e FCS-MPC quanto a erro de rastreamento, tempo de resposta, distorção harmônica total (THD) e robustez a variações de frequência e amplitude de referência.
+
+## Pré-requisitos
+
+- Eletrônica de Potência I e II (inversores, modulação PWM/SVPWM);
+- Sistemas de Controle I (referenciais dq/αβ desejável);
+- Identificação de Sistemas (mínimos quadrados);
+- Programação em C/C++ (Code Composer Studio, C2000) e Python/MATLAB para identificação e controle.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: firmware/notebook reprodutível cobrindo o pipeline modelagem → simulação → bancada → identificação → controle;
+- **Ferramentas**: kit LAUNCHXL-F28379D, módulo BOOSTXL-3PHGANINV, banco de carga RL trifásica, osciloscópio, MATLAB/Simulink, Python, repositório Git compartilhado;
+- Divisão sugerida: um membro focado na montagem da bancada e no banco de carga RL, outro na identificação de sistemas (MQC/RLS) nos referenciais αβ/dq, outro no projeto e na validação dos controladores (PI-dq, PR-αβ, FCS-MPC).
+
+## Referências
+
+1. Holmes, D. G.; Lipo, T. A. *Pulse Width Modulation for Power Converters: Principles and Practice*. Wiley-IEEE Press, 2003.
+2. Rodriguez, J.; Cortes, P. *Predictive Control of Power Converters and Electrical Drives*. Wiley-IEEE Press, 2012.
+3. Kazmierkowski, M. P.; Malesani, L. Current control techniques for three-phase voltage-source PWM converters: A survey. *IEEE Trans. Industrial Electronics*, v. 45, n. 5, 1998.
+4. Krause, P. C. et al. *Analysis of Electric Machinery and Drive Systems*. 3ª ed. Wiley-IEEE Press, 2013.
+5. Aguirre, L. A. *Introdução à Identificação de Sistemas*. 4ª ed. Editora UFMG, 2015.
+6. Texas Instruments. *LAUNCHXL-F28379D — C2000 Delfino LaunchPad Development Kit — User's Guide*.
+7. Texas Instruments. *BOOSTXL-3PHGANINV — Three-Phase GaN Inverter BoosterPack — User's Guide*.

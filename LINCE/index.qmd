@@ -6,3 +6,43 @@ subtitle: "Laboratório de Inteligência, Controle e Eletrônica"
 Página do LINCE — Laboratório de Inteligência, Controle e Eletrônica, CAMTUC/UFPA.
 
 Conteúdo em desenvolvimento.
+
+## Equipamentos
+
+Plataforma de controle digital e módulos de potência da Texas Instruments utilizados nos planos de trabalho de iniciação científica em eletrônica de potência do laboratório.
+
+### Placa Microcontrolada — LAUNCHXL-F28379D
+
+Kit de desenvolvimento *LaunchPad* para o microcontrolador C2000™ Delfino™ TMS320F28379D, base comum às bancadas de conversores e inversores do laboratório.
+
+- Duplo núcleo C28x com duplo CLA (coprocessador em tempo real), clock de 200 MHz;
+- 1 MB de memória Flash; conversores analógico-digitais de 16 e 12 bits; DACs de 12 bits;
+- Módulos PWM de alta resolução (HRPWM), eCAP, eQEP e interfaces CAN;
+- Sonda de debug JTAG XDS100v2 integrada via USB; suporte a dois módulos BoosterPack™ simultâneos;
+- Aplicações típicas: controle de motores e acionamentos, inversores trifásicos, servo drives.
+
+[Página oficial (Texas Instruments)](https://www.ti.com/tool/LAUNCHXL-F28379D){target="_blank"}
+
+### Módulo Conversor Buck — BOOSTXL-BUCKCONV
+
+BoosterPack de potência para aprendizado e desenvolvimento de controle digital de um conversor Buck com o microcontrolador C2000™.
+
+- Tensão de entrada de 9 V CC, com fonte externa de até 2 A; tensão de saída configurável (padrão 2 V CC);
+- Estágio de potência de conversor Buck único, compatível pino a pino com os LaunchPads C2000;
+- Suporte a carga dinâmica controlada por software, para testes de rejeição a perturbação;
+- Suporta controle em modo tensão (VMC) e em modo corrente de pico (PCMC);
+- Compatível com as ferramentas de software powerSUITE Digital Power da TI.
+
+[Página oficial (Texas Instruments)](https://www.ti.com/tool/BOOSTXL-BUCKCONV){target="_blank"}
+
+### Módulo Inversor Trifásico a GaN — BOOSTXL-3PHGANINV
+
+BoosterPack de inversor trifásico de 48 V a GaN, com sensoriamento de corrente de fase por *shunt* em linha, usada no plano de trabalho de identificação e controle do inversor trifásico com carga RL.
+
+- Tensão de entrada de 12 V a 60 V; corrente de saída de até 7 A RMS por fase;
+- Estágios de potência baseados em dispositivos GaN (meia-ponte LMG5200, 80 V);
+- Sensoriamento de corrente de fase de precisão por *shunt* em linha;
+- Faixa de temperatura de operação de −25 °C a 85 °C; interface compatível com BoosterPack;
+- Suporte ao C2000Ware MotorControl SDK e a modelos de exemplo em MATLAB/Simulink.
+
+[Página oficial (Texas Instruments)](https://www.ti.com/tool/BOOSTXL-3PHGANINV){target="_blank"}

@@ -1,0 +1,45 @@
+---
+title: "Fonte CC Controlada Baseada em Conversor Buck: Modelagem, Identificação e Controle"
+date: "2026-09-11"
+categories: ["Eletrônica de Potência", "Instrumentação", "Em andamento"]
+description: "Modelagem, identificação de sistemas e controle de tensão e corrente (PI, PI Tipo 2 e MPC) de uma fonte CC controlada composta por retificador a diodo, filtro capacitivo e conversor Buck."
+---
+
+### Plano de Trabalho
+
+**Pesquisador - IC:** Kauã dos Santos Oliveira — [Plano de Trabalho completo (PDF)](../Pesquisa/PlanosTrabalho/PlanoIC01.pdf)\
+**Orientador:** Prof. Dr. Raphael Teixeira
+
+## Objetivos
+
+A fonte CC regulada — retificador a diodo em ponte completa, filtro capacitivo e conversor CC-CC Buck — é a topologia mais usual para obtenção de uma tensão contínua estável a partir da rede CA, reunindo em uma única bancada os conceitos de retificação, filtragem, comutação, sensoriamento e controle. Objetivos:
+
+- Projetar analiticamente o estágio de potência: ponte retificadora e capacitor de filtro (a partir da corrente de carga e da ondulação admissível), indutor e capacitor de saída do conversor Buck para condução contínua, MOSFET de potência, circuito de gate drive e condicionamento dos sensores de tensão e de corrente;
+- Derivar o modelo de pequenos sinais do conversor Buck (espaço de estados médio) e simular o sistema completo em MATLAB/Simulink (Simscape Electrical), validando o comportamento em malha aberta e gerando dados para identificação;
+- Montar a bancada física no laboratório de eletrônica de potência da FEE-CAMTUC, com aquisição de dados e geração de PWM em microcontrolador/DSP;
+- Identificar experimentalmente a relação entre razão cíclica e tensão de saída por mínimos quadrados (convencional e recursivo), validando o modelo obtido frente ao modelo analítico;
+- Projetar, simular e implementar embarcadamente três estratégias de controle em cascata (malha de corrente interna, malha de tensão externa), em ordem crescente de complexidade: **PI** (alocação de polos), **PI Tipo 2** (compensador por resposta em frequência, referência em fontes chaveadas comerciais) e **MPC** (horizonte finito, com restrições de razão cíclica e de corrente no indutor);
+- Comparar experimentalmente as três estratégias quanto a tempo de acomodação, sobressinal, erro em regime permanente e rejeição a perturbações de carga.
+
+## Pré-requisitos
+
+- Eletrônica de Potência I (retificação, filtragem, conversores CC-CC);
+- Sistemas de Controle I;
+- Instrumentação (condicionamento de sinais de tensão e corrente, gate drive);
+- Programação em C/C++ para microcontrolador/DSP e Python/MATLAB para identificação e análise de dados.
+
+## Estrutura Sugerida para o Grupo Autogerenciado
+
+- **Reuniões semanais** internas do grupo, com **reunião quinzenal** com o orientador para validação de resultados;
+- **Entregáveis mensais**: firmware/notebook reprodutível cobrindo o pipeline projeto → simulação → bancada → identificação → controle;
+- **Ferramentas**: bancada de retificador + Buck do LINCE (ou montagem própria), osciloscópio, MATLAB/Simulink, Python, repositório Git compartilhado;
+- Divisão sugerida: um membro focado no projeto analítico e na montagem da bancada de potência, outro na identificação de sistemas, outro no projeto e na validação dos três controladores (PI, PI Tipo 2, MPC).
+
+## Referências
+
+1. Basso, C. P. *Designing Control Loops for Linear and Switching Power Supplies: A Tutorial Guide*. Artech House, 2012.
+2. Erickson, R. W.; Maksimović, D. *Fundamentals of Power Electronics*. 3ª ed. Springer, 2020.
+3. Mohan, N.; Undeland, T. M.; Robbins, W. P. *Power Electronics: Converters, Applications, and Design*. 3ª ed. Wiley, 2003.
+4. Camacho, E. F.; Bordons, C. *Model Predictive Control*. 2ª ed. Springer, 2007.
+5. Aguirre, L. A. *Introdução à Identificação de Sistemas*. 4ª ed. Editora UFMG, 2015.
+6. Hafiz, F. et al. Multi-objective evolutionary approach to grey-box identification of Buck converter. *IEEE Trans. Circuits and Systems I*, v. 67, n. 2, p. 584-597, 2020.
