@@ -21,7 +21,7 @@ title: "Pesquisa"
 
 ### Controle Preditivo Trifásico e Máquinas Elétricas
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
-- [Inversor Trifásico com Carga RL em Plataforma TI](../Projetos/14InversorTrifasico.qmd) - Plano de trabalho de IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN sobre a plataforma LAUNCHXL-F28379D ([ControleInversor3f](https://raphateixeira.github.io/ControleInversor3f/)).
+- [Controle de Inversor Trifásico](https://raphateixeira.github.io/ControleInversor3f/) - Plano de trabalho de IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN sobre a plataforma LAUNCHXL-F28379D.
 
 ### Identificação de Sistemas
 - [Identificacao](https://raphateixeira.github.io/Identificacao/) - Notas de identificação de sistemas: ajuste de reta, PRBS, modelos ARX e identificação de um modelo Linear Invariante no Tempo (LIT), todos por mínimos quadrados.
