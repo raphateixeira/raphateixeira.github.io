@@ -1,11 +1,5 @@
 ---
 title: "Pesquisa"
-bibliography:
-  - ../Referencias/bib/eletronica-potencia.bib
-  - ../Referencias/bib/controle-preditivo.bib
-  - ../Referencias/bib/identificacao-sistemas.bib
-csl: ../Referencias/ieee.csl
-nocite: '@*'
 ---
 
 ```{=html}
@@ -17,46 +11,17 @@ nocite: '@*'
 </style>
 ```
 
-### Projetos no GitHub
-
-Levantamento de todos os repositórios públicos, categorizados por linha de pesquisa.
-
-#### Controle Baseado em Dados
+### Controle Baseado em Dados
 - [DataDrivenControl](https://raphateixeira.github.io/DataDrivenControl/) - Notas de pesquisa sobre controle baseado em dados, organizadas por subtema: DeePC (controle preditivo direto sobre dados), Koopman (linearização de dinâmicas não lineares), SINDy (identificação esparsa de dinâmicas) e Aprendizagem por Reforço, com um panorama de como as técnicas se interconectam.
 
-#### Eletrônica de Potência e Conversores
+### Eletrônica de Potência e Conversores
 - [Conversores Buck, Boost e Buck-Boost em Plataforma TI](../Projetos/13ConversoresTI.qmd) - Modelagem e controle do conversor Buck ([ControleBuck](https://raphateixeira.github.io/ControleBuck/)); plano de trabalho de IC: identificação (MQC/MQR) e controle (PI, MPC, DeePC) das três topologias sobre a plataforma LAUNCHXL-F28379D.
 - [IC-DataDrive](https://raphateixeira.github.io/IC-DataDrive/) - Identificação e controle (PID, MPC) de conversores CC-CC, CC-CA e CA-CA a partir de dados experimentais.
 - [Fonte CC Controlada](../Projetos/12FonteChaveada.qmd) - Plano de trabalho de IC: modelagem, identificação e controle de tensão/corrente (PI, PI Tipo 2, MPC) de uma fonte CC baseada em retificador a diodo e conversor Buck.
 
-#### Controle Preditivo Trifásico e Máquinas Elétricas
+### Controle Preditivo Trifásico e Máquinas Elétricas
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
-- [Inversor Trifásico com Carga RL em Plataforma TI](../Projetos/14InversorTrifasico.qmd) - Plano de trabalho de IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN sobre a plataforma LAUNCHXL-F28379D.
+- [Inversor Trifásico com Carga RL em Plataforma TI](../Projetos/14InversorTrifasico.qmd) - Plano de trabalho de IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN sobre a plataforma LAUNCHXL-F28379D ([ControleInversor3f](https://raphateixeira.github.io/ControleInversor3f/)).
 
-#### Identificação de Sistemas
+### Identificação de Sistemas
 - [Identificacao](https://raphateixeira.github.io/Identificacao/) - Notas de identificação de sistemas: ajuste de reta, PRBS, modelos ARX e identificação de um modelo Linear Invariante no Tempo (LIT), todos por mínimos quadrados.
-
-#### Diagnóstico Inteligente de Equipamentos
-- [AnaliseDGA](https://raphateixeira.github.io/AnaliseDGA/) - Sistema de diagnóstico inteligente de faltas em transformadores por análise DGA (ANN, KNN, DUVAL), com o conjunto de dados de gases dissolvidos em óleo usado no treinamento.
-
-#### Protótipos, Bancadas e Laboratórios
-- [Projeto-Aeropendulo](https://raphateixeira.github.io/Projeto-Aeropendulo/) - Identificação de um modelo linear do sistema aeropêndulo.
-- [LabVirtual](https://raphateixeira.github.io/LabVirtual/) - Laboratório virtual para modelagem e controle de sistemas dinâmicos (maglev, drone, motor DC, pêndulos).
-
-### Coleções
-
-- [Coleção TikZ](https://raphateixeira.github.io/TikZ/) - Figuras TikZ organizadas por tema, com download em PNG/SVG/EPS.
-- [Coleção Manim](https://raphateixeira.github.io/Manim/) - Animações matemáticas/didáticas de sistemas dinâmicos.
-
-### Temas ainda sem projeto público consolidado
-
-Ao cruzar os temas de pesquisa acima com os repositórios e publicações existentes, ficaram identificadas lacunas — temas com publicação mas sem código público, ou sem nada disso ainda:
-
-- **Visão computacional - diagnóstico de malária:** já resultou em [artigo publicado](../Publicacoes/index.qmd) (Revista DCS, 2026); código em repositório privado (dissertação de mestrado de Raphael Saraiva Sousa).
-- **Controle preditivo - sistema térmico:** sem repositório público e sem publicação encontrada.
-
-
-### Referências
-
-::: {#refs}
-:::

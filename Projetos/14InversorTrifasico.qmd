@@ -7,8 +7,9 @@ description: "Identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, 
 
 ### Plano de Trabalho
 
-**Pesquisador - IC:** Alessandra Gabrielly Costa de Sousa — [Plano de Trabalho completo (PDF)](../Pesquisa/PlanosTrabalho/PlanoIC03.pdf)\
-**Orientador:** Prof. Dr. Raphael Teixeira
+**Pesquisador - IC:** Alessandra Gabrielly Costa de Sousa — [Plano de Trabalho completo (PDF)](https://raphateixeira.github.io/ControleInversor3f/Plano/PlanoIC03.pdf)\
+**Orientador:** Prof. Dr. Raphael Teixeira\
+**Repositório do projeto:** [ControleInversor3f](https://raphateixeira.github.io/ControleInversor3f/)
 
 ## Objetivos
 
@@ -35,6 +36,12 @@ Este plano investiga a identificação de sistemas e o controle clássico e pred
 - **Entregáveis mensais**: firmware/notebook reprodutível cobrindo o pipeline modelagem → simulação → bancada → identificação → controle;
 - **Ferramentas**: kit LAUNCHXL-F28379D, módulo BOOSTXL-3PHGANINV, banco de carga RL trifásica, osciloscópio, MATLAB/Simulink, Python, repositório Git compartilhado;
 - Divisão sugerida: um membro focado na montagem da bancada e no banco de carga RL, outro na identificação de sistemas (MQC/RLS) nos referenciais αβ/dq, outro no projeto e na validação dos controladores (PI-dq, PR-αβ, FCS-MPC).
+
+## Material de Apoio
+
+Todo o material de acompanhamento do projeto (plano de trabalho, fundamentação, bancada, modelagem, identificação e controle) está organizado no repositório [ControleInversor3f](https://raphateixeira.github.io/ControleInversor3f/), com uma pasta por etapa.
+
+- [Carga Trifásica RL da Bancada do Inversor](https://raphateixeira.github.io/ControleInversor3f/Bancada/carga_rl_trifasica.html) - Apresentação com a especificação e o dimensionamento da carga RL trifásica em função dos limites do módulo BOOSTXL-3PHGANINV.
 
 ## Referências
 

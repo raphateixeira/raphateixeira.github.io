@@ -46,3 +46,8 @@ BoosterPack de inversor trifásico de 48 V a GaN, com sensoriamento de corrente 
 - Suporte ao C2000Ware MotorControl SDK e a modelos de exemplo em MATLAB/Simulink.
 
 [Página oficial (Texas Instruments)](https://www.ti.com/tool/BOOSTXL-3PHGANINV){target="_blank"}
+
+## Bancadas e Protótipos
+
+- [Projeto-Aeropendulo](https://raphateixeira.github.io/Projeto-Aeropendulo/) - Identificação de um modelo linear do sistema aeropêndulo.
+- [LabVirtual](https://raphateixeira.github.io/LabVirtual/) - Laboratório virtual para modelagem e controle de sistemas dinâmicos (maglev, drone, motor DC, pêndulos).

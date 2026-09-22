@@ -182,3 +182,8 @@ tabela
 
 </div>
 ```
+
+## Coleções e Materiais de Apoio
+
+- [Coleção TikZ](https://raphateixeira.github.io/TikZ/) - Figuras TikZ organizadas por tema, com download em PNG/SVG/EPS.
+- [Coleção Manim](https://raphateixeira.github.io/Manim/) - Animações matemáticas/didáticas de sistemas dinâmicos.

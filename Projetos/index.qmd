@@ -2,7 +2,9 @@
 title: "Projetos"
 listing:
   id: projetos-listing
-  contents: "*.qmd"
+  contents:
+    - "*.qmd"
+    - "!Apresentacoes"
   type: grid
   categories: true
   sort: "date desc"
