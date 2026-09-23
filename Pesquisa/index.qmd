@@ -16,7 +16,7 @@ title: "Pesquisa"
 
 ### Eletrônica de Potência e Conversores
 - [ControleCC2CC](https://raphateixeira.github.io/ControleCC2CC/) - Plano de trabalho de IC: identificação (MQC/MQR) e controle (PI, MPC, DeePC) dos conversores Buck, Boost e Buck-Boost sobre a plataforma LAUNCHXL-F28379D.
-- [Fonte CC Controlada](../Projetos/12FonteChaveada.qmd) - Plano de trabalho de IC: modelagem, identificação e controle de tensão/corrente (PI, PI Tipo 2, MPC) de uma fonte CC baseada em retificador a diodo e conversor Buck.
+- [ControleBuck](https://raphateixeira.github.io/ControleBuck/) - Plano de trabalho de IC: modelagem, identificação e controle de tensão/corrente (PI, PI Tipo 2, MPC) de uma fonte CC baseada em retificador a diodo e conversor Buck.
 
 ### Controle Preditivo Trifásico e Máquinas Elétricas
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
