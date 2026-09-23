@@ -15,8 +15,7 @@ title: "Pesquisa"
 - [DataDrivenControl](https://raphateixeira.github.io/DataDrivenControl/) - Notas de pesquisa sobre controle baseado em dados, organizadas por subtema: DeePC (controle preditivo direto sobre dados), Koopman (linearização de dinâmicas não lineares), SINDy (identificação esparsa de dinâmicas) e Aprendizagem por Reforço, com um panorama de como as técnicas se interconectam.
 
 ### Eletrônica de Potência e Conversores
-- [Conversores Buck, Boost e Buck-Boost em Plataforma TI](../Projetos/13ConversoresTI.qmd) - Modelagem e controle do conversor Buck ([ControleBuck](https://raphateixeira.github.io/ControleBuck/)); plano de trabalho de IC: identificação (MQC/MQR) e controle (PI, MPC, DeePC) das três topologias sobre a plataforma LAUNCHXL-F28379D.
-- [IC-DataDrive](https://raphateixeira.github.io/IC-DataDrive/) - Identificação e controle (PID, MPC) de conversores CC-CC, CC-CA e CA-CA a partir de dados experimentais.
+- [ControleCC2CC](https://raphateixeira.github.io/ControleCC2CC/) - Plano de trabalho de IC: identificação (MQC/MQR) e controle (PI, MPC, DeePC) dos conversores Buck, Boost e Buck-Boost sobre a plataforma LAUNCHXL-F28379D.
 - [Fonte CC Controlada](../Projetos/12FonteChaveada.qmd) - Plano de trabalho de IC: modelagem, identificação e controle de tensão/corrente (PI, PI Tipo 2, MPC) de uma fonte CC baseada em retificador a diodo e conversor Buck.
 
 ### Controle Preditivo Trifásico e Máquinas Elétricas
