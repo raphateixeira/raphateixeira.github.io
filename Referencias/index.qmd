@@ -8,6 +8,7 @@ listing:
     - identificacao-sistemas.qmd
     - eletronica-potencia.qmd
     - circuitos-eletricos.qmd
+    - livros.qmd
   type: default
   categories: true
   sort: "title asc"
