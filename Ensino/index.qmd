@@ -162,13 +162,13 @@ tabela
   <p>Representação em espaço de estados, alocação de polos e observadores de Luenberger.</p>
 </a>
 
-<a class="disciplina-card" href="https://raphateixeira.github.io/ControleDigital/" target="_blank">
+<a class="disciplina-card" href="https://raphateixeira.github.io/Notas/fundamentos/controle-digital/" target="_blank">
   <div class="disciplina-num">04</div>
   <h3>Sistemas de Controle II: Controle Digital</h3>
   <p>Discretização, estabilidade e projeto de controladores digitais.</p>
 </a>
 
-<a class="disciplina-card" href="https://raphateixeira.github.io/Identificacao/" target="_blank">
+<a class="disciplina-card" href="https://raphateixeira.github.io/Notas/fundamentos/identificacao-sistemas/" target="_blank">
   <div class="disciplina-num">05</div>
   <h3>Identificação de Sistemas</h3>
   <p>Modelagem orientada a dados a partir de sinais PRBS e estimação paramétrica.</p>
