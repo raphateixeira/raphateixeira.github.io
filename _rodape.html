@@ -36,3 +36,8 @@
   </div>
   <div class="site-rodape-base">© 2026 Prof. Dr. Raphael Teixeira · UFPA-CAMTUC-FEE</div>
 </footer>
+<script>
+  // O Quarto insere o include-after-body dentro de #quarto-content; o rodapé vai para o
+  // fim do <body>, fora da área de conteúdo, para nunca se sobrepor às seções.
+  document.body.appendChild(document.querySelector(".site-rodape"));
+</script>

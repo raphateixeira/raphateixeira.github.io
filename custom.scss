@@ -597,11 +597,12 @@ body {
 // ============================================================
 
 .site-rodape {
-  // O Quarto insere o include-after-body dentro de #quarto-content (flex): linha
-  // própria no fim e largura total da tela
-  flex: 1 0 100%;
-  order: 3;
-  margin: 0 calc(50% - 50vw);
+  // Movido para o fim do <body> pelo script em _rodape.html
+  display: block;
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin: 0;
   background: $azul-escuro;
   color: #C9D3E3;
   font-family: $sans;
