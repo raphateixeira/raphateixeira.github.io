@@ -18,6 +18,9 @@ title: "Pesquisa"
 - [ControleCC2CC](https://raphateixeira.github.io/ControleCC2CC/) - Plano de trabalho de IC: identificação (MQC/MQR) e controle (PI, MPC, DeePC) dos conversores Buck, Boost e Buck-Boost sobre a plataforma LAUNCHXL-F28379D.
 - [ControleBuck](https://raphateixeira.github.io/ControleBuck/) - Plano de trabalho de IC: modelagem, identificação e controle de tensão/corrente (PI, PI Tipo 2, MPC) de uma fonte CC baseada em retificador a diodo e conversor Buck.
 
+### Microrredes
+- [MicroGrids](https://raphateixeira.github.io/MicroGrids/) - Pesquisa sobre microrredes: arquiteturas CA/CC/híbridas, conversores formadores e seguidores de rede, controle hierárquico (*droop*, secundário, terciário), MPC e controle baseado em dados. Notas em forma de apresentação.
+
 ### Controle Preditivo Trifásico e Máquinas Elétricas
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
 - [Controle de Inversor Trifásico](https://raphateixeira.github.io/ControleInversor3f/) - Plano de trabalho de IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN sobre a plataforma LAUNCHXL-F28379D.
