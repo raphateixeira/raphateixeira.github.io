@@ -4,3 +4,5 @@ _site/
 **/*.quarto_ipynb
 # Configuração local do Claude Code
 .claude/
+# Tema compartilhado: baixado de raphateixeira/.github no build (ver .github/scripts/atualizar-tema.sh na raiz de GitRTx)
+/TemaRTx.scss

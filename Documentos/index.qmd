@@ -1,60 +1,48 @@
 ---
 title: "Documentos"
+subtitle: "Portarias, regulamentos, resoluções e projeto pedagógico da UFPA, do CAMTUC e da FEE."
+page-layout: full
 ---
 
-Documentos e normas da UFPA, CAMTUC e FEE, organizados por categoria.
-
-```{=html}
-<style>
-  #quarto-content h4 {
-    border-left: 3px solid #B29600;
-    padding-left: .6rem;
-  }
-</style>
-```
-
-::: {.callout-important collapse="false"}
+::: {.callout-important}
 ## Calendário Acadêmico 2026
-
 [Calendário Acadêmico 2026 da UFPA](https://proeg.ufpa.br/images/Artigos/Academico/Calendarios/UFPACalendarioAcademico2026-final.pdf){target="_blank"}
 :::
 
-::: {.callout-note collapse="false"}
-As páginas de portarias do site do CAMTUC (`camtuc.ufpa.br/index.php/portarias-camtuc*`) estão retornando erro interno do servidor no momento da última verificação, então não foi possível levantar novas portarias além da já listada abaixo.
-:::
+::: {.site-cartoes}
 
+::: {.site-cartao}
 #### Portarias
 
-- [Portaria 53/2026](PortariaProjeto2026.pdf) - Projeto de Pesquisa: dentificação, Estimação e Controle Baseados em Dados e Inteligência Computacional Aplicados a Conversores de Potência e Acionamentos Elétricos.
+- [Portaria 53/2026](PortariaProjeto2026.pdf) — projeto de pesquisa *Identificação, Estimação e Controle Baseados em Dados e Inteligência Computacional Aplicados a Conversores de Potência e Acionamentos Elétricos*.
+- [Portaria CAEG 2026](https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/PortariaCAEG2026.pdf) — membro da Comissão de Avaliação de Ensino de Graduação (CAEG) do CAMTUC.
+:::
 
-- [Portaria CAEG 2026](https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/PortariaCAEG2026.pdf) - Membro da Comissão de Avaliação de Ensino de Graduação (CAEG) do CAMTUC - UFPA.
+::: {.site-cartao}
+#### Regulamentos da FEE
 
-#### Regulamentos FEE
+- [Planos de Ensino (2026)](https://drive.google.com/file/d/1JtjL9buTB5QWKTA2logcqEF6UDcoIAck/view)
+- [Tutorias (2026)](https://drive.google.com/file/d/1rcRKAjL_u_vRtaE5JZN90CXep-KtfSkb/view)
+- [Atividades Complementares de Extensão — ACE (2023)](https://drive.google.com/file/d/1yjHlPuHSzK-DmC_QrpLYGz3Es0h1KcP9/view)
+- [TCC (2019)](https://drive.google.com/file/d/1NiwsNRhXTA8E_eDzDtHYOtcJvrCJiifp/view)
+- [Estágio (2012)](https://drive.google.com/file/d/1J9cTELHAayil3ouNOQ1nTghpuFqJnwWG/view)
+:::
 
-- [Regulamento de Planos de Ensino - FEE (2026)](https://drive.google.com/file/d/1JtjL9buTB5QWKTA2logcqEF6UDcoIAck/view)
-- [Regulamento de Tutorias - FEE (2026)](https://drive.google.com/file/d/1rcRKAjL_u_vRtaE5JZN90CXep-KtfSkb/view)
-- [Regulamento de ACE (2023)](https://drive.google.com/file/d/1yjHlPuHSzK-DmC_QrpLYGz3Es0h1KcP9/view) - Atividades Complementares de Extensão.
-- [Regulamento de TCC (2019)](https://drive.google.com/file/d/1NiwsNRhXTA8E_eDzDtHYOtcJvrCJiifp/view)
-- [Regulamento de Estágio (2012)](https://drive.google.com/file/d/1J9cTELHAayil3ouNOQ1nTghpuFqJnwWG/view)
+::: {.site-cartao}
+#### Resoluções
 
-#### Resoluções FEE
-
-- [Resolução 02/2026](https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/Resolucao.2-2026.FEE.-.Plano.de.Ensino.pdf)
-
-#### Resoluções CAMTUC
-
-- [Resolução 727/2015](Resolucao727-2015-CAMTUC-ProgressaoDocente.pdf) - Quadro de Atividades Referenciais e critérios de pontuação para Avaliação de Desempenho, fins de progressão e promoção docente no CAMTUC.
-
-#### Resoluções UFPA
-
+- [Resolução 02/2026 — FEE](https://github.com/raphateixeira/raphateixeira.github.io/releases/download/documentos-v1/Resolucao.2-2026.FEE.-.Plano.de.Ensino.pdf) — plano de ensino.
+- [Resolução 727/2015 — CAMTUC](Resolucao727-2015-CAMTUC-ProgressaoDocente.pdf) — atividades referenciais e pontuação para progressão e promoção docente.
 - [Regulamento de Graduação da UFPA (2023)](https://drive.google.com/file/d/1rSjQFxTCcO5_CG_ogoX1aOJvF_SR2qrB/view)
-- [Resolução de Outorga de Grau - UFPA (2024)](https://drive.google.com/file/d/1ly5-XTaQ5s81s4QZXBYG1cp__soSKS1v/view)
-- [Resolução 4918/2017](https://www.propesp.ufpa.br/arquivos/documentos/NOVA_RESOLUCAO_PROJETOS_N4918_25Abril2017.pdf) - Regulamenta os Projetos de Pesquisa na UFPA.
+- [Resolução de Outorga de Grau — UFPA (2024)](https://drive.google.com/file/d/1ly5-XTaQ5s81s4QZXBYG1cp__soSKS1v/view)
+- [Resolução 4918/2017 — UFPA](https://www.propesp.ufpa.br/arquivos/documentos/NOVA_RESOLUCAO_PROJETOS_N4918_25Abril2017.pdf) — projetos de pesquisa na UFPA.
+:::
 
-#### Projeto Pedagógico de Curso (PPC)
+::: {.site-cartao}
+#### Curso e editais
 
-- [Engenharia Elétrica (2012)](https://fee.camtuc.ufpa.br/images/Regimentos/ProjetoPedag%C3%B3gicoFEE2012_final_2012.pdf) - Projeto Pedagógico do Curso de Engenharia Elétrica da CAMTUC.
+- [Projeto Pedagógico do Curso de Engenharia Elétrica (2012)](https://fee.camtuc.ufpa.br/images/Regimentos/ProjetoPedag%C3%B3gicoFEE2012_final_2012.pdf)
+- [Editais](../Editais/index.qmd) — monitoria, bolsas e demais oportunidades.
+:::
 
-#### Editais
-
-- [Editais](../Editais/index.qmd) - Editais de monitoria, bolsas e demais oportunidades.
+:::

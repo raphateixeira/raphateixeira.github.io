@@ -1,16 +1,11 @@
 ---
 title: "Editais"
+subtitle: "Editais de monitoria, bolsas e demais oportunidades para alunos."
+page-layout: full
 ---
 
-```{=html}
-<style>
-  #quarto-content h3 {
-    border-left: 3px solid #B29600;
-    padding-left: .6rem;
-  }
-</style>
-```
+## 2025
 
-### 2025
+- [PROEG — Monitoria 22/2025](http://www.proeg.ufpa.br/noticias/881-edital-proeg-n-22-2025-monit26)
 
-- [PROEG-Monitoria - 22/2025](http://www.proeg.ufpa.br/noticias/881-edital-proeg-n-22-2025-monit26)
+Voltar para [Documentos](../Documentos/index.qmd).

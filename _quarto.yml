@@ -4,16 +4,18 @@ project:
 
 website:
   title: "Raphael Teixeira"
-  description: "Página pessoal para ensino e pesquisa."
+  description: "Prof. Dr. Raphael Teixeira — ensino e pesquisa em controle, identificação de sistemas e eletrônica de potência (UFPA, Campus de Tucuruí)."
   site-url: https://raphateixeira.github.io
+  favicon: imagens/rt-logo.svg
 
-  # Barra de Navegação Principal (Navbar)
+  # Navbar branca (estilo vem da camada "Site" do TemaRTx.scss). Sem barra lateral:
+  # os links institucionais, bases de pesquisa e perfis ficam no rodapé (_rodape.html).
   navbar:
-    background: "#002C6F" # Azul UFPA
-    foreground: "#FFFFFF"
+    background: "#FFFFFF"
+    foreground: "#0F1B33"
+    logo: imagens/rt-logo.svg
+    logo-alt: "RT"
     left:
-      - text: "Início"
-        href: index.qmd
       - text: "Ensino"
         href: Ensino/index.qmd
       - text: "Pesquisa"
@@ -31,85 +33,17 @@ website:
     right:
       - icon: github
         href: https://github.com/raphateixeira
+        aria-label: GitHub
       - icon: envelope
         href: mailto:raphaelbt@ufpa.br
-        
-  # BARRA LATERAL AUXILIAR (Sidebar) - CORRIGIDA
-  sidebar:
-    style: "docked" # Mantém a barra visível na esquerda
-    search: false # Desativa a pesquisa lateral
-    
-    contents:
-      - title: "Perfil"
-        section: Perfil
-        level: 1
-        contents:
-          - text: "<i class='bi bi-person-badge'></i> Raphael Teixeira"
-            href: "Perfil/index.qmd"
-          - text: "<i class='bi bi-person-fill'></i> Lattes"
-            href: "http://lattes.cnpq.br/4902824086591521" 
-          - text: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='1em' height='1em' style='vertical-align:-0.125em'><circle cx='12' cy='12' r='12' fill='#A6CE39'/><text x='12' y='16.3' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='10' font-weight='700' fill='#FFFFFF'>iD</text></svg> Orcid"
-            href: "https://orcid.org/0000-0003-2993-802X"
-
-      - title: "Institucional"
-        section: Institucional
-        level: 1
-        contents:
-          - text: "<i class='bi bi-bank'></i> UFPA"
-            href: "https://portal.ufpa.br/"
-          - text: "<i class='bi bi-building'></i> CAMTUC"
-            href: "https://www.camtuc.ufpa.br/"
-          - text: "<i class='bi bi-building'></i> FEE"
-            href: "https://fee.camtuc.ufpa.br/"
-          - text: "<i class='bi bi-building'></i> PPCA"
-            href: "https://www.ppca.propesp.ufpa.br/index.php/br/"
-          - text: "<i class='bi bi-mortarboard'></i> PROEG"
-            href: "https://proeg.ufpa.br/"
-          - text: "<i class='bi bi-flask'></i> PROPESP"
-            href: "https://www.propesp.ufpa.br/"
-          - text: "<i class='bi bi-mortarboard-fill'></i> SIGAA"
-            href: "https://sigaa.ufpa.br/sigaa/"
-          - text: "<i class='bi bi-book-half'></i> Minha Biblioteca"
-            href: "https://sso.minhabiblioteca.com.br/Login.aspx?key=UFPA"
-
-      - title: "Bases de Pesquisa"
-        section: Bases de Pesquisa
-        level: 1
-        contents:
-          - text: "<i class='bi bi-search'></i> Google Acadêmico"
-            href: "https://scholar.google.com/"
-          - text: "<i class='bi bi-lightning-charge'></i> IEEE Xplore"
-            href: "https://ieeexplore.ieee.org/"
-          - text: "<i class='bi bi-journal-richtext'></i> SpringerLink"
-            href: "https://link.springer.com/"
-          - text: "<i class='bi bi-journal-bookmark'></i> ScienceDirect (Elsevier)"
-            href: "https://www.sciencedirect.com/"
-          - text: "<i class='bi bi-flower1'></i> Nature"
-            href: "https://www.nature.com/"
-          - text: "<i class='bi bi-file-earmark-text'></i> arXiv"
-            href: "https://arxiv.org/"
-
-      - title: "Coleções"
-        section: Coleções
-        level: 1
-        contents:
-          - text: "<i class='bi bi-images'></i> Coleção TikZ"
-            href: "https://raphateixeira.github.io/TikZ/"
-          - text: "<i class='bi bi-film'></i> Coleção Manim"
-            href: "https://raphateixeira.github.io/Manim/"
-          - text: "<i class='bi bi-journal-text'></i> Notas de Leitura"
-            href: "https://raphateixeira.github.io/Notas/"
-
-  page-footer:
-    background: "#231F20"
-    foreground: "#FFFFFF"
-    left: "©2026 Prof. Dr. Raphael Teixeira"
-    right: "UFPA-CAMTUC-FEE"
+        aria-label: E-mail
 
 format:
   html:
+    # TemaRTx.scss: tema compartilhado, baixado de raphateixeira/.github no build (não versionado).
+    # custom.scss: componentes próprios deste site (página inicial, Ensino, Publicações...).
     theme:
-      light: [cosmo, custom.scss]
+      light: [cosmo, TemaRTx.scss, custom.scss]
     toc: false
-    code-block-border-left: "#E4002B"
     lang: pt
+    include-after-body: _rodape.html

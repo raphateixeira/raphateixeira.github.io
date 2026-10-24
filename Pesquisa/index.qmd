@@ -1,29 +1,65 @@
 ---
 title: "Pesquisa"
+subtitle: "Controle preditivo, identificação de sistemas e controle baseado em dados aplicados a conversores de potência e acionamentos elétricos. Cada repositório tem seu próprio site, com notas, simulações e firmware."
+page-layout: full
 ---
 
-```{=html}
-<style>
-  #quarto-content h3 {
-    border-left: 3px solid #002C6F;
-    padding-left: .6rem;
-  }
-</style>
-```
+<!-- Estilos em custom.scss (.site-cartoes, .site-cartao). Repositórios privados
+     aparecem sem link (o GitHub responde 404 para visitantes). -->
 
-### Controle Baseado em Dados
-- [DataDrivenControl](https://raphateixeira.github.io/DataDrivenControl/) - Notas de pesquisa sobre controle baseado em dados, organizadas por subtema: DeePC (controle preditivo direto sobre dados), Koopman (linearização de dinâmicas não lineares), SINDy (identificação esparsa de dinâmicas) e Aprendizagem por Reforço, com um panorama de como as técnicas se interconectam.
+::: {.site-nota}
+**Projeto de pesquisa vigente:** *Identificação, Estimação e Controle Baseados em Dados e
+Inteligência Computacional Aplicados a Conversores de Potência e Acionamentos Elétricos*
+([Portaria 53/2026](../Documentos/PortariaProjeto2026.pdf)).
+:::
 
-### Eletrônica de Potência e Conversores
-- [ControleCC2CC](https://raphateixeira.github.io/ControleCC2CC/) - Plano de trabalho de IC: identificação (MQC/MQR) e controle (PI, MPC, DeePC) dos conversores Buck, Boost e Buck-Boost sobre a plataforma LAUNCHXL-F28379D.
-- [ControleBuck](https://raphateixeira.github.io/ControleBuck/) - Plano de trabalho de IC: modelagem, identificação e controle de tensão/corrente (PI, PI Tipo 2, MPC) de uma fonte CC baseada em retificador a diodo e conversor Buck.
+::: {.site-cartoes}
 
+::: {.site-cartao}
+### Controle baseado em dados
+
+Projeto de controladores e identificação de dinâmicas diretamente a partir de dados.
+
+- [DataDrivenControl](https://raphateixeira.github.io/DataDrivenControl/) — notas sobre DeePC, operadores de Koopman, SINDy e aprendizagem por reforço, com um panorama de como as técnicas se interconectam.
+:::
+
+::: {.site-cartao}
+### Eletrônica de potência e conversores
+
+Modelagem, identificação e controle de conversores sobre a plataforma LAUNCHXL-F28379D.
+
+- [ControleCC2CC](https://raphateixeira.github.io/ControleCC2CC/) — IC: identificação (MQC/MQR) e controle (PI, MPC, DeePC) dos conversores Buck, Boost e Buck-Boost.
+- [ControleBuck](https://raphateixeira.github.io/ControleBuck/) — IC: modelagem, identificação e controle de uma fonte CC baseada em retificador e conversor Buck.
+- [ControleInversor3f](https://raphateixeira.github.io/ControleInversor3f/) — IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN.
+- [ProjetosCCS](https://raphateixeira.github.io/ProjetosCCS/) — firmware no Code Composer Studio: filtro Sallen-Key, conversor Buck e inversor trifásico, com notas dos ensaios.
+:::
+
+::: {.site-cartao}
 ### Microrredes
-- [MicroGrids](https://raphateixeira.github.io/MicroGrids/) - Pesquisa sobre microrredes: arquiteturas CA/CC/híbridas, conversores formadores e seguidores de rede, controle hierárquico (*droop*, secundário, terciário), MPC e controle baseado em dados. Notas em forma de apresentação.
 
-### Controle Preditivo Trifásico e Máquinas Elétricas
-- [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) - Controle Preditivo de Conjunto Finito (FCS-MPC) com modelos ARX/RST.
-- [Controle de Inversor Trifásico](https://raphateixeira.github.io/ControleInversor3f/) - Plano de trabalho de IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN sobre a plataforma LAUNCHXL-F28379D.
+- [MicroGrids](https://raphateixeira.github.io/MicroGrids/) — arquiteturas CA/CC/híbridas, conversores formadores e seguidores de rede, controle hierárquico (*droop*, secundário, terciário), MPC e controle baseado em dados.
+:::
 
-### Identificação de Sistemas
-- [Identificação de Sistemas](https://raphateixeira.github.io/Notas/fundamentos/identificacao-sistemas/) - Notas de identificação de sistemas: ajuste de reta, PRBS, modelos ARX e identificação de um modelo Linear Invariante no Tempo (LIT), todos por mínimos quadrados.
+::: {.site-cartao}
+### Controle preditivo e máquinas elétricas
+
+- [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) — controle preditivo de conjunto finito (FCS-MPC) de um gerador de indução duplamente alimentado, com modelos ARX/RST.
+- **ControleVSI** (repositório privado) — simulações do inversor trifásico conectado à rede: PI, MPC-FSC, identificação ARX/RLS, MPC adaptativo e aprendizagem por reforço.
+:::
+
+::: {.site-cartao}
+### Identificação de sistemas
+
+- [Notas de identificação](https://raphateixeira.github.io/Notas/fundamentos/identificacao-sistemas/) — ajuste de reta, PRBS, modelos ARX e modelos LIT por mínimos quadrados.
+- [Projeto Aeropêndulo](https://raphateixeira.github.io/Projeto-Aeropendulo/) — identificação de um modelo linear do aeropêndulo a partir de sinais PRBS.
+:::
+
+::: {.site-cartao}
+### Aprendizagem de máquina aplicada
+
+- [AnaliseDGA](https://raphateixeira.github.io/AnaliseDGA/) — mestrado: diagnóstico de faltas em transformadores por análise de gases dissolvidos (ANN, KNN, Duval).
+- [MScRaphael](https://github.com/raphateixeira/MScRaphael) — mestrado: diagnóstico de malária em esfregaços sanguíneos por aprendizagem profunda.
+- **IdentificacaoJusante** (repositório privado) — mestrado: previsão do nível de jusante da UHE Tucuruí por redes neurais e MPC.
+:::
+
+:::

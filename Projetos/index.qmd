@@ -1,5 +1,6 @@
 ---
-title: "Projetos"
+title: "Projetos de Iniciação Científica"
+subtitle: "Temas abertos a alunos de graduação, organizados em grupos autônomos autogerenciados: o grupo define sua rotina de reuniões e entregáveis, com acompanhamento periódico do orientador."
 listing:
   id: projetos-listing
   contents:
@@ -14,12 +15,12 @@ listing:
 page-layout: full
 ---
 
-Projetos de Iniciação Científica (IC) abertos para alunos de graduação, organizados em **grupos autônomos autogerenciados**: o grupo define sua própria rotina de reuniões e entregáveis, com acompanhamento periódico do orientador. Use os filtros de categoria abaixo para buscar por tema de pesquisa ou por status ("Disponível", "Em andamento", "Concluído").
+Use os filtros de categoria para buscar por tema de pesquisa ou por situação ("Disponível", "Em andamento", "Concluído").
 
 ::: {#projetos-listing}
 :::
 
-## Temas em Avaliação
+## Temas em avaliação
 
 Os temas abaixo já foram estudados pelo grupo e têm potencial para se tornar projetos de IC, mas ainda não foram estruturados como bancadas/entregáveis para um aluno de graduação. Alunos interessados em algum desses temas podem procurar o orientador para discutir a viabilidade de abertura.
 

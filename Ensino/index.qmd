@@ -1,134 +1,28 @@
 ---
 title: "Ensino"
+subtitle: "Disciplinas da graduação em Engenharia Elétrica e do Mestrado em Computação Aplicada (PPCA). Cada disciplina tem seu próprio site, com slides, listas e material de apoio."
+page-layout: full
 ---
 
-Disciplinas que ministro na graduação em Engenharia Elétrica e no de Mestrado em Computação. Cada cartão abre o site da disciplina, com slides, listas e material de apoio.
+<!-- Estilos em custom.scss (.site-cursos, .site-grade). A cada semestre: atualizar
+     horarios.csv, os selos de semestre e o texto do período abaixo. -->
 
-```{=html}
-<style>
-  .disciplinas-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 1rem;
-    margin: 1.6rem 0;
-  }
+## Semestre 2026.4
 
-  .disciplina-card {
-    display: block;
-    position: relative;
-    padding: 1.3rem 1.3rem 1.1rem 1.3rem;
-    border: 1px solid #E2E5EA;
-    border-top: 3px solid #002C6F;
-    border-radius: 8px;
-    text-decoration: none !important;
-    color: #231F20 !important;
-    background: #FFFFFF;
-    transition: box-shadow .15s ease, border-color .15s ease, transform .15s ease;
-  }
-
-  .disciplina-card .disciplina-num {
-    font-size: .75rem;
-    font-weight: 700;
-    color: #E4002B;
-    letter-spacing: .04em;
-  }
-
-  .disciplina-card h3 {
-    font-size: 1rem;
-    margin: .3rem 0 .5rem 0;
-    color: #002C6F !important;
-  }
-
-  .disciplina-card p {
-    margin: 0;
-    font-size: .88rem;
-    color: #5A6472;
-    line-height: 1.45;
-  }
-
-  .disciplina-card:hover {
-    border-color: #002C6F;
-    box-shadow: 0 4px 14px rgba(0,44,111,.14);
-    transform: translateY(-2px);
-  }
-
-  /* Destaque para as disciplinas do semestre corrente */
-  .disciplina-card.destaque {
-    border-top: 3px solid #E4002B;
-    background: #FFFBF7;
-  }
-
-  .disciplina-card.destaque .disciplina-num {
-    color: #002C6F;
-  }
-
-  .disciplina-card .badge-semestre {
-    position: absolute;
-    top: .9rem;
-    right: .9rem;
-    background: #E4002B;
-    color: #FFFFFF !important;
-    font-size: .68rem;
-    font-weight: 700;
-    padding: .15rem .5rem;
-    border-radius: 3px;
-  }
-
-  .disciplina-card .disciplina-horario {
-    display: block;
-    margin-top: .5rem;
-    font-size: .8rem;
-    font-weight: 600;
-    color: #E4002B;
-  }
-</style>
-```
-
-## Disciplinas — 2026
-
-```{=html}
-<div class="disciplinas-grid">
-
-<a class="disciplina-card destaque" href="https://raphateixeira.github.io/CircuitosCA/" target="_blank">
-  <span class="badge-semestre">2026.4</span>
-  <h3>Circuitos Elétricos II</h3>
-  <p>Circuitos em corrente alternada: fasores, potência e regime permanente senoidal.</p>
-  <span class="disciplina-horario">Terça e Quinta, 15:40–17:20</span>
-</a>
-
-<a class="disciplina-card destaque" href="https://raphateixeira.github.io/ControleClassico/" target="_blank">
-  <span class="badge-semestre">2026.4</span>
-  <h3>Sistemas de Controle I</h3>
-  <p>Controle clássico em tempo contínuo via função de transferência: lugar das raízes e resposta em frequência.</p>
-  <span class="disciplina-horario">Segunda e Sexta, 14:00–15:40</span>
-</a>
-
-<a class="disciplina-card destaque" href="https://raphateixeira.github.io/MetodosNumericos/" target="_blank">
-  <span class="badge-semestre">2026.3</span>
-  <h3>Cálculo Numérico</h3>
-  <p>Fundamentos matemáticos e algoritmos de métodos numéricos.</p>
-  <span class="disciplina-horario">Turma fora de sede</span>
-</a>
-
-</div>
-```
-
-## Calendário de Aulas
-
-Horários de Circuitos Elétricos II e Sistemas de Controle I, Turma 2024 - Tarde (Bloco 5), período de 31 de agosto a 19 de dezembro de 2026 (~15 semanas). Cálculo Numérico não entra por ser turma fora de sede.
-
+::: {.site-nota}
+Turma 2024 · Tarde (Bloco 5) · 31 de agosto a 19 de dezembro de 2026 ·
 [Calendário Acadêmico 2026 da UFPA](https://proeg.ufpa.br/images/Artigos/Academico/Calendarios/UFPACalendarioAcademico2026-final.pdf){target="_blank"}
+:::
 
+::: {.site-grade}
 ```{python}
 #| echo: false
 import pandas as pd
 
 dias_ordem = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira"]
-
 df = pd.read_csv("horarios.csv")
 df["dia"] = pd.Categorical(df["dia"], categories=dias_ordem, ordered=True)
 df["horário"] = df["inicio"] + "–" + df["fim"]
-
 tabela = df.pivot_table(index="horário", columns="dia", values="disciplina", aggfunc="first", observed=False)
 tabela = tabela.reindex(columns=dias_ordem).fillna("—")
 tabela = tabela.sort_index(key=lambda idx: idx.str.split("–").str[0])
@@ -136,54 +30,66 @@ tabela.columns.name = None
 tabela.index.name = None
 tabela
 ```
+:::
 
-[Abrir planilha completa](https://docs.google.com/spreadsheets/d/1LqINcllVoeH0PUd6EK-DNR3v5XXYFc5P/edit){target="_blank"}
-
-## Todas as Disciplinas
+::: {.site-nota}
+Cálculo Numérico (2026.3) é turma fora de sede e não entra na grade ·
+[Planilha completa](https://docs.google.com/spreadsheets/d/1LqINcllVoeH0PUd6EK-DNR3v5XXYFc5P/edit){target="_blank"}
+:::
 
 ```{=html}
-<div class="disciplinas-grid">
+<div class="site-faixa">
+  <div class="site-secao-topo"><h2>Graduação — Engenharia Elétrica</h2></div>
+  <div class="site-cursos">
+    <a class="site-curso" href="https://raphateixeira.github.io/CircuitosCA/">
+      <span class="site-curso-topo"><span class="site-curso-nome">Circuitos Elétricos II</span><span class="site-selo">2026.4</span></span>
+      <span class="site-curso-desc">Circuitos em corrente alternada: fasores, potência e regime permanente senoidal.</span>
+      <span class="site-curso-horario">Ter e Qui · 15:40–17:20</span>
+    </a>
+    <a class="site-curso" href="https://raphateixeira.github.io/ControleClassico/">
+      <span class="site-curso-topo"><span class="site-curso-nome">Sistemas de Controle I</span><span class="site-selo">2026.4</span></span>
+      <span class="site-curso-desc">Controle clássico em tempo contínuo via função de transferência: lugar das raízes e resposta em frequência.</span>
+      <span class="site-curso-horario">Seg e Sex · 14:00–15:40</span>
+    </a>
+    <a class="site-curso" href="https://raphateixeira.github.io/MetodosNumericos/">
+      <span class="site-curso-topo"><span class="site-curso-nome">Cálculo Numérico</span><span class="site-selo">2026.3</span></span>
+      <span class="site-curso-desc">Fundamentos matemáticos e algoritmos de métodos numéricos em Python.</span>
+      <span class="site-curso-horario">Turma fora de sede</span>
+    </a>
+    <a class="site-curso" href="https://raphateixeira.github.io/AlgebraLinear/">
+      <span class="site-curso-nome">Álgebra Linear</span>
+      <span class="site-curso-desc">Sistemas lineares e matrizes, espaços vetoriais, transformações lineares, autovalores e produto interno.</span>
+    </a>
+    <a class="site-curso" href="https://raphateixeira.github.io/ControleEstados/">
+      <span class="site-curso-nome">Sistemas de Controle II — Espaço de Estados</span>
+      <span class="site-curso-desc">Representação em espaço de estados, alocação de polos e observadores de Luenberger.</span>
+    </a>
+    <a class="site-curso" href="https://raphateixeira.github.io/Notas/fundamentos/controle-digital/">
+      <span class="site-curso-nome">Sistemas de Controle II — Controle Digital</span>
+      <span class="site-curso-desc">Discretização, estabilidade e projeto de controladores digitais.</span>
+    </a>
+  </div>
 
-<a class="disciplina-card" href="https://raphateixeira.github.io/AlgebraLinear/" target="_blank">
-  <div class="disciplina-num">01</div>
-  <h3>Álgebra Linear</h3>
-  <p>Sistemas lineares e matrizes, espaços vetoriais, transformações lineares, autovalores e espaços com produto interno.</p>
-</a>
-
-<a class="disciplina-card" href="https://raphateixeira.github.io/DeepLearning/" target="_blank">
-  <div class="disciplina-num">02</div>
-  <h3>Aprendizagem de Máquina</h3>
-  <p>Fundamentos de aprendizado supervisionado, não supervisionado e redes neurais.</p>
-</a>
-
-<a class="disciplina-card" href="https://raphateixeira.github.io/ControleEstados/" target="_blank">
-  <div class="disciplina-num">03</div>
-  <h3>Sistemas de Controle II: Espaço de Estados</h3>
-  <p>Representação em espaço de estados, alocação de polos e observadores de Luenberger.</p>
-</a>
-
-<a class="disciplina-card" href="https://raphateixeira.github.io/Notas/fundamentos/controle-digital/" target="_blank">
-  <div class="disciplina-num">04</div>
-  <h3>Sistemas de Controle II: Controle Digital</h3>
-  <p>Discretização, estabilidade e projeto de controladores digitais.</p>
-</a>
-
-<a class="disciplina-card" href="https://raphateixeira.github.io/Notas/fundamentos/identificacao-sistemas/" target="_blank">
-  <div class="disciplina-num">05</div>
-  <h3>Identificação de Sistemas</h3>
-  <p>Modelagem orientada a dados a partir de sinais PRBS e estimação paramétrica.</p>
-</a>
-
-<a class="disciplina-card" href="https://raphateixeira.github.io/TEControle/" target="_blank">
-  <div class="disciplina-num">06</div>
-  <h3>Tópicos Especiais em Controle</h3>
-  <p>MPC, DeePC, MRAC e abordagens baseadas em Koopman e aprendizado por reforço.</p>
-</a>
-
+  <div class="site-secao-topo"><h2>Pós-graduação e tópicos especiais</h2></div>
+  <div class="site-cursos">
+    <a class="site-curso" href="https://raphateixeira.github.io/DeepLearning/">
+      <span class="site-curso-topo"><span class="site-curso-nome">Aprendizagem de Máquina</span><span class="site-selo site-selo-azul">PPCA</span></span>
+      <span class="site-curso-desc">Fundamentos de aprendizado supervisionado, não supervisionado e redes neurais.</span>
+    </a>
+    <a class="site-curso" href="https://raphateixeira.github.io/Notas/fundamentos/identificacao-sistemas/">
+      <span class="site-curso-nome">Identificação de Sistemas</span>
+      <span class="site-curso-desc">Modelagem orientada a dados a partir de sinais PRBS e estimação paramétrica.</span>
+    </a>
+    <a class="site-curso" href="https://raphateixeira.github.io/TEControle/">
+      <span class="site-curso-nome">Tópicos Especiais em Controle</span>
+      <span class="site-curso-desc">MPC, DeePC, MRAC e abordagens baseadas em Koopman e aprendizado por reforço.</span>
+    </a>
+  </div>
 </div>
 ```
 
-## Coleções e Materiais de Apoio
+## Coleções e materiais de apoio
 
-- [Coleção TikZ](https://raphateixeira.github.io/TikZ/) - Figuras TikZ organizadas por tema, com download em PNG/SVG/EPS.
-- [Coleção Manim](https://raphateixeira.github.io/Manim/) - Animações matemáticas/didáticas de sistemas dinâmicos.
+- [Coleção TikZ](https://raphateixeira.github.io/TikZ/) — figuras TikZ organizadas por tema, com download em PNG/SVG/EPS.
+- [Coleção Manim](https://raphateixeira.github.io/Manim/) — animações matemáticas e didáticas de sistemas dinâmicos.
+- [Laboratório Virtual](https://raphateixeira.github.io/LabVirtual/) — simulações interativas de sistemas dinâmicos e controle.
