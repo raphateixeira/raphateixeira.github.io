@@ -1,30 +1,39 @@
 # raphateixeira.github.io
 
-Site pessoal do Prof. Dr. Raphael Teixeira (FEE/CAMTUC — UFPA), construído com [Quarto](https://quarto.org/). Reúne ensino, pesquisa, publicações e notas de estudo em controle, eletrônica de potência e aprendizado de máquina aplicado à engenharia.
+Site pessoal do Prof. Dr. Raphael Teixeira (FEE/CAMTUC — UFPA), construído com [Quarto](https://quarto.org/):
+ensino, pesquisa, projetos de iniciação científica, publicações, laboratório e documentos.
 
 ## Estrutura
 
-- `index.qmd` — página inicial
-- `Ensino/` — disciplinas, calendário de aulas do semestre corrente
-- `Pesquisa/` — linhas e projetos de pesquisa (repositórios no GitHub)
-- `Publicacoes/` — artigos, teses, dissertações e TCCs orientados
-- `Notas/` — notas de estudo aprofundadas, com matemática e Python
-- `Estudos/` — livros, sites e canais recomendados
-- `Documentos/` / `Editais/` — normas institucionais e editais
+- `index.qmd` — página inicial (apresentação, semestre atual, novidades, linhas de pesquisa, publicações recentes)
+- `Ensino/` — disciplinas e grade semanal (`horarios.csv`)
+- `Pesquisa/` — linhas e repositórios de pesquisa
+- `Projetos/` — temas de iniciação científica (um `.qmd` por tema, listados automaticamente)
+- `Publicacoes/` — artigos, tese, dissertação e trabalhos orientados
+- `LINCE/` — laboratório: equipamentos e bancadas
+- `Documentos/`, `Editais/` — normas institucionais e editais
 - `Perfil/` — apresentação do docente
-- `_quarto.yml` — navegação (navbar/sidebar), tema e configuração do site
-- `custom.scss` — paleta de cores UFPA e color code por categoria
+- `_quarto.yml` — navbar e configuração do site
+- `custom.scss` — componentes próprios deste site (classes `.site-*`)
+- `_rodape.html` — rodapé com links institucionais, bases de pesquisa e perfis
+
+O visual base (navbar, tipografia, cartões, botões) vem do tema compartilhado `TemaRTx.scss`, mantido em
+[raphateixeira/.github](https://github.com/raphateixeira/.github) e baixado no build (não versionado aqui).
+
+## Manutenção a cada semestre
+
+Na página inicial, atualizar "Neste semestre" e "Novidades"; em `Ensino/`, atualizar `horarios.csv`, os selos de
+semestre e o período letivo.
 
 ## Desenvolvimento local
 
 ```bash
+sh ../.github/scripts/atualizar-tema.sh   # baixa o TemaRTx.scss canônico
 pip install -r requirements.txt
-quarto render
 quarto preview
 ```
 
-Algumas notas em `Notas/` executam código Python (NumPy, SciPy, Matplotlib) via engine Jupyter do Quarto.
-
 ## Publicação
 
-O deploy é automático: todo push em `main` roda `.github/workflows/publish.yml`, que renderiza o site com Quarto e publica no GitHub Pages.
+Todo push em `main` roda `.github/workflows/publish.yml`, que chama o workflow compartilhado de
+`raphateixeira/.github`: renderiza com Quarto e publica no GitHub Pages.
