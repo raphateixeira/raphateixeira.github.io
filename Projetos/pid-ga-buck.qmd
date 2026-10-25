@@ -9,7 +9,7 @@ description: "Sintonia automática dos ganhos de um controlador PID para um conv
 
 O grupo já validou a otimização evolutiva de ganhos PID (via PyGad) em bancadas motor-gerador, no TCC de Diego Antonio Silva de Jesus. Este projeto propõe estender essa metodologia a um conversor CC-CC Buck. Objetivos:
 
-- Revisar a metodologia de otimização evolutiva de PID com PyGad já aplicada a bancadas motor-gerador e adaptá-la ao conversor Buck já modelado no repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/);
+- Revisar a metodologia de otimização evolutiva de PID com PyGad já aplicada a bancadas motor-gerador e adaptá-la ao conversor Buck já modelado no repositório [Conversores de Potência — Buck](https://raphateixeira.github.io/ConversoresPotencia/#buck);
 - Definir a função de aptidão (fitness) considerando erro de regulação, *overshoot* e esforço de controle;
 - Comparar os ganhos obtidos via algoritmo genético com uma sintonia clássica (Ziegler-Nichols ou alocação de polos) em simulação e, se possível, em bancada real;
 - Avaliar a sensibilidade da sintonia obtida a variações de carga não vistas durante a otimização (teste de generalização).
@@ -32,4 +32,4 @@ O grupo já validou a otimização evolutiva de ganhos PID (via PyGad) em bancad
 
 1. Ang, K. H.; Chong, G.; Li, Y. (2005). PID control system analysis, design, and technology. *IEEE Transactions on Control Systems Technology*, 13(4), 559–576.
 2. Jesus, D. A. S. de (2023). [Otimização evolutiva de controladores PID para bancadas motor-gerador utilizando algoritmos genéticos e PyGad](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da). TCC, UFPA. Repositório: [TCC-PID-AlgoritmoGenetico](https://github.com/raphateixeira/TCC-PID-AlgoritmoGenetico).
-3. Repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/).
+3. Repositório [Conversores de Potência — Buck](https://raphateixeira.github.io/ConversoresPotencia/#buck).

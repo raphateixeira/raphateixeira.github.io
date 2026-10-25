@@ -58,4 +58,5 @@ identificação e controle do inversor com carga RL.
 
 - [Projeto Aeropêndulo](https://raphateixeira.github.io/Projeto-Aeropendulo/) — identificação de um modelo linear do aeropêndulo.
 - [Laboratório Virtual](https://raphateixeira.github.io/LabVirtual/) — modelagem e controle de sistemas dinâmicos (maglev, drone, motor CC, pêndulos).
-- [ProjetosCCS](https://raphateixeira.github.io/ProjetosCCS/) — firmware e ensaios na LAUNCHXL-F28379D (filtro Sallen-Key, conversor Buck, inversor trifásico).
+- [Conversores de Potência](https://raphateixeira.github.io/ConversoresPotencia/) — conversor Buck e inversor trifásico: firmware, ensaios e simulações na LAUNCHXL-F28379D.
+- [ProjetosCCS](https://raphateixeira.github.io/ProjetosCCS/) — a placa LAUNCHXL-F28379D e os ensaios com o filtro Sallen-Key.

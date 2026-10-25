@@ -29,22 +29,24 @@ Projeto de controladores e identificação de dinâmicas diretamente a partir de
 Modelagem, identificação e controle de conversores sobre a plataforma LAUNCHXL-F28379D.
 
 - [ControleCC2CC](https://raphateixeira.github.io/ControleCC2CC/) — IC: identificação (MQC/MQR) e controle (PI, MPC, DeePC) dos conversores Buck, Boost e Buck-Boost.
-- [ControleBuck](https://raphateixeira.github.io/ControleBuck/) — IC: modelagem, identificação e controle de uma fonte CC baseada em retificador e conversor Buck.
-- [ControleInversor3f](https://raphateixeira.github.io/ControleInversor3f/) — IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN.
-- [ProjetosCCS](https://raphateixeira.github.io/ProjetosCCS/) — firmware no Code Composer Studio: filtro Sallen-Key, conversor Buck e inversor trifásico, com notas dos ensaios.
+- [Conversores de Potência](https://raphateixeira.github.io/ConversoresPotencia/) — repositório que reúne o conversor Buck, o inversor trifásico e as microrredes, da simulação ao firmware e aos ensaios:
+  - [Conversor Buck](https://raphateixeira.github.io/ConversoresPotencia/#buck) — IC: modelagem, identificação e controle de uma fonte CC baseada em retificador e conversor Buck;
+  - [Inversor trifásico com carga RL](https://raphateixeira.github.io/ConversoresPotencia/#carga-rl) — IC: identificação (MQC/RLS) e controle de corrente (PI-dq, PR-αβ, FCS-MPC) de um inversor a GaN;
+  - [Inversor conectado à rede](https://raphateixeira.github.io/ConversoresPotencia/#conectado-rede) — simulações VSI01–VSI09: PI, MPC-FSC, identificação ARX/RLS, MPC adaptativo e aprendizagem por reforço.
+- [ProjetosCCS](https://raphateixeira.github.io/ProjetosCCS/) — a placa LAUNCHXL-F28379D e os ensaios com o filtro Sallen-Key.
 :::
 
 ::: {.site-cartao}
 ### Microrredes
 
-- [MicroGrids](https://raphateixeira.github.io/MicroGrids/) — arquiteturas CA/CC/híbridas, conversores formadores e seguidores de rede, controle hierárquico (*droop*, secundário, terciário), MPC e controle baseado em dados.
+- [Microrredes](https://raphateixeira.github.io/ConversoresPotencia/#microrredes) — arquiteturas CA/CC/híbridas, conversores formadores e seguidores de rede, controle hierárquico (*droop*, secundário, terciário), MPC e controle baseado em dados.
 :::
 
 ::: {.site-cartao}
 ### Controle preditivo e máquinas elétricas
 
 - [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) — controle preditivo de conjunto finito (FCS-MPC) de um gerador de indução duplamente alimentado, com modelos ARX/RST.
-- **ControleVSI** (repositório privado) — simulações do inversor trifásico conectado à rede: PI, MPC-FSC, identificação ARX/RLS, MPC adaptativo e aprendizagem por reforço.
+- [Inversor conectado à rede](https://raphateixeira.github.io/ConversoresPotencia/#conectado-rede) — simulações do VSI trifásico conectado à rede: PI, MPC-FSC, identificação ARX/RLS, MPC adaptativo e aprendizagem por reforço.
 :::
 
 ::: {.site-cartao}

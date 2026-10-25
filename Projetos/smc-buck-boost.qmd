@@ -31,4 +31,4 @@ O conversor Buck-Boost tem dinâmica não linear e de fase não mínima, o que t
 
 1. Utkin, V. (1993). Sliding mode control design principles and applications to electric drives. *IEEE Transactions on Industrial Electronics*, 40(1), 23–36.
 2. Tan, S.-C.; Lai, Y. M.; Tse, C. K. *Sliding Mode Control of Switching Power Converters: Techniques and Implementation*. CRC Press, 2011.
-3. Repositório [ControleBuck](https://raphateixeira.github.io/ControleBuck/) — modelo de referência do conversor, a ser adaptado para a topologia Buck-Boost.
+3. Repositório [Conversores de Potência — Buck](https://raphateixeira.github.io/ConversoresPotencia/#buck) — modelo de referência do conversor, a ser adaptado para a topologia Buck-Boost.

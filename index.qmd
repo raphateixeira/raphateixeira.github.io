@@ -97,10 +97,11 @@ page-layout: full
         <h3>Eletrônica de potência</h3>
         <p>Conversores CC-CC, inversores trifásicos e microrredes, da modelagem ao firmware na LAUNCHXL-F28379D.</p>
         <div class="site-chips">
-          <a href="https://raphateixeira.github.io/ControleBuck/">ControleBuck</a>
+          <a href="https://raphateixeira.github.io/ConversoresPotencia/">Conversores de Potência</a>
+          <a href="https://raphateixeira.github.io/ConversoresPotencia/#buck">Conversor Buck</a>
+          <a href="https://raphateixeira.github.io/ConversoresPotencia/#inversor">Inversor trifásico</a>
+          <a href="https://raphateixeira.github.io/ConversoresPotencia/#microrredes">Microrredes</a>
           <a href="https://raphateixeira.github.io/ControleCC2CC/">ControleCC2CC</a>
-          <a href="https://raphateixeira.github.io/ControleInversor3f/">Inversor trifásico</a>
-          <a href="https://raphateixeira.github.io/MicroGrids/">Microrredes</a>
         </div>
       </div>
     </div>
