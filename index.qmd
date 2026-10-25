@@ -29,22 +29,22 @@ page-layout: full
 <section class="site-faixa">
   <div class="site-secao-topo">
     <h2>Neste semestre <span class="site-tenue">· 2026.4</span></h2>
-    <a href="Ensino/index.html">Todas as disciplinas →</a>
+    <a href="https://raphateixeira.github.io/Ensino/">Todas as disciplinas e horários →</a>
   </div>
   <div class="site-cursos">
-    <a class="site-curso" href="https://raphateixeira.github.io/CircuitosCA/">
+    <a class="site-curso" href="https://raphateixeira.github.io/Ensino/#circuitos">
       <span class="site-curso-rotulo">Graduação · Eng. Elétrica</span>
       <span class="site-curso-nome">Circuitos Elétricos II</span>
       <span class="site-curso-desc">Fasores, impedância, potência e regime permanente senoidal.</span>
       <span class="site-curso-horario">Ter e Qui · 15:40–17:20</span>
     </a>
-    <a class="site-curso" href="https://raphateixeira.github.io/ControleClassico/">
+    <a class="site-curso" href="https://raphateixeira.github.io/Ensino/#controle-classico">
       <span class="site-curso-rotulo">Graduação · Eng. Elétrica</span>
       <span class="site-curso-nome">Sistemas de Controle I</span>
       <span class="site-curso-desc">Controle clássico contínuo: lugar das raízes e resposta em frequência.</span>
       <span class="site-curso-horario">Seg e Sex · 14:00–15:40</span>
     </a>
-    <a class="site-curso" href="https://raphateixeira.github.io/MetodosNumericos/">
+    <a class="site-curso" href="https://raphateixeira.github.io/Ensino/#calculo-numerico">
       <span class="site-curso-rotulo">Graduação · 2026.3</span>
       <span class="site-curso-nome">Cálculo Numérico</span>
       <span class="site-curso-desc">Fundamentos e algoritmos de métodos numéricos em Python.</span>
@@ -87,7 +87,7 @@ page-layout: full
         <h3>Controle baseado em dados</h3>
         <p>DeePC, operadores de Koopman, SINDy e aprendizagem por reforço para controle sem modelo explícito.</p>
         <div class="site-chips">
-          <a href="https://raphateixeira.github.io/DataDrivenControl/">DataDrivenControl</a>
+          <a href="https://raphateixeira.github.io/Notas/#controle-dados">Controle baseado em dados</a>
         </div>
       </div>
     </div>
@@ -111,7 +111,7 @@ page-layout: full
         <h3>Controle preditivo</h3>
         <p>FCS-MPC, MPC adaptativo com identificação recursiva (RLS) e máquinas elétricas como o DFIG.</p>
         <div class="site-chips">
-          <a href="https://raphateixeira.github.io/ControleDFIG/">ControleDFIG</a>
+          <a href="https://raphateixeira.github.io/ConversoresPotencia/#dfig">DFIG</a>
           <a href="https://raphateixeira.github.io/ProjetosCCS/">ProjetosCCS</a>
         </div>
       </div>
@@ -168,8 +168,8 @@ page-layout: full
   <div class="site-secao-topo"><h2>Materiais abertos</h2></div>
   <div class="site-materiais">
     <a href="https://raphateixeira.github.io/Notas/"><strong>Notas</strong>Fundamentos e notas de leitura de livros-texto.</a>
-    <a href="https://raphateixeira.github.io/TikZ/"><strong>Coleção TikZ</strong>Figuras de controle e eletrônica em PNG/SVG/EPS.</a>
-    <a href="https://raphateixeira.github.io/Manim/"><strong>Coleção Manim</strong>Animações didáticas de sistemas dinâmicos.</a>
+    <a href="https://raphateixeira.github.io/Notas/tikz/"><strong>Coleção TikZ</strong>Figuras de controle e eletrônica em PNG/SVG/EPS.</a>
+    <a href="https://raphateixeira.github.io/Notas/manim/"><strong>Coleção Manim</strong>Animações didáticas de sistemas dinâmicos.</a>
     <a href="https://raphateixeira.github.io/LabVirtual/"><strong>Laboratório Virtual</strong>Simulações interativas de sistemas e controle.</a>
   </div>
 </section>

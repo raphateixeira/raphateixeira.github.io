@@ -6,7 +6,7 @@ ensino, pesquisa, projetos de iniciação científica, publicações, laboratór
 ## Estrutura
 
 - `index.qmd` — página inicial (apresentação, semestre atual, novidades, linhas de pesquisa, publicações recentes)
-- `Ensino/` — disciplinas e grade semanal (`horarios.csv`)
+- Ensino: o menu leva ao site do repositório [Ensino](https://raphateixeira.github.io/Ensino/) (disciplinas e horários)
 - `Pesquisa/` — linhas e repositórios de pesquisa
 - `Projetos/` — temas de iniciação científica (um `.qmd` por tema, listados automaticamente)
 - `Publicacoes/` — artigos, tese, dissertação e trabalhos orientados
@@ -22,8 +22,8 @@ O visual base (navbar, tipografia, cartões, botões) vem do tema compartilhado 
 
 ## Manutenção a cada semestre
 
-Na página inicial, atualizar "Neste semestre" e "Novidades"; em `Ensino/`, atualizar `horarios.csv`, os selos de
-semestre e o período letivo.
+Na página inicial, atualizar "Neste semestre" e "Novidades"; a grade de horários fica no repositório `Ensino`
+(`horarios.csv`).
 
 ## Desenvolvimento local
 

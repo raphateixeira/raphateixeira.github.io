@@ -29,5 +29,5 @@ Suas linhas de pesquisa incluem controle preditivo, identificação de sistemas,
 potência e aplicações de aprendizado de máquina (redes neurais recorrentes, autoencoders e
 modelos de difusão) a problemas de engenharia elétrica e de sistemas dinâmicos.
 
-Mais detalhes em [Ensino](../Ensino/index.qmd), [Pesquisa](../Pesquisa/index.qmd) e
+Mais detalhes em [Ensino](https://raphateixeira.github.io/Ensino/), [Pesquisa](../Pesquisa/index.qmd) e
 [Publicações](../Publicacoes/index.qmd).

@@ -63,9 +63,9 @@ page-layout: full
 Levantadas no [repositório institucional da UFPA](https://repositorio.ufpa.br/) (Programa de Pós-Graduação em Computação Aplicada).
 
 ::: {.site-lista-pubs}
-- **Raphael Saraiva Sousa**, 2026: [Diagnóstico automatizado da malária em imagens de esfregaços sanguíneos por meio de aprendizagem profunda](https://doi.org/10.54899/dcs.v23i88.4926) ([repositório](https://github.com/raphateixeira/MScRaphael))
+- **Raphael Saraiva Sousa**, 2026: [Diagnóstico automatizado da malária em imagens de esfregaços sanguíneos por meio de aprendizagem profunda](https://doi.org/10.54899/dcs.v23i88.4926) ([repositório](https://github.com/raphateixeira/Orientacoes/tree/main/DiagnosticoMalaria))
 - **Wanderley Pereira dos Santos**, 2026: [Modelagem da dinâmica hidrológica para previsão do nível de jusante da UHE Tucuruí por redes neurais artificiais](https://repositorio.ufpa.br/items/9e24becc-5512-4e8c-8e5a-f0ed069fd456) (coorientação com Cleison Daniel Silva)
-- **Otacílio Rodrigues de Oliveira Filho**, 2024: [Diagnóstico inteligente de faltas em transformadores baseado na análise de gás dissolvido em óleo](https://repositorio.ufpa.br/items/eeecc00f-702c-453c-968a-867779a14a70) ([repositório](https://raphateixeira.github.io/AnaliseDGA/))
+- **Otacílio Rodrigues de Oliveira Filho**, 2024: [Diagnóstico inteligente de faltas em transformadores baseado na análise de gás dissolvido em óleo](https://repositorio.ufpa.br/items/eeecc00f-702c-453c-968a-867779a14a70) ([repositório](https://raphateixeira.github.io/Orientacoes/#analise-dga))
 - **Vander Augusto Oliveira da Silva**, 2023: [Clusterização de padrões espaço-temporais de precipitação na Amazônia via deep convolutional autoencoder](https://repositorio.ufpa.br/items/17f6aaf3-d98b-4ac9-b167-ef6417cc892e)
 :::
 
@@ -79,7 +79,7 @@ Levantados na [Biblioteca Digital de Monografias da UFPA (BDM)](https://bdm.ufpa
 - **Dário Fernando da Silva Panagio**, 2024: [Projeto e implementação do sistema de potência elétrica do satélite ST-OBSAT-01](https://bdm.ufpa.br/items/5be15dfa-e0f6-4205-b620-d56bb9f46988)
 - **Alexandre Montibeller de Oliveira**, 2023: [Controle de robô pêndulo invertido sobre duas rodas por abordagem analítica e experimental](https://bdm.ufpa.br/items/02b3eae4-76e8-405c-9d9b-daf4247af393)
 - **Telson Galdino Pinheiro Teixeira**, 2023: [Modelagem e controle de robô pêndulo invertido sobre rodas](https://bdm.ufpa.br/items/f5cfc675-b524-4f58-a962-ac989c8c5827)
-- **Diego Antonio Silva de Jesus**, 2023: [Otimização evolutiva de controladores PID para bancadas motor-gerador utilizando algoritmos genéticos e PyGad](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da) ([repositório](https://github.com/raphateixeira/TCC-PID-AlgoritmoGenetico))
+- **Diego Antonio Silva de Jesus**, 2023: [Otimização evolutiva de controladores PID para bancadas motor-gerador utilizando algoritmos genéticos e PyGad](https://bdm.ufpa.br/items/67f3bf00-b13a-4817-821f-7e6faaab85da) ([repositório](https://github.com/raphateixeira/Orientacoes/tree/main/PIDAlgoritmoGenetico))
 - **Oséias Dias de Farias**, 2023: [Desenvolvimento de protótipo e gêmeo digital como ferramenta para um laboratório virtual com foco em modelagem e controle de sistemas dinâmicos (Aeropêndulo)](https://bdm.ufpa.br/items/ac964542-d071-43c4-b8f8-036cba6fdd82)
 - **Elenildo Cássio Santos dos Santos**, 2023: [Modelagem e controle de sistema fotovoltaico para rastreamento do ponto de máxima potência](https://bdm.ufpa.br/items/122bb641-ddbc-4eb9-aab7-3198331e8bb3)
 - **Kevin Martins Medeiros**, 2023: [Modelos de previsão de vazão afluente da UHE-Tucuruí: uma abordagem com redes neurais LSTM e CNN](https://bdm.ufpa.br/items/ad03475d-4ba4-489a-bc99-244195cdf28d)

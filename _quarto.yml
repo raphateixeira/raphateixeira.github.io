@@ -17,7 +17,7 @@ website:
     logo-alt: "RT"
     left:
       - text: "Ensino"
-        href: Ensino/index.qmd
+        href: https://raphateixeira.github.io/Ensino/
       - text: "Pesquisa"
         href: Pesquisa/index.qmd
       - text: "Projetos"

@@ -20,7 +20,7 @@ Inteligência Computacional Aplicados a Conversores de Potência e Acionamentos 
 
 Projeto de controladores e identificação de dinâmicas diretamente a partir de dados.
 
-- [DataDrivenControl](https://raphateixeira.github.io/DataDrivenControl/) — notas sobre DeePC, operadores de Koopman, SINDy e aprendizagem por reforço, com um panorama de como as técnicas se interconectam.
+- [Controle baseado em dados](https://raphateixeira.github.io/Notas/#controle-dados) — notas sobre DeePC, operadores de Koopman, SINDy e aprendizagem por reforço, com um panorama de como as técnicas se interconectam.
 :::
 
 ::: {.site-cartao}
@@ -45,7 +45,7 @@ Modelagem, identificação e controle de conversores sobre a plataforma LAUNCHXL
 ::: {.site-cartao}
 ### Controle preditivo e máquinas elétricas
 
-- [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) — controle preditivo de conjunto finito (FCS-MPC) de um gerador de indução duplamente alimentado, com modelos ARX/RST.
+- [Gerador DFIG](https://raphateixeira.github.io/ConversoresPotencia/#dfig) — controle preditivo de conjunto finito (FCS-MPC) de um gerador de indução duplamente alimentado, com modelos ARX/RST.
 - [Inversor conectado à rede](https://raphateixeira.github.io/ConversoresPotencia/#conectado-rede) — simulações do VSI trifásico conectado à rede: PI, MPC-FSC, identificação ARX/RLS, MPC adaptativo e aprendizagem por reforço.
 :::
 
@@ -59,8 +59,8 @@ Modelagem, identificação e controle de conversores sobre a plataforma LAUNCHXL
 ::: {.site-cartao}
 ### Aprendizagem de máquina aplicada
 
-- [AnaliseDGA](https://raphateixeira.github.io/AnaliseDGA/) — mestrado: diagnóstico de faltas em transformadores por análise de gases dissolvidos (ANN, KNN, Duval).
-- [MScRaphael](https://github.com/raphateixeira/MScRaphael) — mestrado: diagnóstico de malária em esfregaços sanguíneos por aprendizagem profunda.
+- [Análise DGA](https://raphateixeira.github.io/Orientacoes/#analise-dga) — mestrado: diagnóstico de faltas em transformadores por análise de gases dissolvidos (ANN, KNN, Duval).
+- [Diagnóstico de malária](https://raphateixeira.github.io/Orientacoes/#malaria) — mestrado: diagnóstico de malária em esfregaços sanguíneos por aprendizagem profunda.
 - **IdentificacaoJusante** (repositório privado) — mestrado: previsão do nível de jusante da UHE Tucuruí por redes neurais e MPC.
 :::
 
