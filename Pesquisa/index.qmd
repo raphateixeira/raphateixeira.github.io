@@ -59,8 +59,8 @@ Modelagem, identificação e controle de conversores sobre a plataforma LAUNCHXL
 ::: {.site-cartao}
 ### Aprendizagem de máquina aplicada
 
-- [Análise DGA](https://raphateixeira.github.io/Orientacoes/#analise-dga) — mestrado: diagnóstico de faltas em transformadores por análise de gases dissolvidos (ANN, KNN, Duval).
-- [Diagnóstico de malária](https://raphateixeira.github.io/Orientacoes/#malaria) — mestrado: diagnóstico de malária em esfregaços sanguíneos por aprendizagem profunda.
+- [Análise DGA](https://raphateixeira.github.io/Orientacoes/AnaliseDGA/) — mestrado: diagnóstico de faltas em transformadores por análise de gases dissolvidos (ANN, KNN, Duval).
+- [Diagnóstico de malária](https://raphateixeira.github.io/Orientacoes/DiagnosticoMalaria/) — mestrado: diagnóstico de malária em esfregaços sanguíneos por aprendizagem profunda.
 - **IdentificacaoJusante** (repositório privado) — mestrado: previsão do nível de jusante da UHE Tucuruí por redes neurais e MPC.
 :::
 
