@@ -87,6 +87,7 @@ page-layout: full
         <h3>Controle baseado em dados</h3>
         <p>DeePC, operadores de Koopman, SINDy e aprendizagem por reforço para controle sem modelo explícito.</p>
         <div class="site-chips">
+          <a href="https://raphateixeira.github.io/DeePC/">DeePC</a>
           <a href="https://raphateixeira.github.io/Notas/#controle-dados">Controle baseado em dados</a>
         </div>
       </div>

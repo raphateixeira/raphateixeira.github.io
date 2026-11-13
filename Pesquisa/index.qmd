@@ -20,7 +20,8 @@ Inteligência Computacional Aplicados a Conversores de Potência e Acionamentos 
 
 Projeto de controladores e identificação de dinâmicas diretamente a partir de dados.
 
-- [Controle baseado em dados](https://raphateixeira.github.io/Notas/#controle-dados) — notas sobre DeePC, operadores de Koopman, SINDy e aprendizagem por reforço, com um panorama de como as técnicas se interconectam.
+- [DeePC](https://raphateixeira.github.io/DeePC/) — controle preditivo direto dos dados: fundamentos (lema de Willems, regularização, exemplos comentados) e a aplicação ao controle de corrente do inversor trifásico com os dados reais da bancada.
+- [Controle baseado em dados](https://raphateixeira.github.io/Notas/#controle-dados) — notas sobre operadores de Koopman, SINDy e aprendizagem por reforço, com um panorama de como as técnicas se interconectam.
 :::
 
 ::: {.site-cartao}
